@@ -17,7 +17,7 @@ url: "http://richardsprague.github.io" # the base hostname & protocol for your s
 twitter_username: sprague
 github_username:  richardsprague
 
-highlighter: rouge
+highlighter: pygments
 gems:
   - jekyll-paginate
   
