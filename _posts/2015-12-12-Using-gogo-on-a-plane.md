@@ -56,7 +56,11 @@ charset="utf-8"></script>
 
 Here it is on my laptop:
 
+<<<<<<< HEAD
 ![gogo wifi speed on a laptop]({{ site.url }}/assets/151212gogospeedlaptop.png)
+=======
+![gogo wifi speed on a laptop]({ {site.url }}/assets/151212gogospeedlaptop.png)
+>>>>>>> 9a2ee88cec3ae31227f1012ccf0c15554a67ed87
 
 Phonecalls: even after I had paid for the full Gogo service, and even through a VPN, it wouldn’t let me make wifi calls. I’m not sure how they prevent this, because with VPN the Gogo people don’t even know that I’m trying a phonecall. It might be something on my phone, maybe, that prevents calls unless the wifi speed is greater than something.
 
