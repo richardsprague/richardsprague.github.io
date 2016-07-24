@@ -1,11 +1,7 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: Scott Adams How to Fail at Almost Everything and Still Win Big
-=======
-title: [book] Scott Adams How to Fail at Almost Everything and Still Win Big
 author: Richard Sprague
-layout: post
 tags:
 - book
 categories: book
@@ -16,7 +12,7 @@ categories: book
 
 
 
-Of course I know Scott Adams from Dilbert fame, but I first became aware of him as more than a cartoonist thanks to [his blog](http://blog.dilbert.com/), and most recently his [prescient comments about Donald Trump](http://blog.dilbert.com/post/146157026376/how-to-un-hypnotize-a-rabid-anti-trumper). The book attracted me when I found out he’s from a small town in upstate New York, son of a postman, in a family where nobody went to college (sound [familiar](https://en.wikipedia.org/wiki/Neillsville,_Wisconsin)?)
+Of course I know Scott Adams from Dilbert fame, but I first became aware of him as more than a cartoonist thanks to [his blog](http://blog.dilbert.com/), and most recently his [prescient comments about Donald Trump](http://blog.dilbert.com/post/146157026376/how-to-un-hypnotize-a-rabid-anti-trumper). The book attracted me when I learned he’s from a small town in upstate New York, son of a postman, in a family where nobody went to college (sound [familiar](https://en.wikipedia.org/wiki/Neillsville,_Wisconsin)?)
 
 Here are some of the points that resonated with me:
 
@@ -66,3 +62,5 @@ Words that are useful when trying to persuade someone:
 Women tend to laugh at stories that involve bad things happening to people, while men prefer traditional engineered stories (unlikely or surprising solution to something broken)
 
 “My observation and best guess is that experts are right about 98 percent of the time on the easy stuff but only right 50 percent of the time on anything that is unusually complicated, mysterious, or even new.”
+
+That's the summary of my notes. I wouldn't rate it a 5-star book -- if you're looking for the secrets of success then I recommend Cal Newport more -- but it's a readable and worthy contribution by an original thinker.
