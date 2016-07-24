@@ -1,11 +1,9 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: Scott Adams How to Fail at Almost Everything and Still Win Big
 =======
 title: [book] Scott Adams How to Fail at Almost Everything and Still Win Big
 author: Richard Sprague
-layout: post
 tags:
 - book
 categories: book
