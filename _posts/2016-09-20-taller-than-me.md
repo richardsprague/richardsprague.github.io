@@ -2,6 +2,7 @@
 layout: post
 title: Taller Than Me
 author: Richard Sprague
+comments: true
 tags:
 - personal
 categories: personal

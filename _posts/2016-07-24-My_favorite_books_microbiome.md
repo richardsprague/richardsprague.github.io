@@ -2,6 +2,7 @@
 layout: post
 title: My favorite books about the microbiome
 author: Richard Sprague
+comments: true
 tags:
 - book
 categories: biology

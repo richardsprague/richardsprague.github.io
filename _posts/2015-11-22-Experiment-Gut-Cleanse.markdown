@@ -3,6 +3,7 @@ layout: post
 date: '2015-11-20T20:18:00.001-07:00'
 title: Experimenting with a Gut Cleanse
 author: Richard Sprague
+comments: true
 tags:
 - Microbiome
 categories: microbiome

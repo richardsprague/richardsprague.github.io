@@ -2,6 +2,7 @@
 layout: post
 title: Viruses that attack the brain
 author: Richard Sprague
+comments: true
 tags:
 - biology
 categories: biology
