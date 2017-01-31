@@ -1,25 +1,17 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post-content">
+  {{ content }}
+</article>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date |
-    date_to_xmlschema }}" itemprop="datePublished">{{ page.date |
-    date: "%b %-d, %Y" }}</time>{% if page.author %} • <span
-    itemprop="author" itemscope
-    itemtype="http://schema.org/Person"><span itemprop="name">{{
-    page.author }}</span></span>{% endif %}{% if page.tags %} • <span
-    itemprop="author" itemscope
-    itemtype="http://schema.org/Person"><span itemprop="name">{{
-    page.tags | join "," }}</span></span>{% endif %}</p>
-  </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-  {% if page.comments %}
+{% if site.facebook_comments %}
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
+{% endif %}
+
+
+{% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -44,4 +36,3 @@ layout: default
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   {% endif %}
 
-</article>

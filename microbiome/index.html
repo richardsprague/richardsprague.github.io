@@ -4,13 +4,30 @@ title: Microbiome
 
 ---
 
-<b>Note</b> I've been working on a major new project to make it easy for normal people to understand their microbiome test results. Meanwhile, if you have test results from uBiome or others, please <a
+<b>Note</b> I'm working on a major new project to make it easy for normal people to understand their microbiome test results. Meanwhile, if you have test results from uBiome or others, please <a
 title="mailto:richardsprague+home@gmail.com"
 href="mailto:richardsprague+home@gmail.com">contact me</a> and I'll be happy to help you (if you give me your data!)
 
 <p></p>
 
-<a href="http://radar.oreilly.com/2015/07/announcing-biocoder-issue-8.html">How to interpret your uBiome results</a>: My article in O'Reilly's BioCoder.
+<a href="http://radar.oreilly.com/2015/07/announcing-biocoder-issue-8.html">How to interpret your uBiome results</a>: My article in O'Reilly's BioCoder. </p>
+
+
+<a href="https://github.com/richardsprague/kombucha">How does kombucha affect the microbiome?</a>My experiment tracking my daily microbiome before/after drinking kombucha. </p>
+
+<a href="https://github.com/ubiome-opensource/microbiome-tools/blob/master/docs/howto/analyze_your_ubiome_results_in_python.md">uBiome official Python Utilities</a>: Open source Python module for analyzing your uBiome results. </p>
+
+<h1>Posts to this site</h1>
+<ul>
+  {% for post in site.posts %}
+  {% if post.tags contains "microbiome" or post.tags contains "Biology"  %}
+  <li> 
+      <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
 
 <a href="https://github.com/richardsprague/kombucha">How does kombucha affect the microbiome?</a>: My experiment tracking my daily microbiome before/after drinking kombucha
 

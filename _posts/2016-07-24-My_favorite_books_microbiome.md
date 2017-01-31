@@ -17,7 +17,7 @@ The number of books about the microbiome has exploded in the past few years, but
 
 At only 120 pages, this is the most concise summary of what’s known — and not known — about the microbiome. Written by one of the scientists behind the American Gut Project, it’s a readable and fascinating overview of the facts and a great first introduction. If you only read one book, this is it.
 
-### 1\. Sonnenburg, Justin*The Good Gut: Taking Control of Your Weight, Your Mood, and Your Long-term Health*
+### 1\. Sonnenburg, Justin *The Good Gut: Taking Control of Your Weight, Your Mood, and Your Long-term Health*
 
 ![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0143108085&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=richasprag-20)
 
@@ -67,7 +67,9 @@ Heavily researched and footnoted (the last hundred pages are references), it's a
 
 My complaint is that it's written by a clinician, not a scientist or journalist, and it's hard to tell when he's writing from opinion (e.g. his rants against GMOs) or whether there's a real scientific consensus on something (e.g. the role of *Bifidobacterium*).
 
-**Not Recommended**
+# Not Recommended 
+
+Life is short, so to help you be more efficient, here's a list of books that I think are a waste of time. 
 
 ### Mullin, Gerard E. *The Gut Balance Revolution: Boost Your Metabolism, Restore Your Inner Ecology, and Lose the Weight for Good!*
 
@@ -75,7 +77,21 @@ My complaint is that it's written by a clinician, not a scientist or journalist,
 
 Although Dr. Mullin has been thinking about the microbiome for years, most of this book is about standard alternative diet advice, with references to Omega-6, FODMAPs, Mediterranean Diet, etc. but not really much specific about the microbiome. Don’t waste your money.
 
-### 
+### Kellman, Raphael *The Microbiome Diet* 
+
+![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0738218111&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=richasprag-20)
+
+Includes the typical formulaic suggestions for how to cure a bad microbiome (Remove! Replace! Reinoculate! Repair!) and lots of sweeping, unproven suggestions for what to eat: “Cinnamon balances blood sugar” with absolutely nothing to connect it to the microbiome. There is a nice list of “superfoods” including natural prebiotics like jicama, but again you must take his word for it that this somehow benefits the microbiome. Just google it and save the effort.
+
+### Gershon, Michael *The Second Brain: The Scientific Basis of Gut Instinct and a groundbreaking new understanding of nervous disorders of the stomach and intestine*
+
+
+Although this was a ground-breaking classic when first published in the 1990s, much of the information is obsolete thanks to new technologies, especially the new sequencing methods that gave rise to our understanding of the microbiome. The more recent book, *Gut* by Giulia Enders is a more up-to-date description of the anatomical aspects of the digestive system, though Gershon is still worth reading because of its details as well as its outsized influence since its publication.
+
+
+
+
+### Other
 
 Just about any new health book from the past few years will touch on the microbiome, but I didn’t find much specifically microbiome-related that was useful or new in books by David Asprey (“The Bulletproof Diet”), Tim Ferriss’ *Four Hour Body*, or Chris Kresser’s *Paleo Code*. You may find these books useful for other reasons, like the detailed discussions of specific foods, but you’ll learn little about the microbiome.
 

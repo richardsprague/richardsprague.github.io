@@ -6,10 +6,12 @@ comments: true
 tags:
 - personal
 categories: personal
+excerpt_separator: <!--more-->
 ---
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/sprague/29565927643/in/album-72157657654429248/" title="Gary and me"><img src="https://c4.staticflickr.com/9/8418/29565927643_b2536c3e76_z.jpg" width="640" height="419" alt="Gary and me"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 My brother was taller than me. I didn’t think about it much when I was young because, well, he was older and I was growing too. It's just not something that ever occurred to me.
+<!--more-->
 
 Many of you who are seeing me for the first time could be forgiven for wondering if we're really brothers. We don't look the same. We live in different parts of the country. We've had very different careers. We don't talk the same. But for the first 18 years of our lives, we were inseparable. Same small town of Neillsville in Central Wisconsin, same parents, same sister,   same school, same teachers, same church, same church orchestra, same vacations. We even shared the same room. The only difference between us is that he was a year older. And he was taller, so he got the top bunk.
 

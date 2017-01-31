@@ -14,12 +14,14 @@ layout: default
         {{ post.title }}
       </a>
     </h1>
-
+    {{ post.excerpt }}
+    <a href="{{ post.url }}">click to continue...</a>
+</p>
 
    
-  </div>
+</div>
   {% endfor %}
-  </div>
+</div>
 
  <!-- Pagination links -->
 <div class="pagination">
