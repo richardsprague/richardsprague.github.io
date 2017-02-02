@@ -8,8 +8,6 @@ tags:
 - microbiome
 categories: microbiome
 ---
-Getting Started
-===============
 
 You just received an email that uBiome has finished processing your sample. Now what do you do?
 
