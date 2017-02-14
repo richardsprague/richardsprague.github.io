@@ -32,6 +32,14 @@ Another study [(Finucane 2014)](http://journals.plos.org/plosone/article?id=10.1
     Finucane MM, Sharpton TJ, Laurent TJ, Pollard KS (2014) A Taxonomic Signature of Obesity in the Microbiome? Getting to the Guts of the Matter. PLoS ONE 9(1): e84689. doi: 10.1371/journal.pone.0084689
     
 
+## Obesity and the microbiome
+
+Although it's exciting to think that an obesity cure might be found in the microbiome, the most recent review shows that it's more difficult than originally thought.
+
+	Sze, Marc A., and Patrick D. Schloss. “Looking for a Signal in the Noise: Revisiting Obesity and the Microbiome.” mBio 7, no. 4 (September 7, 2016): e01018-16. doi:10.1128/mBio.01018-16.
+
+
+
 ## "We are only 10% human"
 
 It's a number based on a guess dating from 1977, but finally updated in 2016:
@@ -134,6 +142,17 @@ Two excellent papers present a detailed analysis of the microbiomes and associat
     
 
 Be sure to study the supplemental materials, especially Supplement Table 11, which includes details of the specific microbes.
+
+## Methods
+
+A good overview of the current state of how microbiome analysis is performed, from the sample collection processing, to the data pipeline and final bioinformatics summaries. It includes references to the top platforms (e.g QIME, Mothur, PICRUSt) along with the various tradeoffs of each:
+
+	Amato, Katherine R. “[An Introduction to Microbiome Analysis for Human Biology Applications](http://onlinelibrary.wiley.com/doi/10.1002/ajhb.22931/full): Amato.” American Journal of Human Biology, October 2016. doi:10.1002/ajhb.22931.
+
+
+
+
+
 
 # Other Resources
 
