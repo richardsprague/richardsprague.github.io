@@ -4,12 +4,10 @@ title: My favorite books about the microbiome
 author: Richard Sprague
 comments: true
 tags:
-- book
-categories: biology
+- microbiome
+categories: microbiome, book
 ---
-
-
-The number of books about the microbiome has exploded in the past few years, but I've tried to read (or at least skim) every book I can find. If you're a newcomer who would like to come up to speed, here's my ranked list of the best books as of today (June 2016).
+The number of books about the microbiome have exploded in the past few years, but I've tried to read (or at least skim) every book I can find. If you're a newcomer who would like to come up to speed, here's my ranked list of the best books as of today (November 2016).
 
 ### 1\. Knight, Rob *Follow Your Gut: How the Ecosystem in Your Gut Determines Your Health, Mood, and More*
 
