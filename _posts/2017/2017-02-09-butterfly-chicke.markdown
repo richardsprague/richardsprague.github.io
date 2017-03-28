@@ -8,8 +8,9 @@ tags:
   - food
 ---
 
-![Butterfly chicken](assets/2017/02/IMG_8937.JPG)
 I can't believe how easy this is.
+![Butterfly chicken](assets/2017/02/IMG_8937.JPG)
+
 
 Following the directions from [J. KENJI LÓPEZ-ALT](http://www.seriouseats.com/2017/01/the-food-lab-how-to-roast-a-butterflied-spatchcocked-chicken.html) I put it in the oven at 450 degrees and let it roast for 45 minutes.
 
