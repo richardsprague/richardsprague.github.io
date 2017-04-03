@@ -5,7 +5,8 @@ author: Richard Sprague
 comments: true
 tags:
 - microbiome
-categories: microbiome, book
+- book
+categories: microbiome
 ---
 The number of books about the microbiome have exploded in the past few years, but I've tried to read (or at least skim) every book I can find. If you're a newcomer who would like to come up to speed, here's my ranked list of the best books as of today (November 2016).
 

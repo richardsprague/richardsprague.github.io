@@ -9,11 +9,13 @@ tags:
 ---
 
 I can't believe how easy this is.
-![Butterfly chicken](assets/2017/02/IMG_8937.JPG)
+
+I made a simple Jamaican rub using a teaspoon or so each of salt and pepper, allspice, cinnamon, nutmeg, fresh pressed garlic, grated ginger, soy sauce, and apple cider vinegar.
+
+
+![Butterfly chicken](/assets/2017/02/IMG_8937.JPG)
 
 
 Following the directions from [J. KENJI LÓPEZ-ALT](http://www.seriouseats.com/2017/01/the-food-lab-how-to-roast-a-butterflied-spatchcocked-chicken.html) I put it in the oven at 450 degrees and let it roast for 45 minutes.
-
-I made a simple Jamaican rub using a teaspoon or so each of salt and pepper, allspice, cinnamon, nutmeg, fresh pressed garlic, grated ginger, soy sauce, and apple cider vinegar.
 
 The whole chicken cost $5 and it tastes yummy!  Why don't we do this more often?
