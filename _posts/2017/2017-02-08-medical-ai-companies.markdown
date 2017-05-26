@@ -19,13 +19,14 @@ via [Medium](https://medium.com/machine-learnings/a-humans-guide-to-machine-lear
 - Sentrian
 - Zephyr Health
 
-- 3Scan
-- Arterys
-- Bay Labs
-- Butterfly Network
-- Enlitic
+- [3Scan](http://www.3scan.com/) Tissue digitization.
+- [Arterys](https://arterys.com/) First FDA-approved neural network-based solution.
+- [Bay Labs](https://baylabs.io/) Applying deep learning to medical imaging
+- [Butterfly Network](https://www.butterflynetinc.com/): reinventing the ultrasound machine by squeezing all of its components ​onto a single silicon chip
+- [Enlitic](http://www.enlitic.com/): make radiologists faster and more accurate; [lung nodule detector](http://www.radiologytoday.net/archive/rt0516p12.shtml).
 - Google DeepMind
 - Imagia
+- ViSenze: object recognition and tagging for images
 
 - Atomwise
 - Color Genomics

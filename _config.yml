@@ -7,12 +7,12 @@
 
 # Site settings
 title: Richard Sprague
-email: richardsprague@gmail.com
+email: richardsprague+homepage@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Years building software marketing and engineering teams at Apple, Microsoft
   and startups in Japan, China, and the U.S.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://richardsprague.github.io" # the base hostname & protocol for your site
+url: "http://richardsprague.com" # the base hostname & protocol for your site
 twitter_username: sprague
 github_username:  richardsprague
 

@@ -12,12 +12,11 @@ title: Microbiome
 
 [uBiome official Python Utilities](https://github.com/ubiome-opensource/microbiome-tools/blob/master/docs/howto/analyze_your_ubiome_results_in_python.md) Open source Python module for analyzing your uBiome results. 
 
-[How does kombucha affect the microbiome?](https://github.com/richardsprague/kombucha): My experiment tracking my daily microbiome before/after drinking kombucha.
-
 [Peeking into a Baby Biome](https://www.drgreene.com/perspectives/peeking-into-a-baby-biome/): Investigating a baby and her mother.
 
 
-#Posts to this site
+# Posts to this site
+
 <ul>
   {% for post in site.posts %}
   {% if post.tags contains "microbiome" or post.tags contains "Biology"  %}
