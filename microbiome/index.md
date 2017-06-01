@@ -9,16 +9,21 @@ title: Microbiome
 
 [Microbiome Hackers Guide]({{ site.url }}/docs/index.html)
 
-
-<img src="{{ site.url }}/assets/MHGCover.png" width="150">/
+<a href="{{ site.url }}/docs/index.html">
+<img src="{{ site.url }}/assets/MHGCover.png" width="150"/>
+</a>
 
 [How to interpret your uBiome results](http://radar.oreilly.com/2015/07/announcing-biocoder-issue-8.html): My article in O'Reilly's BioCoder.
 
+<a href = "http://radar.oreilly.com/2015/07/announcing-biocoder-issue-8.html">
 <img src="http://www.oreilly.com/biocoder/biocoder-2015summer-286x430.png" width="100"/>
+</a>
 
 [How does kombucha affect the microbiome](https://github.com/richardsprague/kombucha) My experiment tracking my daily microbiome before/after drinking kombucha.
 
+<a href = "https://github.com/richardsprague/kombucha">
 <img src="https://raw.githubusercontent.com/richardsprague/kombucha/master/kombuchaBarChart.jpg" width="200"/>
+</a>
 
 
 
