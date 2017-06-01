@@ -3,44 +3,50 @@ layout: default
 
 ---
 
-<div class="home">
-<div class="posts">
-  {% for post in paginator.posts %}
-<div class="post">
-  
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    {{ post.excerpt }}
-    <a href="{{ post.url }}">click to continue...</a>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+<div>
+
+
+
+
+<img src="{{ site.url }}/assets/JacksonLakeLodge.jpg">
+
+
+I’m a long-time technology product builder who tends to become overly obsessed about whatever I currently find interesting. For the past couple years that’s been personal science and the Quantified Self, especially the human microbiome. Right now I am doing analysis in R and Python for over a year’s worth of my own daily uBiome tests.
+
+My past lives were spent in Japan (about a decade in Tokyo/Yokohama), and another three years in Beijing China. I’ve worked at Apple (marketing), the Silicon Valley startup WebTV Networks (in business development), Microsoft (product development) and elsewhere. I grew up in rural Neillsville Wisconsin and was educated at Stanford and Wharton. My family and I currently live near Seattle, on Mercer Island.
+
+<p>
+
+<a title="http://finance.ifeng.com/news/corporate/20110516/4025903.shtml"
+href="http://finance.ifeng.com/news/corporate/20110516/4025903.shtml">中文</a>
+<p>
+Contact me  <a
+title="mailto:richardsprague+home@gmail.com"
+href="mailto:richardsprague+home@gmail.com">directly by email</a>,
+read <a title="http://www.linkedin.com/in/sprague"
+href="http://www.linkedin.com/in/sprague">my full profile on
+LinkedIn</a> or choose one of these:
 </p>
+{% include icon-twitter.html username="sprague" %}
+</p>
+{% include icon-github.html username="richardsprague" %}
 
-   
-</div>
-  {% endfor %}
-</div>
+<p>
+<a title="http://stanford.facebook.com/profile.php?id=218509"
+href="http://stanford.facebook.com/profile.php?id=218509">join me on
+Facebook</a> or
+<p>
 
- <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-
-
-
+<img src="{{ site.url }}/assets/weChatSprague.jpg" width="150">
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+<div class="blog-index">  
+
+  {% include paginator.html %}
+</div>
 
 </div>

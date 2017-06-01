@@ -57,7 +57,7 @@ Although it's exciting to think that an obesity cure might be found in the micro
 
     
     
-    Sze, Marc A., and Patrick D. Schloss. “Looking for a Signal in the Noise: Revisiting Obesity and the Microbiome.” mBio 7, no. 4 (September 7, 2016): e01018-16. doi:10.1128/mBio.01018-16.
+>Sze, Marc A., and Patrick D. Schloss. “Looking for a Signal in the Noise: Revisiting Obesity and the Microbiome.” mBio 7, no. 4 (September 7, 2016): e01018-16. doi:10.1128/mBio.01018-16.
 
 ## "We are only 10% human"
 
