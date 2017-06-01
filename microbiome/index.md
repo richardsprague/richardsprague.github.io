@@ -6,9 +6,21 @@ title: Microbiome
 
 **Note:** I'm working on a major new project to make it easy for normal people to understand their microbiome test results. Meanwhile, if you have test results from uBiome or others, please [contact me](mailto:richardsprague+home@gmail.com) and I'll be happy to help you (if you give me your data!)
 
+
+[Microbiome Hackers Guide]({{ site.url }}/docs/index.html)
+
+
+<img src="{{ site.url }}/assets/MHGCover.png" width="150">/
+
 [How to interpret your uBiome results](http://radar.oreilly.com/2015/07/announcing-biocoder-issue-8.html): My article in O'Reilly's BioCoder.
 
+<img src="http://www.oreilly.com/biocoder/biocoder-2015summer-286x430.png" width="100"/>
+
 [How does kombucha affect the microbiome](https://github.com/richardsprague/kombucha) My experiment tracking my daily microbiome before/after drinking kombucha.
+
+<img src="https://raw.githubusercontent.com/richardsprague/kombucha/master/kombuchaBarChart.jpg" width="200"/>
+
+
 
 [uBiome official Python Utilities](https://github.com/ubiome-opensource/microbiome-tools/blob/master/docs/howto/analyze_your_ubiome_results_in_python.md) Open source Python module for analyzing your uBiome results. 
 
