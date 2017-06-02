@@ -33,8 +33,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="preface.html">
+<link rel="prev" href="my-experiments.html">
+<link rel="next" href="caseStudies.html">
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -207,32 +207,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The Microbiome Hackers Guide</h1>
-<h4 class="author"><em>Richard Sprague</em></h4>
-<h4 class="date"><em>2017-06-01</em></h4>
-</div>
-<div id="intro" class="section level1 unnumbered">
-<h1>Intro</h1>
-<p>This is <strong>an early draft</strong> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you.</p>
-<p>To take best advantage of this book, you will need:</p>
+<div id="tentative-conclusions-and-next-steps" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> (Tentative) Conclusions and next steps</h1>
+<p>It is very difficult to say with this analysis that the probiotics had any effect that is detectable by the uBiome Explorer test.</p>
+<p>Further analysis required:</p>
 <ul>
-<li>An account with uBiome. (<a href="http://ubiome.com/pages/buynow">Order a kit now!</a>)</li>
-<li>The [<a href="https://github.com/richardsprague/actino">codename</a>] web tools (just a placeholder for now)</li>
+<li><p><em>Study at each phylogenetic level</em>. The current analysis uses an NMDS distance metric that (apparently) considers the entire phylogeny (Need to confirm that). Would I get a different result if I explicitly look only at Genus or Family level?</p></li>
+<li><p><em>Consider other statistical analysis</em>. Although the two strains contained in the probiotic pill don’t appear to cause a change in the gut microbiome results, are there other changes that can be detected statistically. Perhaps there are other taxa that show a significant change.</p></li>
+<li><p><em>Other time horizons</em>. Maybe the changes don’t happen immediately. Although at a high level, there doesn’t appear to a noticable lag in the levels of the probiotic strains, perhaps a more sophisticated data transformation would uncover something.</p></li>
 </ul>
-<p>A much more detailed version of this book will be available soon at fine bookstores everywhere.</p>
-<p>Here are the main sections:</p>
-<ul>
-<li><a href="getting_started.md">Getting Started</a>: What to look for in your first uBiome results.</li>
-<li><a href="HowToAnalyze/analyze.md">Explore the Raw Data</a>: Download your results for deeper analysis.</li>
-<li><a href="science.html#science">Science</a>: Learn more about the microbiome</li>
-<li><a href="experiments.md">Self-Experiments</a>: Examples of self-experimenting</li>
-<li><a href="caseStudies.html#caseStudies">Case Studies</a>: Comparing yourself to other people.</li>
-<li><a href="/Organisms/MHG-organisms.md">Organisms</a>: Specific organisms, probiotics and what they do.</li>
-<li><a href="next.html#next">Next Steps</a>: Take your knowledge to the next level</li>
-</ul>
-<p>By the end of the book, you will be well on your way to a hands-on understanding of one of the most exciting areas at the frontier of biology.</p>
-<p>Please <a href="http://twitter.com/sprague">contact me</a> for more information on how to get the final version of the book.</p>
+<p>Kombucha</p>
 
 </div>
             </section>
@@ -240,8 +224,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-
-<a href="preface.html" class="navigation navigation-next navigation-unique" aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+<a href="my-experiments.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="caseStudies.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
@@ -269,7 +253,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/richardsprague/mhg/edit/master/index.Rmd",
+"link": "https://github.com/richardsprague/mhg/edit/master/Experiments.Rmd",
 "text": "Edit"
 },
 "download": ["Microbiome Hackers Guide (Bookdown Edition).pdf", "Microbiome Hackers Guide (Bookdown Edition).epub"],
