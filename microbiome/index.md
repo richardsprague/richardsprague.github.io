@@ -6,6 +6,11 @@ title: Microbiome
 
 **Note:** I'm working on a major new project to make it easy for normal people to understand their microbiome test results. Meanwhile, if you have test results from uBiome or others, please [contact me](mailto:richardsprague+home@gmail.com) and I'll be happy to help you (if you give me your data!)
 
+<iframe src="https://player.vimeo.com/video/147673343?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/147673343">Richard Sprague: &quot;Fish Oil Makes Me Smarter&quot;</a> from <a href="https://vimeo.com/qslabs">Quantified Self</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+Following an experiment originally proposed by the late UC Berkeley psychologist and Quantified Self pioneer Seth Roberts, I tested the effect on brain reaction time (BRT) of taking fish oil supplements. Surprisingly, periods of taking fish oil corresponded to significantly higher scores on the test, even when controlling for sleep and other factors such as alcohol consumption. I speculate on why this effect may be real, and suggest how the BRT may be useful in discovering similar effects.
+<p></p>
+
 
 [Microbiome Hackers Guide]({{ site.url }}/docs/index.html)
 
