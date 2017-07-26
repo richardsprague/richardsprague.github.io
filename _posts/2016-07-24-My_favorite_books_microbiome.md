@@ -25,6 +25,7 @@ Another concise, well-written summary by a top-notch researcher. This one ties f
 ### 2\. Gilbert, Jack *Dirt Is Good: The Advantage of Germs for your Child's Developing Immune System*
 
 ![](https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N8RM4V1&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=richasprag-20)
+
 The most practical, up-to-date book on what works and doesn’t work. Written for parents as a guide to ensure a child’s microbiome is as healthy as possible, you’ll find dozens of yes/no practical answers to everyday questions: “Should we get a dog?” (yes), “Are GMOs safe?” (yes), “What works for diaper rash?” (probiotic yogurt) and much more. Because, as the book points out, the microbiome changes little after about age three, most of the advice is general enough to apply to adults as well.
 
 
