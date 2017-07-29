@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Microbiome Hackers Guide</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you.">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+
+  <meta property="og:title" content="The Microbiome Hackers Guide" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="cover.png" />
+  <meta property="og:description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you." />
+  <meta name="github-repo" content="richardsprague/z" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Microbiome Hackers Guide" />
+  
+  <meta name="twitter:description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you." />
+  <meta name="twitter:image" content="cover.png" />
+
+<meta name="author" content="Richard Sprague">
+
+
+<meta name="date" content="2017-07-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="experiments.html">
+<link rel="next" href="next.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Microbiome Hackers Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Intro</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="science.html"><a href="science.html"><i class="fa fa-check"></i><b>1</b> Learn the Science</a><ul>
+<li class="chapter" data-level="1.1" data-path="science.html"><a href="science.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="science.html"><a href="science.html#the-promise-and-disappointment-of-genetic-testing"><i class="fa fa-check"></i><b>1.1.1</b> The promise and disappointment of genetic testing</a></li>
+<li class="chapter" data-level="1.1.2" data-path="science.html"><a href="science.html#most-of-your-dna-is-not-fixed"><i class="fa fa-check"></i><b>1.1.2</b> Most of your DNA is not fixed</a></li>
+<li class="chapter" data-level="1.1.3" data-path="science.html"><a href="science.html#microbes-are-older-than-any-of-us"><i class="fa fa-check"></i><b>1.1.3</b> Microbes are older than any of us</a></li>
+<li class="chapter" data-level="1.1.4" data-path="science.html"><a href="science.html#what-they-want"><i class="fa fa-check"></i><b>1.1.4</b> What they want</a></li>
+<li class="chapter" data-level="1.1.5" data-path="science.html"><a href="science.html#whos-in-charge"><i class="fa fa-check"></i><b>1.1.5</b> Who’s in charge?</a></li>
+<li class="chapter" data-level="1.1.6" data-path="science.html"><a href="science.html#what-is-health"><i class="fa fa-check"></i><b>1.1.6</b> What is health?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="science.html"><a href="science.html#microbes-everywhere"><i class="fa fa-check"></i><b>1.2</b> Microbes everywhere</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="science.html"><a href="science.html#microbes-above-and-below"><i class="fa fa-check"></i><b>1.2.1</b> Microbes above and below</a></li>
+<li class="chapter" data-level="1.2.2" data-path="science.html"><a href="science.html#microbes-around-you"><i class="fa fa-check"></i><b>1.2.2</b> Microbes around you</a></li>
+<li class="chapter" data-level="1.2.3" data-path="science.html"><a href="science.html#microbes-and-food"><i class="fa fa-check"></i><b>1.2.3</b> Microbes and food</a></li>
+<li class="chapter" data-level="1.2.4" data-path="science.html"><a href="science.html#anti-microbials-in-food"><i class="fa fa-check"></i><b>1.2.4</b> Anti-microbials in food</a></li>
+<li class="chapter" data-level="1.2.5" data-path="science.html"><a href="science.html#fermented-food"><i class="fa fa-check"></i><b>1.2.5</b> Fermented food</a></li>
+<li class="chapter" data-level="1.2.6" data-path="science.html"><a href="science.html#fiber-and-your-gut-microbes"><i class="fa fa-check"></i><b>1.2.6</b> Fiber and your gut microbes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="science.html"><a href="science.html#microbes-and-health"><i class="fa fa-check"></i><b>1.3</b> Microbes and health</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="science.html"><a href="science.html#diversity-and-health"><i class="fa fa-check"></i><b>1.3.1</b> Diversity and health</a></li>
+<li class="chapter" data-level="1.3.2" data-path="science.html"><a href="science.html#food-allergies"><i class="fa fa-check"></i><b>1.3.2</b> Food Allergies</a></li>
+<li class="chapter" data-level="1.3.3" data-path="science.html"><a href="science.html#gluten"><i class="fa fa-check"></i><b>1.3.3</b> Gluten</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="science.html"><a href="science.html#startMouth"><i class="fa fa-check"></i><b>1.4</b> The Oral Microbiome</a></li>
+<li class="chapter" data-level="1.5" data-path="science.html"><a href="science.html#startskin"><i class="fa fa-check"></i><b>1.5</b> The Skin Microbiome</a></li>
+<li class="chapter" data-level="1.6" data-path="science.html"><a href="science.html#probiotics"><i class="fa fa-check"></i><b>1.6</b> Probiotics</a><ul>
+<li class="chapter" data-level="1.6.1" data-path="science.html"><a href="science.html#where-to-read-more"><i class="fa fa-check"></i><b>1.6.1</b> Where to read more</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="science.html"><a href="science.html#microbesHygiene"><i class="fa fa-check"></i><b>1.7</b> Hygiene</a></li>
+<li class="chapter" data-level="1.8" data-path="science.html"><a href="science.html#microbes-to-watch"><i class="fa fa-check"></i><b>1.8</b> Microbes to watch</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="science.html"><a href="science.html#other-microbes-and-digestion"><i class="fa fa-check"></i><b>1.8.1</b> Other microbes and digestion</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="science.html"><a href="science.html#other-topics"><i class="fa fa-check"></i><b>1.9</b> Other topics</a></li>
+<li class="chapter" data-level="1.10" data-path="science.html"><a href="science.html#microbes-and-behavior"><i class="fa fa-check"></i><b>1.10</b> Microbes and behavior</a></li>
+<li class="chapter" data-level="1.11" data-path="science.html"><a href="science.html#biology-basics"><i class="fa fa-check"></i><b>1.11</b> Biology basics</a><ul>
+<li class="chapter" data-level="1.11.1" data-path="science.html"><a href="science.html#the-basics"><i class="fa fa-check"></i><b>1.11.1</b> The Basics</a></li>
+<li class="chapter" data-level="1.11.2" data-path="science.html"><a href="science.html#taxonomy"><i class="fa fa-check"></i><b>1.11.2</b> Taxonomy</a></li>
+<li class="chapter" data-level="1.11.3" data-path="science.html"><a href="science.html#microbiology"><i class="fa fa-check"></i><b>1.11.3</b> Microbiology</a></li>
+<li class="chapter" data-level="1.11.4" data-path="science.html"><a href="science.html#human-anatomy"><i class="fa fa-check"></i><b>1.11.4</b> Human Anatomy</a></li>
+</ul></li>
+<li class="chapter" data-level="1.12" data-path="science.html"><a href="science.html#the-technology-for-studying-microbes"><i class="fa fa-check"></i><b>1.12</b> The technology for studying microbes</a><ul>
+<li class="chapter" data-level="1.12.1" data-path="science.html"><a href="science.html#the-16s-rrna-gene"><i class="fa fa-check"></i><b>1.12.1</b> The 16S rRNA Gene</a></li>
+<li class="chapter" data-level="1.12.2" data-path="science.html"><a href="science.html#limitations-of-16s"><i class="fa fa-check"></i><b>1.12.2</b> Limitations of 16S</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html"><i class="fa fa-check"></i><b>2</b> Explore Your Microbiome</a><ul>
+<li class="chapter" data-level="2.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-to-get-microbiome-data"><i class="fa fa-check"></i><b>2.1</b> How to get microbiome data</a></li>
+<li class="chapter" data-level="2.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#start"><i class="fa fa-check"></i><b>2.2</b> Getting Started</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#the-most-common-phyla"><i class="fa fa-check"></i><b>2.2.1</b> The most common phyla</a></li>
+<li class="chapter" data-level="2.2.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-are-you-different"><i class="fa fa-check"></i><b>2.2.2</b> How are you different?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#rawData"><i class="fa fa-check"></i><b>2.3</b> How to Use the uBiome Taxonomy Files</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#study-your-results-in-excel"><i class="fa fa-check"></i><b>2.3.1</b> Study your results in Excel</a></li>
+<li class="chapter" data-level="2.3.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#ubiome-json-taxonomy-files"><i class="fa fa-check"></i><b>2.3.2</b> uBiome JSON taxonomy files</a></li>
+<li class="chapter" data-level="2.3.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#the-ubiome-data-tags"><i class="fa fa-check"></i><b>2.3.3</b> The uBiome data tags</a></li>
+<li class="chapter" data-level="2.3.4" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#converting-ubiome-taxonomy-json-to-excel"><i class="fa fa-check"></i><b>2.3.4</b> Converting uBiome taxonomy JSON to Excel</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#comparing-samples"><i class="fa fa-check"></i><b>2.4</b> Comparing samples</a></li>
+<li class="chapter" data-level="2.5" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#make-a-single-sheet-with-all-your-samples"><i class="fa fa-check"></i><b>2.5</b> Make a single sheet with all your samples</a></li>
+<li class="chapter" data-level="2.6" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#analyze-your-ubiome-results-in-python"><i class="fa fa-check"></i><b>2.6</b> Analyze your uBiome Results in Python</a></li>
+<li class="chapter" data-level="2.7" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#working-with-fastq-files"><i class="fa fa-check"></i><b>2.7</b> Working with FASTQ files</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-sequencing-works"><i class="fa fa-check"></i><b>2.7.1</b> How sequencing works</a></li>
+<li class="chapter" data-level="2.7.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#quality-of-your-fastq"><i class="fa fa-check"></i><b>2.7.2</b> Quality of your FASTQ</a></li>
+<li class="chapter" data-level="2.7.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#study-your-fastq-online"><i class="fa fa-check"></i><b>2.7.3</b> Study your FASTQ online</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="experiments.html"><a href="experiments.html"><i class="fa fa-check"></i><b>3</b> My Experiments</a><ul>
+<li class="chapter" data-level="3.1" data-path="experiments.html"><a href="experiments.html#experimentSummary"><i class="fa fa-check"></i><b>3.1</b> Overall Summary of My Experiments</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="experiments.html"><a href="experiments.html#variability-through-time"><i class="fa fa-check"></i><b>3.1.1</b> Variability through time</a></li>
+<li class="chapter" data-level="3.1.2" data-path="experiments.html"><a href="experiments.html#firmicutes-and-obesity"><i class="fa fa-check"></i><b>3.1.2</b> Firmicutes and obesity</a></li>
+<li class="chapter" data-level="3.1.3" data-path="experiments.html"><a href="experiments.html#diversity"><i class="fa fa-check"></i><b>3.1.3</b> Diversity</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="experiments.html"><a href="experiments.html#kefir"><i class="fa fa-check"></i><b>3.2</b> Kefir and the Microbiome</a></li>
+<li class="chapter" data-level="3.3" data-path="experiments.html"><a href="experiments.html#jungleTravel"><i class="fa fa-check"></i><b>3.3</b> Traveling through the jungle</a></li>
+<li class="chapter" data-level="3.4" data-path="experiments.html"><a href="experiments.html#experimentMexico"><i class="fa fa-check"></i><b>3.4</b> Traveling in Mexico</a></li>
+<li class="chapter" data-level="3.5" data-path="experiments.html"><a href="experiments.html#experimentCamping"><i class="fa fa-check"></i><b>3.5</b> Camping</a></li>
+<li class="chapter" data-level="3.6" data-path="experiments.html"><a href="experiments.html#do-probiotics-work"><i class="fa fa-check"></i><b>3.6</b> Do Probiotics Work?</a></li>
+<li class="chapter" data-level="3.7" data-path="experiments.html"><a href="experiments.html#experimentDentist"><i class="fa fa-check"></i><b>3.7</b> Visiting the dentist</a></li>
+<li class="chapter" data-level="3.8" data-path="experiments.html"><a href="experiments.html#experimentCleanse"><i class="fa fa-check"></i><b>3.8</b> Experiment: Gut Cleanse</a></li>
+<li class="chapter" data-level="3.9" data-path="experiments.html"><a href="experiments.html#kombucha"><i class="fa fa-check"></i><b>3.9</b> Kombucha</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="experiments.html"><a href="experiments.html#experiment"><i class="fa fa-check"></i><b>3.9.1</b> Experiment</a></li>
+<li class="chapter" data-level="3.9.2" data-path="experiments.html"><a href="experiments.html#study-the-data-in-r"><i class="fa fa-check"></i><b>3.9.2</b> Study the data in R</a></li>
+<li class="chapter" data-level="3.9.3" data-path="experiments.html"><a href="experiments.html#going-further"><i class="fa fa-check"></i><b>3.9.3</b> Going further</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="experiments.html"><a href="experiments.html#conclusions"><i class="fa fa-check"></i><b>3.10</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="caseStudies.html"><a href="caseStudies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="caseStudies.html"><a href="caseStudies.html#father-and-son"><i class="fa fa-check"></i><b>4.1</b> Father and son</a></li>
+<li class="chapter" data-level="4.2" data-path="caseStudies.html"><a href="caseStudies.html#a-baby-microbiome"><i class="fa fa-check"></i><b>4.2</b> A baby microbiome</a></li>
+<li class="chapter" data-level="4.3" data-path="caseStudies.html"><a href="caseStudies.html#alzheimers-and-the-microbiome"><i class="fa fa-check"></i><b>4.3</b> Alzheimers and the microbiome</a></li>
+<li class="chapter" data-level="4.4" data-path="caseStudies.html"><a href="caseStudies.html#colorectal-cancer"><i class="fa fa-check"></i><b>4.4</b> Colorectal Cancer</a></li>
+<li class="chapter" data-level="4.5" data-path="caseStudies.html"><a href="caseStudies.html#ketogenic-diet"><i class="fa fa-check"></i><b>4.5</b> Ketogenic Diet</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="next.html"><a href="next.html"><i class="fa fa-check"></i><b>5</b> Go Further</a><ul>
+<li class="chapter" data-level="5.1" data-path="next.html"><a href="next.html#beyond-bacteria"><i class="fa fa-check"></i><b>5.1</b> Beyond Bacteria</a></li>
+<li class="chapter" data-level="5.2" data-path="next.html"><a href="next.html#fermented-food-1"><i class="fa fa-check"></i><b>5.2</b> Fermented Food</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="next.html"><a href="next.html#yogurt"><i class="fa fa-check"></i><b>5.2.1</b> Yogurt</a></li>
+<li class="chapter" data-level="5.2.2" data-path="next.html"><a href="next.html#pickling"><i class="fa fa-check"></i><b>5.2.2</b> Pickling</a></li>
+<li class="chapter" data-level="5.2.3" data-path="next.html"><a href="next.html#whats-happening-in-sauerkraut"><i class="fa fa-check"></i><b>5.2.3</b> What’s happening in sauerkraut</a></li>
+<li class="chapter" data-level="5.2.4" data-path="next.html"><a href="next.html#more-fermentation"><i class="fa fa-check"></i><b>5.2.4</b> More fermentation</a></li>
+<li class="chapter" data-level="5.2.5" data-path="next.html"><a href="next.html#pickled-ginger"><i class="fa fa-check"></i><b>5.2.5</b> Pickled Ginger</a></li>
+<li class="chapter" data-level="5.2.6" data-path="next.html"><a href="next.html#pickled-cucumbers"><i class="fa fa-check"></i><b>5.2.6</b> Pickled cucumbers</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="next.html"><a href="next.html#annotated-references"><i class="fa fa-check"></i><b>5.3</b> Annotated References</a></li>
+<li class="chapter" data-level="5.4" data-path="next.html"><a href="next.html#favoriteBooks"><i class="fa fa-check"></i><b>5.4</b> My favorite books about the microbiome</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html"><i class="fa fa-check"></i><b>6</b> Other Books Worth Having in the Pile</a><ul>
+<li class="chapter" data-level="6.0.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#not-recommended"><i class="fa fa-check"></i><b>6.0.1</b> Not Recommended</a></li>
+<li class="chapter" data-level="6.0.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#other"><i class="fa fa-check"></i><b>6.0.2</b> Other</a></li>
+<li class="chapter" data-level="6.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#best-academic-papers"><i class="fa fa-check"></i><b>6.1</b> Best Academic Papers</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#popular-topics"><i class="fa fa-check"></i><b>6.1.1</b> Popular Topics</a></li>
+<li class="chapter" data-level="6.1.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#academic-papers"><i class="fa fa-check"></i><b>6.1.2</b> Academic Papers</a></li>
+<li class="chapter" data-level="6.1.3" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#general-overview"><i class="fa fa-check"></i><b>6.1.3</b> General Overview</a></li>
+<li class="chapter" data-level="6.1.4" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#historic-papers"><i class="fa fa-check"></i><b>6.1.4</b> Historic Papers</a></li>
+<li class="chapter" data-level="6.1.5" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#self-tracking"><i class="fa fa-check"></i><b>6.1.5</b> Self-tracking</a></li>
+<li class="chapter" data-level="6.1.6" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#diet"><i class="fa fa-check"></i><b>6.1.6</b> Diet</a></li>
+<li class="chapter" data-level="6.1.7" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#population-studies"><i class="fa fa-check"></i><b>6.1.7</b> Population studies</a></li>
+<li class="chapter" data-level="6.1.8" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#enterotypes"><i class="fa fa-check"></i><b>6.1.8</b> Enterotypes</a></li>
+<li class="chapter" data-level="6.1.9" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#large-population-summaries"><i class="fa fa-check"></i><b>6.1.9</b> Large population summaries</a></li>
+<li class="chapter" data-level="6.1.10" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#methods"><i class="fa fa-check"></i><b>6.1.10</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#other-resources"><i class="fa fa-check"></i><b>6.2</b> Other Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="acknowledgments.html"><a href="acknowledgments.html"><i class="fa fa-check"></i><b>7</b> Acknowledgments</a><ul>
+<li class="chapter" data-level="7.1" data-path="acknowledgments.html"><a href="acknowledgments.html#style-guide"><i class="fa fa-check"></i><b>7.1</b> Style guide</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>8</b> References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Microbiome Hackers Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="caseStudies" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Case Studies</h1>
+<p>Let’s look at some specific examples:</p>
+<div id="father-and-son" class="section level2">
+<h2><span class="header-section-number">4.1</span> Father and son</h2>
+<p>My father and I live in different parts of the country: he’s in the Midwest (where I grew up) and I’m on the West Coast. We’re both healthy omnivores and, other than a couple-decade age difference we both eat roughly similar foods and have similar medical histories.</p>
+<p>That said, I was surprised to see our gut biomes were so similar. Here’s how I did the comparison.</p>
+<p>Remember that a gut microbiome varies <em>a lot</em> day-to-day, depending on whatever food we happened to eat, exposure to illness, geographic location, even time of year. To keep the variables as constant as possible, I’ll compare two samples taken on the same day:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Dad %</th>
+<th align="right">Me %</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Firmicutes</td>
+<td align="right">53.82</td>
+<td align="right">46.44</td>
+</tr>
+<tr class="even">
+<td>Bacteroidetes</td>
+<td align="right">19.80</td>
+<td align="right">37.50</td>
+</tr>
+<tr class="odd">
+<td>Verrucomicrobia</td>
+<td align="right">16.80</td>
+<td align="right">2.44</td>
+</tr>
+<tr class="even">
+<td>Actinobacteria</td>
+<td align="right">6.65</td>
+<td align="right">0.91</td>
+</tr>
+<tr class="odd">
+<td>Euryarchaeota</td>
+<td align="right">4.78</td>
+<td align="right">0.02</td>
+</tr>
+<tr class="even">
+<td>Proteobacteria</td>
+<td align="right">1.79</td>
+<td align="right">12.43</td>
+</tr>
+</tbody>
+</table>
+<p>At the highest, phylum, level, we can see the percentage abundances look different, but not <em>terribly</em> different. One easy way to spot specific patterns is through a heatmap, like this one:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-95-1.png" width="672" /></p>
+<p>Here are some of the taxa that are unique to me:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Me (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bifidobacterium</td>
+<td align="right">5.60</td>
+</tr>
+<tr class="even">
+<td>Methanobrevibacter</td>
+<td align="right">4.69</td>
+</tr>
+<tr class="odd">
+<td>Flavonifractor</td>
+<td align="right">1.13</td>
+</tr>
+<tr class="even">
+<td>Odoribacter</td>
+<td align="right">1.11</td>
+</tr>
+<tr class="odd">
+<td>Butyricimonas</td>
+<td align="right">0.80</td>
+</tr>
+<tr class="even">
+<td>Intestinibacter</td>
+<td align="right">0.69</td>
+</tr>
+<tr class="odd">
+<td>Parasutterella</td>
+<td align="right">0.67</td>
+</tr>
+<tr class="even">
+<td>Terrisporobacter</td>
+<td align="right">0.43</td>
+</tr>
+<tr class="odd">
+<td>Pyramidobacter</td>
+<td align="right">0.42</td>
+</tr>
+<tr class="even">
+<td>Dialister</td>
+<td align="right">0.38</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Me Species(%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Methanobrevibacter smithii</td>
+<td align="right">4.69</td>
+</tr>
+<tr class="even">
+<td>Bacteroides plebeius</td>
+<td align="right">2.38</td>
+</tr>
+<tr class="odd">
+<td>Odoribacter laneus</td>
+<td align="right">1.04</td>
+</tr>
+<tr class="even">
+<td>Parasutterella excrementihominis</td>
+<td align="right">0.64</td>
+</tr>
+<tr class="odd">
+<td>Dialister propionicifaciens</td>
+<td align="right">0.37</td>
+</tr>
+<tr class="even">
+<td>Butyricimonas virosa</td>
+<td align="right">0.29</td>
+</tr>
+<tr class="odd">
+<td>Bacteroides fragilis</td>
+<td align="right">0.21</td>
+</tr>
+<tr class="even">
+<td>Anaerotruncus sp. NML 070203</td>
+<td align="right">0.21</td>
+</tr>
+<tr class="odd">
+<td>Parabacteroides johnsonii</td>
+<td align="right">0.20</td>
+</tr>
+<tr class="even">
+<td>Bacteroides salyersiae</td>
+<td align="right">0.19</td>
+</tr>
+<tr class="odd">
+<td>Turicibacter sanguinis</td>
+<td align="right">0.15</td>
+</tr>
+<tr class="even">
+<td>Streptococcus thermophilus</td>
+<td align="right">0.10</td>
+</tr>
+<tr class="odd">
+<td>Collinsella sp. GD3</td>
+<td align="right">0.09</td>
+</tr>
+</tbody>
+</table>
+<p>The list includes the familiar <em>Bacteroides plebeius</em>, the “seaweed-digesting” microbe which we’ve discussed previous. Dad never lived in Asia, so this is not a surprise.</p>
+<p>and some that Dad has that I don’t:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Dad (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Thalassospira</td>
+<td align="right">6.27</td>
+</tr>
+<tr class="even">
+<td>Desulfovibrio</td>
+<td align="right">2.56</td>
+</tr>
+<tr class="odd">
+<td>Sutterella</td>
+<td align="right">2.35</td>
+</tr>
+<tr class="even">
+<td>Paraprevotella</td>
+<td align="right">1.30</td>
+</tr>
+<tr class="odd">
+<td>Clostridium</td>
+<td align="right">0.64</td>
+</tr>
+<tr class="even">
+<td>Dorea</td>
+<td align="right">0.59</td>
+</tr>
+<tr class="odd">
+<td>Erysipelatoclostridium</td>
+<td align="right">0.46</td>
+</tr>
+<tr class="even">
+<td>Phascolarctobacterium</td>
+<td align="right">0.42</td>
+</tr>
+<tr class="odd">
+<td>Butyrivibrio</td>
+<td align="right">0.39</td>
+</tr>
+<tr class="even">
+<td>Peptococcus</td>
+<td align="right">0.35</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Dad Species (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Desulfovibrio piger</td>
+<td align="right">2.50</td>
+</tr>
+<tr class="even">
+<td>Akkermansia muciniphila</td>
+<td align="right">2.17</td>
+</tr>
+<tr class="odd">
+<td>Bacteroides acidifaciens</td>
+<td align="right">1.52</td>
+</tr>
+<tr class="even">
+<td>Sutterella stercoricanis</td>
+<td align="right">1.50</td>
+</tr>
+<tr class="odd">
+<td>Alistipes putredinis</td>
+<td align="right">0.92</td>
+</tr>
+<tr class="even">
+<td>Sutterella wadsworthensis</td>
+<td align="right">0.65</td>
+</tr>
+<tr class="odd">
+<td>Phascolarctobacterium sp. 377</td>
+<td align="right">0.34</td>
+</tr>
+<tr class="even">
+<td>Odoribacter splanchnicus</td>
+<td align="right">0.23</td>
+</tr>
+<tr class="odd">
+<td>Paraprevotella clara</td>
+<td align="right">0.21</td>
+</tr>
+<tr class="even">
+<td>Bacteroides clarus</td>
+<td align="right">0.18</td>
+</tr>
+<tr class="odd">
+<td>Prevotella buccalis</td>
+<td align="right">0.11</td>
+</tr>
+<tr class="even">
+<td>Bacteroides uniformis</td>
+<td align="right">0.10</td>
+</tr>
+<tr class="odd">
+<td>Corynebacterium canis</td>
+<td align="right">0.09</td>
+</tr>
+</tbody>
+</table>
+<p>That <em>Thalassospira</em> is a mystery. A quick literature search reveals nothing, but it’s abundant enough to make me wonder if there’s something special about Dad’s lifestyle that would harbor it. Note that it’s not visible on the species level, an indicator that nothing is known below the genus.</p>
+<p>I tried to esimate, roughly, how common it is among the other samples I’ve seen: <code>0, 10.1979</code></p>
+<p>The vast majority of samples have none, but it’s not unknown either: <img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-97-1.png" width="672" /></p>
+<p>Since Dad has already submitted several samples, I can also check whether and how much he has in his other samples:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-98-1.png" width="672" /> The answer is that he has <em>some</em> in about half his samples. This particular one was unusually high, but without more data it’s hard to tell if that’s significant.</p>
+</div>
+<div id="a-baby-microbiome" class="section level2">
+<h2><span class="header-section-number">4.2</span> A baby microbiome</h2>
+<p>Molly is a healthy infant whose first-time parents are interested in the microbiome and have tried to do everything they can to optimize their baby’s microbial health. Molly was born vaginally, has never had antibiotics, is exclusively breast-fed by a mother who tries to eat nutritious, organic food. They live in the country, surrounded by nature, including pets and other animals that will become more of her life when she starts to move around.</p>
+<p>But how can you tell whether their healthy lifestyle is helping? To find out, her parents tested Molly on her one-month birthday. As any parent on diaper duty knows, collecting the, um, sample is pretty easy. They mailed a tiny swab to the lab and a few weeks later they received this list of the kinds of bacteria found along with a breakdown of their percentage abundances:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Phylum (Baby)</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Bacteroidetes</td>
+<td>84.59%</td>
+</tr>
+<tr class="even">
+<td align="left">Actinobacteria</td>
+<td>9.18%</td>
+</tr>
+<tr class="odd">
+<td align="left">Proteobacteria</td>
+<td>3.97%</td>
+</tr>
+<tr class="even">
+<td align="left">Firmicutes</td>
+<td>2.26%</td>
+</tr>
+</tbody>
+</table>
+<p><img src="CaseStudies/images/babybiome1.jpg" /><!-- --></p>
+<p>What does this all mean? Well, the first thing to notice about Molly’s microbiome is the dominance of a group of bacteria called <em>Bacteroidetes</em>, and the much lower levels of another type called <em>Firmicutes</em>. In most westerners, the abundance of these two is exactly reversed, as you can see in a similar breakdown we have of Molly’s mom:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Phylum (Mom)</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Firmicutes</td>
+<td>50.40%</td>
+</tr>
+<tr class="even">
+<td align="left">Bacteroidetes</td>
+<td>23.04%</td>
+</tr>
+<tr class="odd">
+<td align="left">Verrucomicrobia</td>
+<td>8.66%</td>
+</tr>
+<tr class="even">
+<td align="left">Actinobacteria</td>
+<td>7.78%</td>
+</tr>
+<tr class="odd">
+<td align="left">Proteobacteria</td>
+<td>1.59%</td>
+</tr>
+<tr class="even">
+<td align="left">Nitrospirae</td>
+<td>0.02%</td>
+</tr>
+</tbody>
+</table>
+<p><img src="CaseStudies/images/mombiome1.jpg" /><!-- --></p>
+<p>Figure 2: Mom’s microbiome</p>
+<p>The bacterial kingdom is extremely old and diverse, much more so than the other types of living things around us. The categories <em>Firmicutes</em> and <em>Bacteroidetes</em> are therefore very broad, a bit like discussing “vertebrates” and lumping in everything from fish to people as one kind of life. Even at this high level, they have some distinctive features – <em>Firmicutes</em> tends to eat fats, whereas <em>Bacteroidetes</em> likes sugars – but to understand the difference between Molly and her mother, let’s dig more deeply into exactly the types of <em>Firmicutes</em> we see.</p>
+<p>In adults like Molly’s Mom, we generally find that more than 99% of <em>Firmicutes</em> come from a group of inter-related bacteria called <em>Clostridiales</em>. But not Molly’s. Hers is almost entirely a single species, <em>Phascolarctobacterium faecium</em>. What does it do? Without comparing her to other babies, we don’t really know. How little we understand is just one of the frustrating recurring themes as we study the microbiome.</p>
+<p>The next big bunch in Molly’s gut is <em>Actinobacteria</em>, of which nearly all is a well-studied species called <em>Bifidobacterium longum</em>. This one is so closely associated with good health that many supplement makers sell it as a prebiotic pill, and Molly has enough to fill a factory: it makes up more than 8% of her entire sample, nearly 100 times more than her mother.</p>
+<p><em>Bifidobacteria</em> like milk, and Molly’s are fortunate that she is breastfed. One clue about the importance of breast milk to baby microbes is <em>human milk oligosaccharide</em> (HMO), which despite being the most abundant component of milk, after fat and lactose<a href="#fn37" class="footnoteRef" id="fnref37"><sup>37</sup></a>, has a chemical structure too complex for the baby to digest! Some early designers of infant formula assumed Nature had made a mistake and tried somewhat arrogantly to market their wares as “scientifically” better <em>because</em> it was simple enough for a baby. But HMOs aren’t there to feed the baby; they nourish the abundant microbes in the infant gut, mostly the <em>Bifidobacteria</em>, and later the <em>Bacteroides</em> that will play a role when it comes time for the baby to begin eating solid foods. At that point, Molly’s microbiota will undergo a big transformation until, by three years old, her gut will look like an adult’s.</p>
+<p><em>Bifidobacteria infantis</em> digests HMOs, releasing SFCAs that feed critical immune cells in a baby’s gut. HMOs also fend off pathogens, preventing them from sticking to the mucosal surface.</p>
+<p>Incidentally, HMOs are notoriously difficult to make artificially. Formula makers do their best to imitate with other oligosaccharides, like those found in chicory or yeast, but it’s not quite the same.</p>
+<p>Turning to the other big phyla, <em>Bacteroidetes</em>, we see here too Molly’s is almost exclusively one species: <em>Bacteroides fragilis</em>, of which her mom (but not her dad) has a tiny bit as well. That makes sense because this particular bacterium is a well-known early infant colonizer, transmitted from mother to child. Some Norwegian scientists, surveying the research, noted its well-known <a href="http://aem.asm.org/content/77/23/8318.full">immune system modulating properties</a>:</p>
+<blockquote>
+<blockquote>
+<p>B. fragilis are higher in children with <a href="http://aem.asm.org/content/77/23/8318.full#ref-32">high specific IgE</a> (sIgE). IgE plays a central role in <a href="http://aem.asm.org/content/77/23/8318.full#ref-34">asthma and allergy</a>. Other studies have shown a correlation of B. fragilis with asthma and <a href="http://aem.asm.org/content/77/23/8318.full#ref-19">pollen allergy</a>.<a href="#fn38" class="footnoteRef" id="fnref38"><sup>38</sup></a></p>
+</blockquote>
+</blockquote>
+<p>Now that doesn’t mean Molly herself is predisposed to any of these conditions – in fact, it may mean the exact opposite depending on the amounts or the presence or absence of other species. Again, without studying a lot more babies, we just don’t know.</p>
+<p>Interestingly, when I looked closely at the broadest levels of bacteria, I couldn’t find a single phylum of microbes that was present in Molly but not in her parents, while I found plenty of examples of the opposite. I guess that’s one more way Molly is dependent on her mommy. Bottle-fed babies, by the way, tend to have <em>more</em> diversity; though my guess is those extra bacteria aren’t all good.</p>
+<p>One microbe that doesn’t appear in Molly’s sample is <em>Lactobacillus</em>, which is often missing in collicky babies<a href="#fn39" class="footnoteRef" id="fnref39"><sup>39</sup></a>. Fortunately, Molly seems completely normal for now but this is something to watch for in future tests. There may be an easy fix anyway: get her a sibling. Babies who grow up in homes with other small children tend to have better microbiomes.<a href="#fn40" class="footnoteRef" id="fnref40"><sup>40</sup></a></p>
+<p>Thanks to the surging interest in gut health, many parents are taking steps to ensure their babies have the best possible microbiome, but until the recent development of low-cost test kits, it was difficult to tell how well it was working. Now Molly’s parents have a new tool, and if you’re changing diapers regularly anyway, why not test your own baby too and share your results with others so that we can all learn more and contribute to the scientific understanding of the baby biome.</p>
+<p>Here are a few other babies to compare.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/babycsp-1.png" width="672" /></p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Baby1a</th>
+<th align="right">Baby1b</th>
+<th align="right">Baby2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bifidobacterium</td>
+<td align="right">53.0557</td>
+<td align="right">44.9303</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Bacteroides</td>
+<td align="right">23.0119</td>
+<td align="right">21.8573</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="odd">
+<td>Collinsella</td>
+<td align="right">7.5204</td>
+<td align="right">10.7308</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Parabacteroides</td>
+<td align="right">7.5204</td>
+<td align="right">8.8837</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="odd">
+<td>Kluyvera</td>
+<td align="right">3.5984</td>
+<td align="right">2.4640</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Lactobacillus</td>
+<td align="right">1.3010</td>
+<td align="right">3.6942</td>
+<td align="right">0.5139</td>
+</tr>
+<tr class="odd">
+<td>Streptococcus</td>
+<td align="right">0.7488</td>
+<td align="right">1.5096</td>
+<td align="right">6.9624</td>
+</tr>
+<tr class="even">
+<td>Bilophila</td>
+<td align="right">0.4696</td>
+<td align="right">0.4608</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="odd">
+<td>Intestinibacter</td>
+<td align="right">0.4696</td>
+<td align="right">2.0830</td>
+<td align="right">34.7927</td>
+</tr>
+<tr class="even">
+<td>Flavonifractor</td>
+<td align="right">0.4125</td>
+<td align="right">0.2975</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="odd">
+<td>Megasphaera</td>
+<td align="right">0.3109</td>
+<td align="right">0.7983</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Sarcina</td>
+<td align="right">0.2855</td>
+<td align="right">0.7802</td>
+<td align="right">0.1087</td>
+</tr>
+<tr class="odd">
+<td>Enterococcus</td>
+<td align="right">0.2348</td>
+<td align="right">0.3411</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Eggerthella</td>
+<td align="right">0.2157</td>
+<td align="right">0.3556</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="odd">
+<td>Peptostreptococcus</td>
+<td align="right">0.2030</td>
+<td align="right">0.2395</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Staphylococcus</td>
+<td align="right">0.1396</td>
+<td align="right">0.1415</td>
+<td align="right">0.2964</td>
+</tr>
+<tr class="odd">
+<td>Actinomyces</td>
+<td align="right">0.1396</td>
+<td align="right">0.1233</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="even">
+<td>Alistipes</td>
+<td align="right">0.1015</td>
+<td align="right">0.1161</td>
+<td align="right">0.0000</td>
+</tr>
+<tr class="odd">
+<td>Haemophilus</td>
+<td align="right">0.0825</td>
+<td align="right">0.0072</td>
+<td align="right">0.0494</td>
+</tr>
+<tr class="even">
+<td>Veillonella</td>
+<td align="right">0.0190</td>
+<td align="right">0.0217</td>
+<td align="right">12.0324</td>
+</tr>
+<tr class="odd">
+<td>Enterobacter</td>
+<td align="right">0.0000</td>
+<td align="right">0.0217</td>
+<td align="right">4.1508</td>
+</tr>
+<tr class="even">
+<td>Asaccharospora</td>
+<td align="right">0.0000</td>
+<td align="right">0.0000</td>
+<td align="right">0.0988</td>
+</tr>
+<tr class="odd">
+<td>Citrobacter</td>
+<td align="right">0.0000</td>
+<td align="right">0.0000</td>
+<td align="right">4.8030</td>
+</tr>
+<tr class="even">
+<td>Anaerobacter</td>
+<td align="right">0.0000</td>
+<td align="right">0.0000</td>
+<td align="right">7.6592</td>
+</tr>
+<tr class="odd">
+<td>Raoultella</td>
+<td align="right">0.0000</td>
+<td align="right">0.0000</td>
+<td align="right">28.4627</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="alzheimers-and-the-microbiome" class="section level2">
+<h2><span class="header-section-number">4.3</span> Alzheimers and the microbiome</h2>
+<p>“Anne” is a 40-year-old mother with a secret: her 23andme genetic test results show she is homozygous for the APOE-4 variant, which in slightly-misleading-but-you-know-what-I-mean everyday language means she has the gene for Alzheimer’s disease. Statistics show that about 80% of people like her will develop the condition, and with this particular gene variant, it’s likely she may start to see early symptoms as soon as age 50. Scary! No wonder she doesn’t want anyone to know, including her children and relatives.</p>
+<p>But Anne is also an optimist: she prefers to see herself as one of the 20% with the gene who <em>won’t</em> develop any symptoms. And she’s ready and motivated to do whatever necessary — diet, exercise, lifestyle changes — to beat this thing. She also knows that her body includes much more than human DNA, that for every human gene like that APOE-4 variant, she is host to as many as ten or a hundred times as many microbial genes, including — perhaps — some that with a bit of nurturing might help offset or prevent whatever propensity her human DNA has to this terrible disease.</p>
+<p>Scientists researching Alzheimer’s disease have uncovered some intriguing relationships with the microbiome. (see <a href="http://www.nytimes.com/2016/05/26/health/alzheimers-disease-infection.html?smprod=nytcore-iphone&amp;smid=nytcore-iphone-share&amp;_r=0"><em>this recent New York Times article</em></a> for a summary.) Some early AD symptoms, like a loss of smell, may be clues that the brain has been attacked by something that came from outside. The microbiome of the mouth, especially, is an excellent hiding place for low-grade infectious agents thanks to its many dark corners with regular access to both the inside and outside of the body. After reading about these relationships, Anne recently submitted an oral sample to uBiome and shared the results with me.</p>
+<p>Important caveat before we go further: uBiome kit results are intended for scientific research only. The science of the microbiome is too new to make definitive healthcare-related decisions, and uBiome kits have not been evaluated or approved by regulators. If you are sick, or you need medical guidance, always see a doctor. I am not a doctor!</p>
+<p>The AD research field has blossomed lately with the realization that the brain, once thought to be completely sterile, is home to many microbes. This discovery and additional research has excited the editors of the respected <em>Journal of Alzheimers Disease,</em> who concluded a recent issue (2016):</p>
+<blockquote>
+<p>We propose that infectious agents, including HSV1, <em>Chlamydia pneumonia</em>, and spirochetes, reach the CNS (Central Nervous System) and remain there in latent form. These agents can undergo reactivation in the brain during aging, as the immune system declines…The consequent neuronal damage… occurs recurrently, leading to (or acting as a cofactor for) progressive synaptic dysfunction, neuronal loss, and ultimately Alzheimers Disease.</p>
+</blockquote>
+<p>That’s a powerful indictment of specific microbes, and the article calls them out by name. So does Anne have any in her uBiome sample?</p>
+<p>Unfortunately, here’s where we see both the promise and the limitations of uBiome and others who suspect the microbiome will play an important role in eventually conquering this terrible disease.</p>
+<p>The promise is intriguing: if we could identify the specific microbes underlying the condition, and then, perhaps through antibiotics or probiotics or some other intervention, what if we could get rid of the “bad” microbes and reseed with the “good” ones?</p>
+<p>Here’s a high-level (phylum) look at Anne’s oral microbiome:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">1</th>
+<th align="right">2</th>
+<th align="right">3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Firmicutes</td>
+<td align="right">69.28</td>
+<td align="right">41.85</td>
+<td align="right">58.75</td>
+</tr>
+<tr class="even">
+<td>Bacteroidetes</td>
+<td align="right">14.48</td>
+<td align="right">13.43</td>
+<td align="right">5.76</td>
+</tr>
+<tr class="odd">
+<td>Verrucomicrobia</td>
+<td align="right">8.24</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td>Euryarchaeota</td>
+<td align="right">7.47</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="odd">
+<td>Actinobacteria</td>
+<td align="right">5.38</td>
+<td align="right">3.67</td>
+<td align="right">0.37</td>
+</tr>
+<tr class="even">
+<td>Proteobacteria</td>
+<td align="right">1.93</td>
+<td align="right">36.22</td>
+<td align="right">28.43</td>
+</tr>
+<tr class="odd">
+<td>Synergistetes</td>
+<td align="right">0.12</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+</tr>
+<tr class="even">
+<td>Fusobacteria</td>
+<td align="right">0.01</td>
+<td align="right">4.17</td>
+<td align="right">1.07</td>
+</tr>
+<tr class="odd">
+<td>Spirochaetes</td>
+<td align="right">0.00</td>
+<td align="right">0.01</td>
+<td align="right">0.02</td>
+</tr>
+<tr class="even">
+<td>Candidatus Saccharibacteria</td>
+<td align="right">0.00</td>
+<td align="right">0.08</td>
+<td align="right">5.04</td>
+</tr>
+</tbody>
+</table>
+<p>Careful readers will immediately notice the Spirochaetes in those two later samples – the same name identified as a suspect in the <em>Journal of Alzheimer’s Research</em>. Is this just a coincidence?! Or have we found a link?</p>
+<p>At this point, (big groan), we know there are quick-buck charlatans out there who will seize on an observation like this to sell hope to Alzheimer’s sufferers and their families: how about a new anti-Spirochetes supplement? A seven-step “detox” plan to permanently rid your system of Spirochetes? Great idea for a new business, or maybe a best-selling book, right?</p>
+<p>At uBiome, we’re very serious about science, and part of our mission is to promote citizen science because we believe in the power of normal people like Anne to participate and drive the discoveries that will revolutionize medicine of the future. We’re excited about those possibilities, but unfortunately there are no shortcuts, and real conclusions from this data are still a ways away.</p>
+<p>It turns out that Spirochaetes is actually quite common in the oral microbiome. It’s a broad category of free-moving bacteria that like to hide in low-oxygen environments. Its most infamous members include the genus <em>Troponema</em>, associated with syphilis, which come to think of it is a disease that affects the brain. (In botany class they like to joke that it’s called spirochete because that’s what you get when you cheat).</p>
+<p>The Spirochaetes in Anne’s test results are not <em>Troponema</em>, but even if they were it wouldn’t mean much. A lot of people have these. I have some in my own mouth microbiome. The ecology of the mouth is so rich and complex that it’s almost never possible to identify something as either “bad” or “good”. Remember the example from earlier of “viridans” streptococci, the ones that beat back Strep Throat but can also cause heart problems?</p>
+<p>The same is likely to be true about whatever microbes might be involved with Alzheimer’s. But the good news is that more sampling can play a role in helping to narrow down the microbes that are different in people who go on to develop the disease. If we can collect enough samples from people like Anne, who have a family history and are at high risk for AD, we can compare them to one another as well as to thousands of samples of people who are normal risk and maybe we’ll see a pattern.</p>
+<p>For example, when Anne compared her mouth biome results with those from a close relative, she found that she has these unique phyla. The relative does not have them:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Anne’s Unique Phyla</th>
+<th>% diff</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Candidatus Saccharibacteria</td>
+<td>0.08%</td>
+</tr>
+<tr class="even">
+<td>Spirochaetes</td>
+<td>0.01%</td>
+</tr>
+<tr class="odd">
+<td>Tenericutes</td>
+<td>0.00%</td>
+</tr>
+</tbody>
+</table>
+<p>Interestingly, this relative has none of her Spirochaetes. And we find two others missing as well. Do they matter? Who knows?</p>
+<p>The microbiome studies that have been conducted so far on AD patients are too limited to offer suggestions for what Anne can do right now, but slight differences like this offer her some ideas for possible experiments in the meantime.</p>
+<p>Anne already follows the general advice that doctors give to everyone, including those at risk of AD, who wants a healthy microbiome: get plenty of exercise and sleep, eat healthy unprocessed foods, and avoid antibiotics. But, just possibly, there are variations on these general good habits that might help her today.</p>
+<p>For example, she’s experimenting with different toothpastes to see how that affects her mouth microbiome. Did you know that most of the common toothpaste brands include powerful antibiotics? Could the difference in brand be responsible for the unique phyla she sees? To learn more about herself, she’s experimenting with alternate brands – testing her oral microbiome before and after to see the effects.</p>
+<p>This is not the end of the story. Sadly we don’t know what will ultimately happen to Anne. But through better knowledge of herself, and her microbiome, she’s doing everything she can to beat the odds.</p>
+<p>Here are some more references:</p>
+<blockquote>
+<p>Shoemark, D. K., &amp; Allen, S. J. (2015). The microbiome and disease: Reviewing the links between the oral microbiome, aging, and Alzheimer’s disease. <em>Journal of Alzheimer’s Disease</em>. IOS Press.</p>
+<p>Itzhaki, R. F., Lathe, R., Balin, B. J., Ball, M. J., Bearer, E. L., Braak, H., … Whittum-Hudson, J. A. (2016). Microbes and Alzheimer’s Disease. <em>Journal of Alzheimer’s Disease : JAD</em>, <em>Preprint</em>(Preprint), 1–6. <a href="http://content.iospress.com/articles/journal-of-alzheimers-disease/jad160152"><em>http://doi.org/10.3233/JAD-160152</em></a></p>
+<p>Pischel, L. (2014). Triclosan, triclocarban, metabolism and microbiome: a randomized, cross-over study. In <em>IDWeek 2014</em>. Idsa. Retrieved from <a href="https://idsa.confex.com/idsa/2014/webprogram/Paper44519.html" class="uri">https://idsa.confex.com/idsa/2014/webprogram/Paper44519.html</a></p>
+</blockquote>
+<p>By the way, I randomized these and all my other numbers slightly to make extra-sure that nobody can identify her. Anne gave me permission to write this post because she wants to encourage more people to submit the data scientists need for finding a cure, but I’ve changed her name and all the other specifics for privacy reasons.</p>
+</div>
+<div id="colorectal-cancer" class="section level2">
+<h2><span class="header-section-number">4.4</span> Colorectal Cancer</h2>
+<p>Paul was a pretty normal 50-something year old father of two teenagers when he noticed some odd things in the bathroom. At first he thought it was something he’d been eating; despite a lifetime of Southern living, he didn’t have as much tolerance for deep-fried cooking as some of his neighbors and the past few weeks had been unusually heavy on the grease. So, he laid off the french fries for a few weeks and it seemed to get better. He had enjoyed a lifetime of perfect health: he was rarely sick, had never been inside a hospital except to visit others, and fully expected to live well into his 80s or 90s like his grandparents.</p>
+<p>He wasn’t worried, but a few months later his wife reminded him that his company insurance plan includes a free annual physical, and he thought why not. The doctor didn’t seem worried either, but suggested a few more tests “just in case”, and unfortunately that’s when he got the diagnosis that has been on his mind every day since: Stage IV colorectal cancer that has spread to his liver.</p>
+<p>Many cancers seem to have a relationship with the microbiome, and there are at least ten viruses which are known to be carcinogenic, including Human papillomavirus (HPV), that causes cervical cancer, and for which there is a vaccine. Some scientists guess that most cancers will eventually be shown to have their origins in a microbe, and although that’s mostly speculation at this point, the idea of using microbes to treat or prevent cancer has attracted interest for more than 100 years.</p>
+<p><em>Fusobacterium nucleatum</em>, <em>Bacteroides fragilis</em>, and many members of the large class of Enterobaceriaceae have well-studied characteristics that make them liable to cause the types of genetic damage that can give rise to cancer.</p>
+<p>A friend suggested that Paul test his gut microbiome, and then asked me to take a look. Here are some of the interesting things I found.</p>
+<p>He does not show any measured amounts of the bacteria (Fusobacterium) that have been discussed in scientific journals as associated with colon cancer.</p>
+<ul>
+<li><p>The standard ratios (Firmicutes/Bacteroidetes) that I follow while watching other samples, are all well within the “normal” range. In other words, I don’t see anything offhand that looks odd.</p></li>
+<li><p>His overall diversity, using uBiome’s calculations of the Shannon diversity index, is a healthy 89%.</p></li>
+</ul>
+<p>But then I saw way, way off-the-charts high levels of a bacterium called Xanthomonadales.  It makes up something like 16% of his entire gut bacteria. Of the dozens of biomes I’ve studied, I see this one from time to time, but never in such a high quantity. Other than Paul, the highest I’ve ever seen was in me, after returning from my 2-week campi’ng trip in New Mexico, where my total was 0.0056.  Paul’s is 2800x that amount.  Not sure what this means, but one version of that bacterium is a pathogen that lives in things like catheters; it’s usually harmless and goes away when you take out the catheter.</p>
+<p>Another quirk is his very high levels of “alpha-Linolenic acid metabolism pathway”. I don’t know what that means either, but it relates to how well the body can metabolize things like flax seed.</p>
+<p>It might be interesting to try taking a lot of flaxseed (e.g. 1/2 cup / day, raw, mixed with water or a smoothie) and see what happens.</p>
+<p>It could be that those MCP pills he’s been faithfully taking have some effect on that too.</p>
+<p>Like all concerned patients, Paul’s first stop is with his oncologist, a doctor with almost thirty years experience fighting cancer and who is very familiar with. </p>
+<p>Unfortunately, the doctor sticks to the tried and true, not because he doesn’t understand the urgency of Paul’s situation, but because he knows that over time the only way to beat cancer is through the methodical, step-by-step approach of one trial after another. <span class="citation">Garrett (<a href="#ref-garrett_cancer_2015">2015</a>)</span></p>
+</div>
+<div id="ketogenic-diet" class="section level2">
+<h2><span class="header-section-number">4.5</span> Ketogenic Diet</h2>
+<p>What happens if you eat a very low-carb, high fat diet ?</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotKeto-1.png" width="672" /></p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-garrett_cancer_2015">
+<p>Garrett, W. S. 2015. “Cancer and the Microbiota.” <em>Science</em> 348 (6230): 80–86. doi:<a href="https://doi.org/10.1126/science.aaa4972">10.1126/science.aaa4972</a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="37">
+<li id="fn37"><p>It takes up to 500 calories per day for a mother to produce enough breastmilk to feed a child (pregnancy takes only an extra 300), so nature is apparently very serious about getting this right.<a href="caseStudies.html#fnref37">↩</a></p></li>
+<li id="fn38"><p>Bjerke, G A, R Wilson, O Storrø, T Øyen, R Johnsen, and K Rudi. 2011. “Mother-to-Child Transmission of and Multiple-Strain Colonization by Bacteroides Fragilis in a Cohort of Mothers and Their Children.” Applied and Environmental Microbiology 77 (23): 8318–24. <a href="doi:10.1128/AEM.05293-11" class="uri">doi:10.1128/AEM.05293-11</a>.<a href="caseStudies.html#fnref38">↩</a></p></li>
+<li id="fn39"><p>de Weerth, C., S. Fuentes, P. Puylaert, and W. M. de Vos. 2013. “Intestinal Microbiota of Infants With Colic: Development and Specific Signatures.” PEDIATRICS 131 (2): e550–58. <a href="doi:10.1542/peds.2012-1449" class="uri">doi:10.1542/peds.2012-1449</a>.<a href="caseStudies.html#fnref39">↩</a></p></li>
+<li id="fn40"><p><span class="citation">Penders et al. (<a href="#ref-penders_new_2014">2014</a>)</span><a href="caseStudies.html#fnref40">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="experiments.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="next.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/richardsprague/mhg/edit/master/CaseStudies.Rmd",
+"text": "Edit"
+},
+"download": ["Microbiome Hackers Guide (Bookdown Edition).pdf", "Microbiome Hackers Guide (Bookdown Edition).epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

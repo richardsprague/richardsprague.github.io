@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Microbiome Hackers Guide</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you.">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+
+  <meta property="og:title" content="The Microbiome Hackers Guide" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="cover.png" />
+  <meta property="og:description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you." />
+  <meta name="github-repo" content="richardsprague/z" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Microbiome Hackers Guide" />
+  
+  <meta name="twitter:description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you." />
+  <meta name="twitter:image" content="cover.png" />
+
+<meta name="author" content="Richard Sprague">
+
+
+<meta name="date" content="2017-07-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="preface.html">
+<link rel="next" href="explore-your-microbiome.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Microbiome Hackers Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Intro</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="science.html"><a href="science.html"><i class="fa fa-check"></i><b>1</b> Learn the Science</a><ul>
+<li class="chapter" data-level="1.1" data-path="science.html"><a href="science.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="science.html"><a href="science.html#the-promise-and-disappointment-of-genetic-testing"><i class="fa fa-check"></i><b>1.1.1</b> The promise and disappointment of genetic testing</a></li>
+<li class="chapter" data-level="1.1.2" data-path="science.html"><a href="science.html#most-of-your-dna-is-not-fixed"><i class="fa fa-check"></i><b>1.1.2</b> Most of your DNA is not fixed</a></li>
+<li class="chapter" data-level="1.1.3" data-path="science.html"><a href="science.html#microbes-are-older-than-any-of-us"><i class="fa fa-check"></i><b>1.1.3</b> Microbes are older than any of us</a></li>
+<li class="chapter" data-level="1.1.4" data-path="science.html"><a href="science.html#what-they-want"><i class="fa fa-check"></i><b>1.1.4</b> What they want</a></li>
+<li class="chapter" data-level="1.1.5" data-path="science.html"><a href="science.html#whos-in-charge"><i class="fa fa-check"></i><b>1.1.5</b> Who’s in charge?</a></li>
+<li class="chapter" data-level="1.1.6" data-path="science.html"><a href="science.html#what-is-health"><i class="fa fa-check"></i><b>1.1.6</b> What is health?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="science.html"><a href="science.html#microbes-everywhere"><i class="fa fa-check"></i><b>1.2</b> Microbes everywhere</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="science.html"><a href="science.html#microbes-above-and-below"><i class="fa fa-check"></i><b>1.2.1</b> Microbes above and below</a></li>
+<li class="chapter" data-level="1.2.2" data-path="science.html"><a href="science.html#microbes-around-you"><i class="fa fa-check"></i><b>1.2.2</b> Microbes around you</a></li>
+<li class="chapter" data-level="1.2.3" data-path="science.html"><a href="science.html#microbes-and-food"><i class="fa fa-check"></i><b>1.2.3</b> Microbes and food</a></li>
+<li class="chapter" data-level="1.2.4" data-path="science.html"><a href="science.html#anti-microbials-in-food"><i class="fa fa-check"></i><b>1.2.4</b> Anti-microbials in food</a></li>
+<li class="chapter" data-level="1.2.5" data-path="science.html"><a href="science.html#fermented-food"><i class="fa fa-check"></i><b>1.2.5</b> Fermented food</a></li>
+<li class="chapter" data-level="1.2.6" data-path="science.html"><a href="science.html#fiber-and-your-gut-microbes"><i class="fa fa-check"></i><b>1.2.6</b> Fiber and your gut microbes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="science.html"><a href="science.html#microbes-and-health"><i class="fa fa-check"></i><b>1.3</b> Microbes and health</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="science.html"><a href="science.html#diversity-and-health"><i class="fa fa-check"></i><b>1.3.1</b> Diversity and health</a></li>
+<li class="chapter" data-level="1.3.2" data-path="science.html"><a href="science.html#food-allergies"><i class="fa fa-check"></i><b>1.3.2</b> Food Allergies</a></li>
+<li class="chapter" data-level="1.3.3" data-path="science.html"><a href="science.html#gluten"><i class="fa fa-check"></i><b>1.3.3</b> Gluten</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="science.html"><a href="science.html#startMouth"><i class="fa fa-check"></i><b>1.4</b> The Oral Microbiome</a></li>
+<li class="chapter" data-level="1.5" data-path="science.html"><a href="science.html#startskin"><i class="fa fa-check"></i><b>1.5</b> The Skin Microbiome</a></li>
+<li class="chapter" data-level="1.6" data-path="science.html"><a href="science.html#probiotics"><i class="fa fa-check"></i><b>1.6</b> Probiotics</a><ul>
+<li class="chapter" data-level="1.6.1" data-path="science.html"><a href="science.html#where-to-read-more"><i class="fa fa-check"></i><b>1.6.1</b> Where to read more</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="science.html"><a href="science.html#microbesHygiene"><i class="fa fa-check"></i><b>1.7</b> Hygiene</a></li>
+<li class="chapter" data-level="1.8" data-path="science.html"><a href="science.html#microbes-to-watch"><i class="fa fa-check"></i><b>1.8</b> Microbes to watch</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="science.html"><a href="science.html#other-microbes-and-digestion"><i class="fa fa-check"></i><b>1.8.1</b> Other microbes and digestion</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="science.html"><a href="science.html#other-topics"><i class="fa fa-check"></i><b>1.9</b> Other topics</a></li>
+<li class="chapter" data-level="1.10" data-path="science.html"><a href="science.html#microbes-and-behavior"><i class="fa fa-check"></i><b>1.10</b> Microbes and behavior</a></li>
+<li class="chapter" data-level="1.11" data-path="science.html"><a href="science.html#biology-basics"><i class="fa fa-check"></i><b>1.11</b> Biology basics</a><ul>
+<li class="chapter" data-level="1.11.1" data-path="science.html"><a href="science.html#the-basics"><i class="fa fa-check"></i><b>1.11.1</b> The Basics</a></li>
+<li class="chapter" data-level="1.11.2" data-path="science.html"><a href="science.html#taxonomy"><i class="fa fa-check"></i><b>1.11.2</b> Taxonomy</a></li>
+<li class="chapter" data-level="1.11.3" data-path="science.html"><a href="science.html#microbiology"><i class="fa fa-check"></i><b>1.11.3</b> Microbiology</a></li>
+<li class="chapter" data-level="1.11.4" data-path="science.html"><a href="science.html#human-anatomy"><i class="fa fa-check"></i><b>1.11.4</b> Human Anatomy</a></li>
+</ul></li>
+<li class="chapter" data-level="1.12" data-path="science.html"><a href="science.html#the-technology-for-studying-microbes"><i class="fa fa-check"></i><b>1.12</b> The technology for studying microbes</a><ul>
+<li class="chapter" data-level="1.12.1" data-path="science.html"><a href="science.html#the-16s-rrna-gene"><i class="fa fa-check"></i><b>1.12.1</b> The 16S rRNA Gene</a></li>
+<li class="chapter" data-level="1.12.2" data-path="science.html"><a href="science.html#limitations-of-16s"><i class="fa fa-check"></i><b>1.12.2</b> Limitations of 16S</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html"><i class="fa fa-check"></i><b>2</b> Explore Your Microbiome</a><ul>
+<li class="chapter" data-level="2.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-to-get-microbiome-data"><i class="fa fa-check"></i><b>2.1</b> How to get microbiome data</a></li>
+<li class="chapter" data-level="2.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#start"><i class="fa fa-check"></i><b>2.2</b> Getting Started</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#the-most-common-phyla"><i class="fa fa-check"></i><b>2.2.1</b> The most common phyla</a></li>
+<li class="chapter" data-level="2.2.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-are-you-different"><i class="fa fa-check"></i><b>2.2.2</b> How are you different?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#rawData"><i class="fa fa-check"></i><b>2.3</b> How to Use the uBiome Taxonomy Files</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#study-your-results-in-excel"><i class="fa fa-check"></i><b>2.3.1</b> Study your results in Excel</a></li>
+<li class="chapter" data-level="2.3.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#ubiome-json-taxonomy-files"><i class="fa fa-check"></i><b>2.3.2</b> uBiome JSON taxonomy files</a></li>
+<li class="chapter" data-level="2.3.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#the-ubiome-data-tags"><i class="fa fa-check"></i><b>2.3.3</b> The uBiome data tags</a></li>
+<li class="chapter" data-level="2.3.4" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#converting-ubiome-taxonomy-json-to-excel"><i class="fa fa-check"></i><b>2.3.4</b> Converting uBiome taxonomy JSON to Excel</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#comparing-samples"><i class="fa fa-check"></i><b>2.4</b> Comparing samples</a></li>
+<li class="chapter" data-level="2.5" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#make-a-single-sheet-with-all-your-samples"><i class="fa fa-check"></i><b>2.5</b> Make a single sheet with all your samples</a></li>
+<li class="chapter" data-level="2.6" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#analyze-your-ubiome-results-in-python"><i class="fa fa-check"></i><b>2.6</b> Analyze your uBiome Results in Python</a></li>
+<li class="chapter" data-level="2.7" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#working-with-fastq-files"><i class="fa fa-check"></i><b>2.7</b> Working with FASTQ files</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-sequencing-works"><i class="fa fa-check"></i><b>2.7.1</b> How sequencing works</a></li>
+<li class="chapter" data-level="2.7.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#quality-of-your-fastq"><i class="fa fa-check"></i><b>2.7.2</b> Quality of your FASTQ</a></li>
+<li class="chapter" data-level="2.7.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#study-your-fastq-online"><i class="fa fa-check"></i><b>2.7.3</b> Study your FASTQ online</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="experiments.html"><a href="experiments.html"><i class="fa fa-check"></i><b>3</b> My Experiments</a><ul>
+<li class="chapter" data-level="3.1" data-path="experiments.html"><a href="experiments.html#experimentSummary"><i class="fa fa-check"></i><b>3.1</b> Overall Summary of My Experiments</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="experiments.html"><a href="experiments.html#variability-through-time"><i class="fa fa-check"></i><b>3.1.1</b> Variability through time</a></li>
+<li class="chapter" data-level="3.1.2" data-path="experiments.html"><a href="experiments.html#firmicutes-and-obesity"><i class="fa fa-check"></i><b>3.1.2</b> Firmicutes and obesity</a></li>
+<li class="chapter" data-level="3.1.3" data-path="experiments.html"><a href="experiments.html#diversity"><i class="fa fa-check"></i><b>3.1.3</b> Diversity</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="experiments.html"><a href="experiments.html#kefir"><i class="fa fa-check"></i><b>3.2</b> Kefir and the Microbiome</a></li>
+<li class="chapter" data-level="3.3" data-path="experiments.html"><a href="experiments.html#jungleTravel"><i class="fa fa-check"></i><b>3.3</b> Traveling through the jungle</a></li>
+<li class="chapter" data-level="3.4" data-path="experiments.html"><a href="experiments.html#experimentMexico"><i class="fa fa-check"></i><b>3.4</b> Traveling in Mexico</a></li>
+<li class="chapter" data-level="3.5" data-path="experiments.html"><a href="experiments.html#experimentCamping"><i class="fa fa-check"></i><b>3.5</b> Camping</a></li>
+<li class="chapter" data-level="3.6" data-path="experiments.html"><a href="experiments.html#do-probiotics-work"><i class="fa fa-check"></i><b>3.6</b> Do Probiotics Work?</a></li>
+<li class="chapter" data-level="3.7" data-path="experiments.html"><a href="experiments.html#experimentDentist"><i class="fa fa-check"></i><b>3.7</b> Visiting the dentist</a></li>
+<li class="chapter" data-level="3.8" data-path="experiments.html"><a href="experiments.html#experimentCleanse"><i class="fa fa-check"></i><b>3.8</b> Experiment: Gut Cleanse</a></li>
+<li class="chapter" data-level="3.9" data-path="experiments.html"><a href="experiments.html#kombucha"><i class="fa fa-check"></i><b>3.9</b> Kombucha</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="experiments.html"><a href="experiments.html#experiment"><i class="fa fa-check"></i><b>3.9.1</b> Experiment</a></li>
+<li class="chapter" data-level="3.9.2" data-path="experiments.html"><a href="experiments.html#study-the-data-in-r"><i class="fa fa-check"></i><b>3.9.2</b> Study the data in R</a></li>
+<li class="chapter" data-level="3.9.3" data-path="experiments.html"><a href="experiments.html#going-further"><i class="fa fa-check"></i><b>3.9.3</b> Going further</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="experiments.html"><a href="experiments.html#conclusions"><i class="fa fa-check"></i><b>3.10</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="caseStudies.html"><a href="caseStudies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="caseStudies.html"><a href="caseStudies.html#father-and-son"><i class="fa fa-check"></i><b>4.1</b> Father and son</a></li>
+<li class="chapter" data-level="4.2" data-path="caseStudies.html"><a href="caseStudies.html#a-baby-microbiome"><i class="fa fa-check"></i><b>4.2</b> A baby microbiome</a></li>
+<li class="chapter" data-level="4.3" data-path="caseStudies.html"><a href="caseStudies.html#alzheimers-and-the-microbiome"><i class="fa fa-check"></i><b>4.3</b> Alzheimers and the microbiome</a></li>
+<li class="chapter" data-level="4.4" data-path="caseStudies.html"><a href="caseStudies.html#colorectal-cancer"><i class="fa fa-check"></i><b>4.4</b> Colorectal Cancer</a></li>
+<li class="chapter" data-level="4.5" data-path="caseStudies.html"><a href="caseStudies.html#ketogenic-diet"><i class="fa fa-check"></i><b>4.5</b> Ketogenic Diet</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="next.html"><a href="next.html"><i class="fa fa-check"></i><b>5</b> Go Further</a><ul>
+<li class="chapter" data-level="5.1" data-path="next.html"><a href="next.html#beyond-bacteria"><i class="fa fa-check"></i><b>5.1</b> Beyond Bacteria</a></li>
+<li class="chapter" data-level="5.2" data-path="next.html"><a href="next.html#fermented-food-1"><i class="fa fa-check"></i><b>5.2</b> Fermented Food</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="next.html"><a href="next.html#yogurt"><i class="fa fa-check"></i><b>5.2.1</b> Yogurt</a></li>
+<li class="chapter" data-level="5.2.2" data-path="next.html"><a href="next.html#pickling"><i class="fa fa-check"></i><b>5.2.2</b> Pickling</a></li>
+<li class="chapter" data-level="5.2.3" data-path="next.html"><a href="next.html#whats-happening-in-sauerkraut"><i class="fa fa-check"></i><b>5.2.3</b> What’s happening in sauerkraut</a></li>
+<li class="chapter" data-level="5.2.4" data-path="next.html"><a href="next.html#more-fermentation"><i class="fa fa-check"></i><b>5.2.4</b> More fermentation</a></li>
+<li class="chapter" data-level="5.2.5" data-path="next.html"><a href="next.html#pickled-ginger"><i class="fa fa-check"></i><b>5.2.5</b> Pickled Ginger</a></li>
+<li class="chapter" data-level="5.2.6" data-path="next.html"><a href="next.html#pickled-cucumbers"><i class="fa fa-check"></i><b>5.2.6</b> Pickled cucumbers</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="next.html"><a href="next.html#annotated-references"><i class="fa fa-check"></i><b>5.3</b> Annotated References</a></li>
+<li class="chapter" data-level="5.4" data-path="next.html"><a href="next.html#favoriteBooks"><i class="fa fa-check"></i><b>5.4</b> My favorite books about the microbiome</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html"><i class="fa fa-check"></i><b>6</b> Other Books Worth Having in the Pile</a><ul>
+<li class="chapter" data-level="6.0.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#not-recommended"><i class="fa fa-check"></i><b>6.0.1</b> Not Recommended</a></li>
+<li class="chapter" data-level="6.0.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#other"><i class="fa fa-check"></i><b>6.0.2</b> Other</a></li>
+<li class="chapter" data-level="6.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#best-academic-papers"><i class="fa fa-check"></i><b>6.1</b> Best Academic Papers</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#popular-topics"><i class="fa fa-check"></i><b>6.1.1</b> Popular Topics</a></li>
+<li class="chapter" data-level="6.1.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#academic-papers"><i class="fa fa-check"></i><b>6.1.2</b> Academic Papers</a></li>
+<li class="chapter" data-level="6.1.3" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#general-overview"><i class="fa fa-check"></i><b>6.1.3</b> General Overview</a></li>
+<li class="chapter" data-level="6.1.4" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#historic-papers"><i class="fa fa-check"></i><b>6.1.4</b> Historic Papers</a></li>
+<li class="chapter" data-level="6.1.5" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#self-tracking"><i class="fa fa-check"></i><b>6.1.5</b> Self-tracking</a></li>
+<li class="chapter" data-level="6.1.6" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#diet"><i class="fa fa-check"></i><b>6.1.6</b> Diet</a></li>
+<li class="chapter" data-level="6.1.7" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#population-studies"><i class="fa fa-check"></i><b>6.1.7</b> Population studies</a></li>
+<li class="chapter" data-level="6.1.8" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#enterotypes"><i class="fa fa-check"></i><b>6.1.8</b> Enterotypes</a></li>
+<li class="chapter" data-level="6.1.9" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#large-population-summaries"><i class="fa fa-check"></i><b>6.1.9</b> Large population summaries</a></li>
+<li class="chapter" data-level="6.1.10" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#methods"><i class="fa fa-check"></i><b>6.1.10</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#other-resources"><i class="fa fa-check"></i><b>6.2</b> Other Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="acknowledgments.html"><a href="acknowledgments.html"><i class="fa fa-check"></i><b>7</b> Acknowledgments</a><ul>
+<li class="chapter" data-level="7.1" data-path="acknowledgments.html"><a href="acknowledgments.html#style-guide"><i class="fa fa-check"></i><b>7.1</b> Style guide</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>8</b> References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Microbiome Hackers Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="science" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Learn the Science</h1>
+<p>Living microbes are found everywhere on earth, often in surprising places. Let’s look at some examples to get an idea of how ubiquitous and hardy they can be, and then we’ll back up with a short intro to the science of biology. Finally, we’ll discuss how scientists study the human microbiome.</p>
+<div id="overview" class="section level2">
+<h2><span class="header-section-number">1.1</span> Overview</h2>
+<div id="the-promise-and-disappointment-of-genetic-testing" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> The promise and disappointment of genetic testing</h3>
+<p>If you want to optimize your health, you’ll eventually need to understand more about your genes. Wearable devices like FitBit or Apple Watch, or a nutrition or dieting app like MyFitnessPal, can help optimize some aspects of your physical body but hard work and discipline will take you only so far. As you reach the limits of how much you can change, you’ll settle into the discovery that the genetic component is undeniable. Over 1 million customers of the genetic testing company 23andme have opted to look at their genes in part to understand better what their own limits are.</p>
+<p>Genes do seem important. Everything from twin studies to laboratory experiments with knock-out mice shows that large parts — perhaps the major part — of our health and even behaviors are determined as much by our genetic makeup as by the environment in which we put ourselves. Still, despite much progress since the unveiling of the Human Genome Project in 2001, there are frustratingly few examples of genes that decisively determine one trait or another. Except for a few simple cases like eye or hair color, most genes seem merely to increase or decrease the odds one way or another. When you read the details about your own genes, you’ll be disappointed at how little about genetic testing is truly insightful. Did you really need a DNA test to tell you that you are lactose intolerant?</p>
+<p>Worse, even when the science tells you something you didn’t know — your likelihood of Alzheimers or Grave’s disease — there often isn’t much you can do about it besides eat healthy and get plenty of exercise. In fact, with disappointingly few exceptions, nearly all conclusions you’ll get with DNA results will be advice you should be doing anyway.</p>
+<p>What’s an optimizer to do? On the one hand, the evidence is powerful that genes determine much or most of your health, but on the other hand, you can’t do much about it beyond the obvious. The results of human DNA testing just aren’t all that actionable.</p>
+<p>Fortunately, one of the most exciting consequences of the latest science on human genetics is the role played by other genes in your body. And the best news: you can change them! And you don’t need a fancy laboratory with complicated equipment for recombinant DNA. This book will show you how, through experiments on the types of food you eat and deliberate changes you can make in your environment, you can make a significant difference in kinds and functions of the genes inside you.</p>
+</div>
+<div id="most-of-your-dna-is-not-fixed" class="section level3">
+<h3><span class="header-section-number">1.1.2</span> Most of your DNA is not fixed</h3>
+<p>If you could zap me with a scanner that can break down everything in my body, all the physical “hardware” inside me right now, you’d find a curious fact: although it’s true that 99% of the weight and size of what you see is human (blood, skin, bones, organs, etc.), only about half of the <em>cells</em> are human, and even less than that — perhaps as little as 1% — of the DNA-carrying genes are human.</p>
+<p>What’s the rest? Who am I, if only 1% of the genes inside me are human? The answer is microbes, and as befits something that so outnumbers the “human” part of us, they play a large role in everything about what we do, from our health to our moods and even to our motivations. These microbes and the important DNA they carry are constantly changing, sometimes quite significantly, depending on what you eat, who you’re with, and a host of other factors that you can manipulate.</p>
+</div>
+<div id="microbes-are-older-than-any-of-us" class="section level3">
+<h3><span class="header-section-number">1.1.3</span> Microbes are older than any of us</h3>
+<p>We tend to think of the invisible, single-celled microbes as “primitive”, not nearly as “advanced” as we humans, with our marvelous brains and ability to transform the earth with airplanes and skyscrapers and nuclear reactors and all the rest. But that’s what we would think, wouldn’t we? In fact, the microbes are everywhere, literally everywhere on earth, in the sky, even deep underground. We can’t go anywhere without encountering microbes because, well, there are even microbes on and inside us. Humans can’t survive without microbes. So what does it even mean to say we’re “better” or more “advanced” than they are?</p>
+<p>Before the microscope, people didn’t even know that microbes existed. Similarly, until the advent of large-scale gene sequencing machines in the past ten years, almost nothing was known about the amazing ubiquity and resilience of microbes. Yes, they’re single-celled and yes many of their cellular functions seem more straightforward than the functions of a multi-cellular creature like us, but it would be a mistake to assume that means microbes – collectively – are less influential, and certainly it would be a big error to assume they are less important. Fact is, these organisms have been around, breathing, eating, multiplying, for billions of years, often in pretty much the same form that they are today. These things have survived every imaginable planetary condition from volcanoes to the depths of the ocean to the inside of nuclear reactors. Global Warming means nothing to these guys, who have seen and thrived all over the earth since the day life first appeared.</p>
+</div>
+<div id="what-they-want" class="section level3">
+<h3><span class="header-section-number">1.1.4</span> What they want</h3>
+<p>Because they have such a huge advantage over us, in lifespan (each microbe is an exact divided copy of itself, going back a zillion generations), in speed of replication (they can double in just a few minutes under the right conditions), and ubiquity (as I said, cellwise they far outnumber us), they can afford to colonize every new imaginable environment.</p>
+<p>And that’s what they do, every time a new frontier opens to them. The moment of your birth, for example, when you left the (mostly) sterile conditions of your mother’s womb, they immediately flooded all over your skin, mostly coming from your mother, and in that fresh environment they used their first-mover advantage to get a stronghold that in many cases lasts your entire life. Many (most?) of the microbes that matter arrived inside you this way, originally, and many of them are still there today, decades, even half a century or more later.</p>
+<p>To survive, they need one thing: something to eat. Being so tiny, they don’t need much, and they mostly eat things that you (and other larger creatures) weren’t interested in anyway. (Or, since they were here first, it’s probably more accurate to say that you and I must live on the foods that they don’t want. A cheeseburger is only food for you because you snatch it faster than they do. Leave it outside for a while and they’ll get it eventually).</p>
+</div>
+<div id="whos-in-charge" class="section level3">
+<h3><span class="header-section-number">1.1.5</span> Who’s in charge?</h3>
+<p>Collectively, the multitude species of microbes will eat just about everything, but individually each species has its preferences. When they’re outside the body, as I said, they can “colonize” new territories (like fresh baby skin) to get what they want, but those inside your tummy are at the mercy of whatever it is you decide to put into your mouth.</p>
+<p>Often, that’s not a big deal: many species thrive on the same proteins, carbohydrates, and fats that you do. But some species do better than others with certain types of foods, and this is where the line between your human desires and theirs becomes unclear.</p>
+<p>Eighty percent of all your brain’s outside receptors – counting all the nerve endings everywhere on your skin – eighty percent complete their connections in the gut. The main switching grounds, an area called the vagus nerve, does <em>something</em>. What? We know very little, but we see some evidence that the purpose – the reason that not 1% or 10% or 50% but a full 80% of all the receptors go to the gut – is so the microbes can tell your brain what to do.</p>
+<p>When you find yourself feeling hungry, ask yourself who is feeling hungry. Scientists have traced that feeling of hunger to changes in certain hormones like leptin, but wait – why did the leptin levels change in the first place? Could it be that a microbes someplace was manipulating your leptin levels, perhaps by poking that vagus nerve just the right way – to get your brain to start thinking about whatever food that microbe wants?</p>
+<p>This isn’t as ridiculous as it sounds, the idea that microbes could influence your feelings and desires. Think about a disease like the rabies microbe. Because it spreads through saliva, it can’t find new territory unless its host somehow finds itself exchanging saliva – biting – another potential host. So guess what a rabies victim can’t stop thinking about? Biting a new victim. The microbe literally puts a thought into the mind.</p>
+<p>There are many other examples, so many in fact as to be potentially a bit disturbing when we realize that we humans may be much more at the mercy of tiny microbes than we think. Links have been made between microbes and schizophrenia, stress, anxiety, self-grooming, and much more. Autism Spectral Disorders, which have always seemed puzzling because of the relationship they seem to have with digestive problems, are also linked to microbes, or the lack thereof.</p>
+<p>Perhaps the most intriguing example is the common parasite <em>Toxoplasma gondii</em>, the strange organism that can only reproduce in the intestines of cats. A parasite seen often in all warm-blooded mammals, it’s found in about a third of the global population of humans too. It’s one of the reasons they tell pregnant women to stay away from cat litter. But here’s the interesting part: when a Toxo protozoa infects a mouse, it leaves cysts in the mouse brain that make it attracted to cat urine! Yes, it changes the neurology of a mouse so that it’s more likely to end up inside a cat’s tummy – exactly where it can reproduce.</p>
+<p>Think about this too much, and you’ll end up with the obvious question: what other weird microbes are infecting us right now? Can we explain some of our own behaviors this way? Is there a human equivalent of these infections, driving us to do things we “ordinarily” wouldn’t do? And maybe these microbes are so ubiquitous, teeming all over us and in our brains, maybe there’s no way to even know what “ordinary” or “normal” human behavior is.</p>
+</div>
+<div id="what-is-health" class="section level3">
+<h3><span class="header-section-number">1.1.6</span> What is health?</h3>
+<p>Modern, western medicine tends to think reductively about health, dividing the body into pieces like organs and cells and prescribing interventions that target one particular aspect of the whole, with specific drugs or supplements. But of course nothing as complex as the body and health can be simplified this much. Maybe you can’t really think about human hardware without thinking about the whole ecology that goes with it, the various organisms live in and around us and greatly outnumber us.</p>
+<p>When you think this way, then suddenly “health” takes on a whole new meaning, because we’re no longer talking about the status of a single organism – me – but rather about the entire functioning ecosystem of many, many living things, including the “me” that I want to refer to as a human. You can’t survive long without these microbes any more than you can survive without air. This whole “me”, sometimes referred to as the “holobiont”, is perhaps the true unit of what it means to be human and healthy.</p>
+</div>
+</div>
+<div id="microbes-everywhere" class="section level2">
+<h2><span class="header-section-number">1.2</span> Microbes everywhere</h2>
+<p>Despite its importance, the microbiomial world is invisible. Like fish unaware of water, we are literally bathed in living, eating, reproducing lifeforms of suprising obstinance that have unexpected but important effects on the world we <em>can</em> see.</p>
+<p>Life is tenacious, fighting for and keeping its niche in just about every environment it encounters. In the sky, deep underground, in the most barren habitats cold or hot anywhere on earth, there are lifeforms. The vast majority of these are microbes, so small we can’t see them, but small doesn’t mean irrelevant. In fact, the more that science understands about the invisible microbial world, the more it becomes clear that these uncountably numerous creatures exert a much bigger effect than we think.</p>
+<p>Every traditional culture recognizes a role for the invisible, often translated with words like “spirit” or “life force”, sometimes with more expressive terms like “angels”, “demons”, “gods” or even, simply, “God”. It’s tempting to dismiss these invisible forces as so much superstition, as though truth is made only of things we can see, but of course that’s not quite true either. With the right instruments, we <em>can</em> see many invisible things; some of the greatest discoveries happen when a new gadget like a microscope or telescope makes people aware of a world that was previously hidden.</p>
+<p>The invisible world of microbes is like that, with new, low-cost technologies showing us incredible, rich, living universes waiting to be explored.</p>
+<p>The word “microbe” refers to any tiny organism that carries its own genetic information for purposes of propagating itself. Far too small to see with the naked eye, dozens could fit inside a typical human cell. Although it’s common to think of microbes and bacteria as the same thing, in fact there are at least seven different types of microorganism: bacteria, extremophile life forms called archaea that live and thrive in environments too challenging for bacteria, protozoa, algae, fungi, viruses, and some multi-cellular animal parasites such as helminths. Each of these has its own characteristic body type, means of reproduction, and ways of moving around.</p>
+<p>Let’s look next at some of these environments and see the odd places where microbes have been found.</p>
+<div id="microbes-above-and-below" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Microbes above and below</h3>
+<p>Even the sky contains living microbes. Scientists at the Institut de Chimie de Clermont-Ferrand in France have for decades sampled clouds to determine their precise contents, and sure enough: they finds plenty of life there, usually between 1,000 and 10,000 bacterial cells per milliliter — not all that different from the amount <a href="http://www.livescience.com/26645-microbes-in-the-sky.html">you’d find in alpine snow</a>. Like every living organism, these cells must soak up water and other nutrients, converting them into energy and various by-products, which collectively have a massive effect on the overall atmosphere, more than enough to affect climate.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<p><img src="assets/scienceMicrobesSky.jpg" /><!-- --></p>
+<p>source: <a href="http://www.asmscience.org/content/journal/microbe/10.1128/microbe.7.119.1">ASMScience</a></p>
+<p>The upper atmosphere is a harsh place for life: regular freezing and thawing, constant bombardment of UV radiation from the sun during the day, cold, subzero freezing temperatures at night, high speed, unpredictable winds that quickly disperse any colonies. Plus, at any moment these organisms can find themselves flushed to the ground in a rainstorm, where they’ll need to adapt again.</p>
+<p>These extreme conditions are just another day in the life for one species commonly found in clouds, <em>Pseudomonas syringae</em>, which harbors a protein in its cellular wall that reacts to cold temperatures, alternately preventing and allowing a water molecule to turn into ice and back. It doesn’t take many of these reactions to generate precipitation. With so many cells constantly floating in the atmosphere, even small changes in concentration — perhaps due to human activity on the ground — can, at least theoretically, make the difference between rainfall and drought. How much of an effect is hard to say: you can imagine how difficult it is to study bacteria floating in the sky.</p>
+<p>Our inability to access these environments is often the biggest reason we remain ignorant of the life that is found there, but there have been many attempts to learn more. Formal studies about the viability of microbes in space have been conducted since the early 1960s,<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> when Apollo-era scientists wanted to understand the dangers of space travel, both to any humans in space as well as to those of us on the ground who might be exposed to any intersteller visitors. Although new and bizarre extremophiles are discovered regularly, so far it appears that even the hardiest of known organisms have a tough time when directly exposed to solar ultraviolet radiation. But the particularly resilient spore-making <em>Bacillus subtilis</em>, for example, it is estimated could survive for at least six years if it were shielded somehow from direct sunlight, say embedded inside a meteorite.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
+<p>Several lichen species, including rock colonizing <em>Rhizocarpon geographicum</em> and <em>Xanthoria elegans</em>, and the vagrant <em>Aspicilia fruticulosa</em>, remained alive after ten days of direct UV exposure on board a European Space Agency spacecraft.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> Some especially hardy cyanobacteria that came with the lichens didn’t survive, so perhaps space offers a better chance for multicellular life, which has the luxury of outer protective pigmented layers.</p>
+<p>Traces of plankton, for example, have been found in space, on the surface of the International Space Station, where they are believed to have floated from the upper atmosphere.<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> Why?! How did they get there! Who knows!</p>
+<p>What is known is that between a quarter and two-thirds of microbes in the air are entirely new and undiscovered organisms. A study of the “air microbiome” above New York City found bacteria and viruses that apparently originated in water, soil, vegetation, as well as in animals and humans, but even then few patterns emerge. Although there appear to be distinct microbial environments, on the land versus water, for example, overall many of these organisms are quite hardy and seem to find themselves migrating all over the place.</p>
+<p>Scientists studying a water-filled fracture two miles underground at the Mponeng gold mine near Johannesburg, South Africa, discovered <em>Candidatus Desulforudis audaxviator</em> by accident, after noticing odd levels of hydrogen compounds, by-products of the activity of an isolated bacterial colony.<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> Interestingly, this organism is a member of the same <em>Firmicutes</em> phylum that dominates human guts, though this particular bacterium evolved quite separately from us: it hasn’t been exposed to surface water for millions of years. A systematic study of its genome revealed that, unlike other bacteria that usually live in co-dependent colonies, this one can survive all by itself, feeding on tiny bits of radioactive energy from uranium decay in an environment far removed from all other energy sources. It’s not a great life: these creatures reproduce rarely, only once every few hundred or thousand years. But at least they don’t have to worry about being consumed by predators down there.</p>
+<p>Subglacial Lake Whillans is a lake buried under more than 800 meters of ice in the West Antarctic. <a href="http://www.nature.com/nature/journal/v512/n7514/full/nature13667.html">A careful underground bore hole</a> inserted by a team from Louisiana State University in 2014 found more than 4,000 different species of bacteria surviving under that ice. The total bacterial count was not that different from what you’d find in surface lakes on other parts of the planet, a fact that is especially surprising for an environment that hasn’t had a ray of light in millions of years. The bacteria instead thrive on iron, sulphur, and nitrogen as energy sources.<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a></p>
+<p>Those may not be the deepest examples. A Cold War-era Soviet team drilling the world’s deepest hole, were forced to abandon the project in 1994 at 12,261 meters (or 7.5 miles) underground, when they hit temperatures above 180 °C (or 356 °F), too hot for their equipment. Apparently the conditions weren’t too hot for life, though: the nine-inch diameter Kola Superdeep Borehole<a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> found 24 species of fossilized plankton among the two-billion-year-old rocks down there. Of course, fossils are not the same thing as living microbes, but even dead remnants at that depth is evidence of the tenacity of life.</p>
+<p>Still other microbes thrive in radioactive environments, like the dangerous interior of a nuclear reactor. <em>Deinococcus radiodurans</em> is an extremophile member of Phylum Deinococcus-Thermus that boasts an impressive built-in DNA repair mechanism that lets it survive cold, vacuum, acid, light, dehydration – you name it. It remains unbothered by radiation levels more than 1,000 times higher than would kill a human.</p>
+<p>Microbes seem capable of living off just about anything. <em>Ideonella sakaiensis</em>, discovered in 2016 by a Japanese team<a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a>, can break down and metabolize plastic. Termites owe their ability to eat wood to a whole community of synergistic bacteria, archaea, and protists. Aphids can’t live off sap without <em>Buchnera</em>, a microbe that supplies them with essential amino acids.</p>
+<!--
+![Deinococcus radiodurans](https://upload.wikimedia.org/wikipedia/commons/7/73/Deinococcus\_radiodurans.jpg)
+-->
+<p><img src="assets/scienceRadiodurans.jpg" /><!-- --></p>
+</div>
+<div id="microbes-around-you" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> Microbes around you</h3>
+<p>You don’t have to go to extreme conditions to find unusual microbes. Microbes thrive whereever humans live, and they are in our everyday environment too. The recent PathoMap study of DNA collected from the New York City subway found that, like the air above, half of the microbes we walk past everyday are unknown to science.<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> Most of the organisms are apparently benign, with no obvious affect on humans one way or another. Even when known pathogens are found, including <em>Yersinia pestis</em> (Bubonic plague) and <em>Bacillus anthracis</em> (anthrax), the lack of reported infections indicates that probably these organisms are busying themselves for some other, unknown, and maybe even useful purpose<a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a></p>
+<p><img src="http://www.cell.com/cms/attachment/2054936429/2060898672/gr1.jpg" /><!-- --></p>
+<p>Generally the microbes seem content to exist patiently with no apparent affect on the environment. A station flooded by Hurricane Sandy showed a similarity to a marine environment a year after the disaster.</p>
+<p>Humans are the source of many unusual microbes in our environment. Regularly shedding 1.5 million skin cells per hour, leftover inhabitants of our bodies can colonize a hotel room in less than six hours.<a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a></p>
+<p><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655107/" class="uri">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655107/</a> We found that infants living with pets had significant over-representation of <em>Clostridiaceae</em>, <em>Veillonella</em> (especially for dogs), <em>Peptostreptococcaceae</em> and Coprococcus. <em>Bifidobacteria</em> were under-represented among infants living with pets (especially for cats). For dogs only, there was also under-representation of Eggerthella</p>
+</div>
+<div id="microbes-and-food" class="section level3">
+<h3><span class="header-section-number">1.2.3</span> Microbes and food</h3>
+<p>We like our food pure and clean, and so do microbes. Well, <em>some</em> microbes. Freshly-washed produce is a just a colonization opportunity for many species, for whom the lack of competition is a shot at a fresh start.</p>
+<p>Before washing, plants are covered in microbes, from the flowers and branches to the roots. Seeds planted in sterilized soil will germinate, but can’t grow regardless of the nutrients, water, or sunlight you give them. The relationship between soil bacteria and plants is a complicated and understudied one, but what is known is that every plant hosts its own unique species of microbe in a symbiotic relationship as tight as any on earth. The microbes tangled in the roots of a corn or wheat plant, for example, are highly specific to that particular strain. Swap out the microbes, or – worse – sterilize the soil, and the plant can’t take advantage of the nutrients sitting right at hand, because they are in a form that is useless until digested by microbes.</p>
+<p>After harvest and processing, our meals still contain a surprising variety of microbes. Of course, sometimes this is deliberate: some of us eat fermented foods like sauerkraut or yogurt to ingest the microbes that were grown to make their special flavor or texture. But even everyday foods, like raw vegetables, will naturally be covered with healthy levels of microbes.</p>
+<p>You will ingest somewhere between 1.4 million and 1.3 trillion microbes per day, depending on what type of diet you follow. Eat according to USDA guidelines and you’ll be at the high end of the range, emphasizing fruits and vegetables, lean meat, dairy, and whole grains; the lower end is more typical of a vegan diet, or even a typical American convenience food-style diet of “junk food”. Interestingly, you’ll get roughly the same diversity of microbes no matter which diet you follow, although there can be a difference depending on whether the food is raw or cooked.<a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a></p>
+<p>We eat plants for their nutrients, but what exactly counts as a “nutrient” is often in the eye of the beholder. Plants don’t like to be eaten any more than the rest of us, and they have developed powerful defense mechanisms to keep out predators, including microbes. In fact, it’s those anti-microbial properties that make many plants medicinally useful. One estimate showed that of 18,000 plants available to Native Americans, only 1,625 were used as food; but 2,564 were used as drugs, many of which are specifically there to manipulate microbes.<a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a> Extrapolate that to the estimated 500,000 different plants on earth, only about 1-10% of which are useful as foods to humans, and it becomes clear that microbes play a big role in which plants thrive and which don’t.</p>
+<p>You’re not necessarily immune from accidental antibiotic ingestion if you simply avoid eating antibiotic-treated meat. Between 70% - 90% of the antibiotics given to farm animals are ultimately discharged in their manure, which if administered as fertilizer, can coat the soil used for growing food plants. Although antibiotics naturally degrade over time, the process can take months and under many conditions, giving ample time to be taken up in to plants that we eat, so even hard-core vegans may be getting more antibiotics than they like.<a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a></p>
+<p>Meanwhile, junk food doesn’t necessarily wreck your microbiome as much as you’d think. Careful experiments show surprisingly few differences between mice fed a high fructose, high fat diet – unless there was something else messed up to begin with<a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a></p>
+<p>And what about microbes in the kitchen? When food is contaminated by bacteria, in the vast majority of cases, the source is fecal. In other words, it’s relatively rare for raw food to be contaminated by something from within – the danger is almost always from pathogens that are brought in during food preparation.<a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a></p>
+</div>
+<div id="anti-microbials-in-food" class="section level3">
+<h3><span class="header-section-number">1.2.4</span> Anti-microbials in food</h3>
+<p>Even plants that depend on pollinators, or those that spread their seeds by being ingested by birds, don’t necessarily like to be eaten whole and completely. Leafy grasses attract ruminants like cows or sheep with large tasty fibrous leaves that the plant offers in order to bring in the high-nitrogen feces that will help the plants grow better.</p>
+<p>See one list of known plant-derived antimicrobials <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC88925/table/T1/">here</a>.</p>
+<p>One powerful deterrent to insects is the chemical caffeine, produced in abundance by plants in the genus <em>Coffea</em>, including the species <a href="https://en.wikipedia.org/wiki/Coffea_arabica"><em>Coffea arabica</em></a>, commonly known as coffee. A powerful toxin against insect invaders, caffeine in the seeds of this plant will kill nearly all invaders. In fact, few insects are known to have any tolerance to caffeine –ensuring that the plant can continue to reproduce unmolested by predators.</p>
+<p>But no matter how clever, these self-defense mechanisms aren’t foolproof. One beetle, the coffee berry borer is a notorious bane of Brazilian coffee growers for the way it munches on the coffee beans without any ill effects. When scientists studied this pest, they discovered something missing in the berry borer’s feces: caffeine.<a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a> How could these bugs eat so much caffeine without becoming poisoned? The reason turned out to be <em>Pseudomonas fulva,</em> a tiny inhabitant of the beetle’s gut, and the only microbe with a gene called ndmA that can metabolize caffeine. Borer beetles without this microbe accumulate large amounts of unmetabolized caffeine and are unable to reproduce.</p>
+</div>
+<div id="fermented-food" class="section level3">
+<h3><span class="header-section-number">1.2.5</span> Fermented food</h3>
+<p>In some foods, living microbes aren’t along just for the ride – they <em>are</em> the ride. Most raw foods will quickly spoil if left uneaten for too long. We say “spoiled”, but really we mean the food is consumed by bacterial species who leave by-products that are not edible or pleasant for humans.</p>
+<p>Under the right circumstances, though, food can</p>
+<p>Before refrigerators, the long-term preservation of food</p>
+<p>Yes, much of that yogurt makes it past the stomach and into the gut.</p>
+</div>
+<div id="fiber-and-your-gut-microbes" class="section level3">
+<h3><span class="header-section-number">1.2.6</span> Fiber and your gut microbes</h3>
+<p>Short-chain fatty aides (SCFA) created when gut bacteria break down fiber.</p>
+<p>Pulverising and juicing reduces fiber content.  e.g. whole wheat grains have 12g, but fine-ground has only 3g.  a 200ml bottle of orange juice has 1.5g fiber, but four oranges has 12.</p>
+<p>The best overview of microbes and food is <span class="citation">Scott et al. (<a href="#ref-scott_influence_2013">2013</a>)</span></p>
+<hr />
+</div>
+</div>
+<div id="microbes-and-health" class="section level2">
+<h2><span class="header-section-number">1.3</span> Microbes and health</h2>
+<p>The great French scientist Louis Pasteur, working as a physician in the 1800s, was the first to popularize the idea that the world is covered in <em>germs</em>, invisible agents that he associated with food spoilage and disease. Simple steps at hygiene, he discovered, could make conditions inhospitable for them, enabling better food storage and dramatically fewer illnesses. Working as a chemistry professor in the 1850s, one of his students, the son of a local wine manufacturer, sought his help to solve problems with souring. Subsequent investigations led him to conclude that invisible yeasts were the culprit, and that exposure to air could affect the rate of fermentation. Pasteur’s emphasis on controlling these microbes led to a general association of germs as pathogens, a bad, even evil force that we must destroy, every single time. The only good germ is a dead germ.</p>
+<p>And for good reason. The development of effective disinfectants, and then antibiotics – germ killers –- was one of the greatest medical achievements of all time, saving the lives of a significant fraction of the human race. Before Pasteur, urban life was a precarious game of chance against diseases that seemed to come and go randomly. Thanks to the development of the Germ Theory of Disease, it was suddenly possible to imagine a world where deadly illnesses and infections could be controlled and perhaps eliminated. Now, every day of your life, modern amenities like running water and flush toilets keep you healthy simply by controlling the growth of microbes.</p>
+<p>Some can be quite nasty. The bacterium that causes Cholera, <a href="https://en.wikipedia.org/wiki/Vibrio_cholerae"><em>Vibrio cholerae</em></a>, after infecting the small intestine, promptly hijacks the body’s natural defense systems into sending a large stream of water through the colon to flush out all other bacteria. Normally, this would be an appropriate response to an invasion, but by hiding above the colon, <em>Vibrio cholerae</em> continues to breed above the main flow of water. The resulting diarrhea is so fierce that the patient is literally unable to drink enough to make up for the outflow, and dies of dehydration within days. And in a final act of cruelty, that water that the body pushes out so fiercely is itself full of <em>V. cholerae</em>, who use the opportunity to infect others who come in contact with the water.</p>
+<p>Campylobacter jejuni: food poisoning from raw chicken</p>
+<p>The toxins produced by the <em>Clostridium</em> genus are among the most dangerous. Botulism (C. <em>Botulinin</em>) Tetanus ( <em>C. tetani</em>), gangrene (<em>C. perfringens</em>), and of course C. <em>Dificile</em>.</p>
+<p>Some bacteria simply use the darkness and wet warmth of the colon as a breeding ground, happily feasting on the materials they find there. They cause trouble not by what they eat, but by what they excrete: nasty toxins that mess up some other part of the body. <em>Clostridium botulinum</em> produces the neurotoxic protein botulinum that can weaken or freeze nerve cells. The most acutely lethal toxin known – only 2 billionths of a gram can kill – botulinum is almost as deadly to people as the plutonium in a nuclear bomb. Just a few pounds under the right conditions would kill everyone on earth.</p>
+<p>Part of what makes pathogens so dangerous is it takes so few of them to be deadly. Some <em>Shigella</em> species, for example, become infectious with a starter colony of as few as ten organisms.<a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a></p>
+<p>With such terrible killers lurking out there, it’s tempting to divide all microbes into “bad” (pathogenic), “good” (probiotic) and “neutral” (commensal). You’ll find plenty of lists that do just that.</p>
+<p>But often, perhaps usually, the distinction between good and bad is unclear. Consider the “viridans” Streptococci, a group name for a whole breed of related microbes commonly found harmlessly in human mouths. If a few of these escape the mouth and somehow enter the bloodstream, they can land on a heart valve and can cause a dangerous, life-threatening infection. But inside the mouth they are tough competitors to other bacteria that may want a foothold, like the <em>Streptococcus</em> that causes Strep Throat. Mix Viridans with Strep A, and Viridans wins every time. So is it good or bad? Well, it’s bad if your Viridans makes it to the heart; but in its regular form it protects you from other infections.<a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a></p>
+<p>People with <em>Streptococcus lugdunensis</em> in their noses appear protected from some staph infections, probably because <em>S. Lugdunensis</em> produces a microbial antibiotic to kill off its competitors. But <em>S. lugdunensis</em> can itself cause skin infections.</p>
+<p>Often it’s the context that matters. <em>Staphylococcus aureus</em>, found in about a quarter of all Americans, is the agent behind a host of infections ranging from mild skin ailments to the deadly, often untreatable MRSA. But it seems to be harmless when in the presence of <em>Corynebacterium</em> species.<a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a></p>
+<p><em>Lactobacillus</em> is especially good at crowding out pathogens.</p>
+<div id="diversity-and-health" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Diversity and health</h3>
+<p>It is a key assumption of most studies of the microbiome that diversity is good. The intuition is easy to understand: if your body harbors a wide variety of microbes, you’ll have a deeper catalog of useful ones that can be applied to new situations. The world around us is constantly changing, and you never know what new threats or opportunities you may encounter. You can respond better if you have an abundant variety of organisms that can meet any challenge.</p>
+<p>In practice, diversity is difficult to pin down quantitatively. We know what we mean in principle: having a variety of different microbes seems good, but clearly there are limits. You wouldn’t want “variety” to include serious pathogens, for example. We know intuitively that a deciduous forest at sea level, with dozens of differerent tree species, is more diverse than one at a high altitude tree line. But is the one at low altitudes “better”? It depends on where you live!</p>
+<p>A similar problem has long confronted ecologists, who have developed several diversity measures that have been adopted to the micro world:</p>
+<ul>
+<li><p><strong>Alpha diversity</strong>: the variance <em>within</em> a particular sample. Usually measured as a single number from 0 (no diversity) to infinity, or sometimes as a percentile, this is what most of us mean when we look at our microbiome results and ask about diversity.</p></li>
+<li><p><strong>Beta diversity</strong>: how samples vary against each other. Many scientific studies are interested in the differences between sites on the body, or microbiomes across geographic locations. Beta diversity is typically the thinking behind “clustering” algorithms that try to show differences or similarities among samples.</p></li>
+</ul>
+<p>All diversity metrics take into account two aspects of a community: the number of different organisms in a sample, and the range of abundances for each one. To understand how this works, think of two forests, each with an equal number of trees:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Forest</th>
+<th align="right">Number of Trees</th>
+<th align="right">Number of Species</th>
+<th align="left">Diversity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">A</td>
+<td align="right">1000</td>
+<td align="right">1</td>
+<td align="left">Low</td>
+</tr>
+<tr class="even">
+<td align="left">B</td>
+<td align="right">1000</td>
+<td align="right">1000</td>
+<td align="left">High</td>
+</tr>
+<tr class="odd">
+<td align="left">C</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="left">?</td>
+</tr>
+</tbody>
+</table>
+<p>Clearly, Forest B with its abundance of species and trees is the most diverse. But what about Forest A compared to Forest C?</p>
+<p>On the one hand, Forest C seems to have a greater variety of trees: 10 times more than Forest A. But it also has many fewer of them. In other words, there are two aspects of diversity that matter: the absolute number of organisms in an ecosystems, and the variety or <em>richness</em> of those that are there.</p>
+<p>Whether A is “better” or “worse” than C depends on subjective, non-quantifiable factors that are not included in any diversity metric. A managed forest, such as one on a Christmas tree farm, might be perfectly healthy for one purpose (growing Christmas trees for sale), while an adjacent clear-cut forest with ten lonely and scraggly trees could be far less healthy, even if it has more of a variety of trees.</p>
+<p>In this example, we use the distinction <em>richess</em> to refer to Forests B, or C, with their greater variety of species, and the overall term <em>diversity</em> tries to be a measure of <em>both</em> richness and abundance.</p>
+<p>We can apply the same principle to our taxonomy tables: A microbiome sample with 100 unique taxa is more diverse than one with only 10 unique taxa. But if we just use raw, absolute numbers, it can be hard to compare across different microbiome tests. For example, what if I have two samples, each with 100 unique taxa, but in one sample there are tiny amounts of all but one of the taxa, while the other sample has equal amounts of everything? Which is more diverse?</p>
+<p>One way to quantify this is with a metric borrowed from probability theory. What if, instead of looking at <em>all</em> the taxa and their respective amounts, we simply take at random any two taxa from the sample: what is the probability that the two will be the same?</p>
+<p>If I have a sample with 100 unique taxa, each of identical abundance, then the odds are pretty low that I would select at random two of the same taxa; conversely, if a majority of the sample consists of the same taxa, with many other taxa of smaller abundance, then the odds are pretty good that the two I select would be the same.</p>
+<p>In fact this is generally the case in healthy western guts, which are usually composed of only two large phyla: <em>Firmicutes</em> and <em>Bacteroidetes</em>. In my case, as you’ll see, these two phyla make up over 90% of everything I see in my samples; the number three most abundant taxa rarely breaks 10%. So the odds that you would randomly pick these two is pretty high. That’s the intuition behind the Simpson metric, developed in 1949 by the British scientist E.H. Simpson.</p>
+<p>But note that with Simpson, <em>high</em> numbers mean <em>low</em> diversity; after all, in a homogeneous sample with no diversity, the odds that you’ll pick the same taxa will be 100%. To keep this consistent with the idea that higher numbers mean <em>more</em> diversity, most scientific studies of the microbiome use <em>Inverse Simpson</em>, which is simply 1 divided by the Simpson number. Note that for very low Simpson numbers, the Inverse Simpson value can be quite high, even approaching infinity when dealing with a microbiome with many unique and extremely low abundance taxa.</p>
+<p>In the real world, the type and variety of microbes in the body are constantly changing, so it’s important not to get too hung up on a single number for a single sample. For example, look at how my Inverse Simpson diversity changes day-to-day in a typical week.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/weekDiversity-1.png" width="672" /></p>
+<p>If I only had results from that one Saturday test, I might think my diversity is low, while conversely I might be quite proud of myself on Sunday with my higher numbers.</p>
+<p>The key is to take multiple samples and not rely on a single day’s measure. The blue line shows the moving average of my gut diversity, which is much more stable, and a better overall indicator of my diversity.</p>
+</div>
+<div id="food-allergies" class="section level3">
+<h3><span class="header-section-number">1.3.2</span> Food Allergies</h3>
+<p>If you attended elementary school before the 1980s, you can remember a time before nut allergies, when school lunches served peanut butter to everyone without the slightest worry that it might cause problems.</p>
+<p><em>Clostridia</em> may counter sensitivity to peanuts<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a></p>
+</div>
+<div id="gluten" class="section level3">
+<h3><span class="header-section-number">1.3.3</span> Gluten</h3>
+<p>It’s been well-established that a gluten free diet impacts the microbiome. This shouldn’t be too surprising, given that gluten is a nutrient for some bacteria but not others. But what about people who show an unusual sensitivity, even allergy, to gluten? What’s the cause?</p>
+<p>Recently the idea of a gluten free diet has taken on fad diet status. Despite surprisingly little research evidence that it can quantitatively affect health, millions of people swear that gluten gives them various ailments from poor digestion to brain fog. If you don’t believe it, they’ll say, try it yourself and see; and sure enough, many of those who go off gluten claim big health benefits. Eating is usually a zero-sum game: stop eating one thing (say, the gluten in wheat) and you’ll end up eating more of something else (rice or corn). Is it the switch to a different diet — and the anticipation of success that this brings — that makes people feel better, or is there something really significant about gluten itself?</p>
+<p>The experts say no, with one important exception. A tiny fraction of people <em>do</em> suffer from Celiac disease, a known disorder of the body’s ability to handle gluten. There are well-established tests that can definitely tell whether you have Celiac disease or not, and although the vast majority of people test negative, those who are true Celiacs will immediately and obviously benefit from a gluten free diet. But what’s driving the difference?</p>
+<p>As usual, the genetic evidence isn’t completely lock-tight. Although a third of the population have particular versions of the (DQ2 or DQ8) of a cellular receptor called the human leukocyte antigen (HLA), only a tiny minority go on to develop serious gluten sensitivities. Some studies indicate gluten sensitivity arises at an early age, and that perhaps celiac disease can be prevented by exposing babies to gluten at just the right moment, but other studies say the opposite.<a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a></p>
+<p>These are all clues that the microbiome may be involved, and sure enough, many studies show a definite difference between healthy microbiomes and those with clinically-proven Celiac disease.<a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a> But because Celiac sufferers tend to eat differently than non-sufferers, it can be hard to tell how much of the microbiome is a result of a different diet, and how much is due to the disorder.</p>
+<p>Another clue happens further up the digestive system. Spanish researchers looking at the small intestine found curiously similar microbiomes in both healthy and celiac patients..<a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a> The difference happened at the functional level of what those bacteria <em>do</em>, and not necessarily in just whether the microbe is present or absent. <em>Lactobacillus</em>, it turns out, is one of the best degraders of gluten<a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a>, but there are others: <em>Bacillus pumilus</em>, <em>Stenotrophomonas maltophilia</em>, <em>Pseudomonas aeruginosa</em>. Most interestingly, unlike <em>Lactobacillus</em>, some of these bacteria can do more than just digest the gluten: they appear to contain enzymes that transform the gluten — pointing to the possibility that the enzymes produced by these microbes could be purified and used to eliminate traces of gluten from food products.</p>
+<p>So if Celiac disease is caused by a change in the way some microbes function, how did that change happen in the first place? One theory is that it’s a virus. Researchers at the University of Chicago and University of Pittsburgh were able to supercharge the way mice react to gluten by infecting them with a reovirus that apparently changes something about the body’s immune response in the presence of the gluten protein.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a></p>
+<p>Where did this modern plague come from?</p>
+<p>The first case to appear in medical journal didn’t happen until 1969 (Golbert), and examples were extremely rare before that. In fact, the very first mention of a food allergy happened about 100 years ago (Schloss).</p>
+<p>Martin Blaser thinks something odd has happened because of the overuse of antibiotics.</p>
+<p>Amish microbes are very diverse google: “Zupancic microbiota Old Order Amish” PLOS 2012</p>
+<p>partly because they drink lots of raw milk</p>
+<p>“We have probably seen the worst of the asthma epidemic which was at its height in the 80s and 90s”</p>
+<p>google: “Song cohabiting family members share microbiota with one another and with their dogs”</p>
+</div>
+</div>
+<div id="startMouth" class="section level2">
+<h2><span class="header-section-number">1.4</span> The Oral Microbiome</h2>
+<p>How much variability is there within the mouth? To find out, I took four samples immediately after waking up one morning. I was careful to swab only in a specific part of the mouth.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Lips</th>
+<th align="right">Tongue</th>
+<th align="right">Cheek (Right)</th>
+<th align="right">Cheek (Left)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Streptococcus</td>
+<td align="right">57.36</td>
+<td align="right">6.44</td>
+<td align="right">38.41</td>
+<td align="right">43.42</td>
+</tr>
+<tr class="even">
+<td>Haemophilus</td>
+<td align="right">19.61</td>
+<td align="right">4.97</td>
+<td align="right">6.36</td>
+<td align="right">7.59</td>
+</tr>
+<tr class="odd">
+<td>Gemella</td>
+<td align="right">8.47</td>
+<td align="right">2.23</td>
+<td align="right">10.67</td>
+<td align="right">12.64</td>
+</tr>
+<tr class="even">
+<td>Actinobacillus</td>
+<td align="right">3.07</td>
+<td align="right">0.26</td>
+<td align="right">3.91</td>
+<td align="right">3.32</td>
+</tr>
+<tr class="odd">
+<td>Veillonella</td>
+<td align="right">2.14</td>
+<td align="right">7.70</td>
+<td align="right">1.81</td>
+<td align="right">2.20</td>
+</tr>
+<tr class="even">
+<td>Granulicatella</td>
+<td align="right">1.60</td>
+<td align="right">0.88</td>
+<td align="right">2.13</td>
+<td align="right">2.36</td>
+</tr>
+<tr class="odd">
+<td>Neisseria</td>
+<td align="right">1.47</td>
+<td align="right">14.91</td>
+<td align="right">7.51</td>
+<td align="right">4.12</td>
+</tr>
+<tr class="even">
+<td>Fusobacterium</td>
+<td align="right">1.24</td>
+<td align="right">14.99</td>
+<td align="right">5.94</td>
+<td align="right">6.96</td>
+</tr>
+<tr class="odd">
+<td>Porphyromonas</td>
+<td align="right">1.10</td>
+<td align="right">3.37</td>
+<td align="right">3.56</td>
+<td align="right">2.78</td>
+</tr>
+<tr class="even">
+<td>Rothia</td>
+<td align="right">0.90</td>
+<td align="right">0.21</td>
+<td align="right">6.49</td>
+<td align="right">2.83</td>
+</tr>
+<tr class="odd">
+<td>Actinomyces</td>
+<td align="right">0.69</td>
+<td align="right">2.26</td>
+<td align="right">2.90</td>
+<td align="right">2.11</td>
+</tr>
+<tr class="even">
+<td>Prevotella</td>
+<td align="right">0.45</td>
+<td align="right">13.31</td>
+<td align="right">1.09</td>
+<td align="right">1.73</td>
+</tr>
+<tr class="odd">
+<td>Alloprevotella</td>
+<td align="right">0.42</td>
+<td align="right">2.76</td>
+<td align="right">0.46</td>
+<td align="right">0.36</td>
+</tr>
+<tr class="even">
+<td>Leptotrichia</td>
+<td align="right">0.22</td>
+<td align="right">8.20</td>
+<td align="right">1.64</td>
+<td align="right">1.96</td>
+</tr>
+<tr class="odd">
+<td>Capnocytophaga</td>
+<td align="right">0.20</td>
+<td align="right">3.87</td>
+<td align="right">0.59</td>
+<td align="right">0.64</td>
+</tr>
+<tr class="even">
+<td>Pasteurella</td>
+<td align="right">0.10</td>
+<td align="right">0.02</td>
+<td align="right">2.28</td>
+<td align="right">0.87</td>
+</tr>
+<tr class="odd">
+<td>Lachnoanaerobaculum</td>
+<td align="right">0.04</td>
+<td align="right">1.19</td>
+<td align="right">0.09</td>
+<td align="right">0.19</td>
+</tr>
+<tr class="even">
+<td>Campylobacter</td>
+<td align="right">0.03</td>
+<td align="right">2.05</td>
+<td align="right">0.39</td>
+<td align="right">0.50</td>
+</tr>
+<tr class="odd">
+<td>Johnsonella</td>
+<td align="right">0.02</td>
+<td align="right">1.43</td>
+<td align="right">0.07</td>
+<td align="right">0.12</td>
+</tr>
+<tr class="even">
+<td>Bacteroides</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.95</td>
+<td align="right">0.23</td>
+</tr>
+</tbody>
+</table>
+<p>While there is some variation in the cheeks, there is a dramatic difference between them and the lips or tongue. Also interesting is the way the lips are dominated by just three taxa that make up more than 85% of the total abundance. In Inverse Simpson terms, the lips are the least diverse, whereas the tongue is the most diverse.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-45-1.png" width="672" /></p>
+</div>
+<div id="startskin" class="section level2">
+<h2><span class="header-section-number">1.5</span> The Skin Microbiome</h2>
+<p>What can we learn from studying my skin samples?</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-46-1.png" width="672" /></p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Jun2014</th>
+<th align="right">Oct2014</th>
+<th align="right">Jun2015</th>
+<th align="right">Castille soap</th>
+<th align="right">Fiberwell beer</th>
+<th align="right">SF kombucha</th>
+<th align="right">SF return</th>
+<th align="right">Chicken beans</th>
+<th align="right">Steak</th>
+<th align="right">No shower</th>
+<th align="right">Pulled pork Teetotal</th>
+<th align="right">Beans rice</th>
+<th align="right">AC no shower</th>
+<th align="right">Return home</th>
+<th align="right">Rhinovirus</th>
+<th align="right">Rhinovirus; wine; beef</th>
+<th align="right">Rice Frijoles</th>
+<th align="right">Grantham</th>
+<th align="right">NA</th>
+<th align="right">Blueberry smoothie</th>
+<th align="right">Before Phila flight</th>
+<th align="right">Philadelphia</th>
+<th align="right">Philadelphia Indian</th>
+<th align="center">Morning after Easter</th>
+<th align="right">Morning after return</th>
+<th align="right">Statin 1</th>
+<th align="right">pre-virus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Propionibacterium</td>
+<td align="right">97.67</td>
+<td align="right">96.97</td>
+<td align="right">89.45</td>
+<td align="right">92.33</td>
+<td align="right">93.35</td>
+<td align="right">73.93</td>
+<td align="right">87.68</td>
+<td align="right">72.62</td>
+<td align="right">74.63</td>
+<td align="right">80.15</td>
+<td align="right">74.00</td>
+<td align="right">78.67</td>
+<td align="right">83.37</td>
+<td align="right">57.54</td>
+<td align="right">85.93</td>
+<td align="right">69.53</td>
+<td align="right">81.01</td>
+<td align="right">95.74</td>
+<td align="right">72.18</td>
+<td align="right">93.33</td>
+<td align="right">95.08</td>
+<td align="right">87.95</td>
+<td align="right">80.74</td>
+<td align="center">15.26</td>
+<td align="right">63.90</td>
+<td align="right">8.64</td>
+<td align="right">87.72</td>
+</tr>
+<tr class="even">
+<td>Staphylococcus</td>
+<td align="right">1.47</td>
+<td align="right">2.97</td>
+<td align="right">9.23</td>
+<td align="right">6.30</td>
+<td align="right">5.25</td>
+<td align="right">21.58</td>
+<td align="right">9.15</td>
+<td align="right">22.34</td>
+<td align="right">21.58</td>
+<td align="right">18.35</td>
+<td align="right">22.53</td>
+<td align="right">16.03</td>
+<td align="right">11.40</td>
+<td align="right">21.84</td>
+<td align="right">5.35</td>
+<td align="right">26.37</td>
+<td align="right">14.58</td>
+<td align="right">3.71</td>
+<td align="right">15.27</td>
+<td align="right">6.01</td>
+<td align="right">4.42</td>
+<td align="right">11.06</td>
+<td align="right">9.02</td>
+<td align="center">6.54</td>
+<td align="right">15.09</td>
+<td align="right">1.36</td>
+<td align="right">5.13</td>
+</tr>
+<tr class="odd">
+<td>Stenotrophomonas</td>
+<td align="right">0.07</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.01</td>
+<td align="right">0.00</td>
+<td align="right">0.02</td>
+<td align="right">0.01</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.01</td>
+<td align="right">0.00</td>
+<td align="right">0.08</td>
+<td align="right">0.63</td>
+<td align="right">0.39</td>
+<td align="right">0.00</td>
+<td align="right">0.45</td>
+<td align="right">0.00</td>
+<td align="right">0.03</td>
+<td align="right">0.02</td>
+<td align="right">0.10</td>
+<td align="center">30.03</td>
+<td align="right">3.59</td>
+<td align="right">0.39</td>
+<td align="right">1.05</td>
+</tr>
+<tr class="even">
+<td>Corynebacterium</td>
+<td align="right">0.00</td>
+<td align="right">0.04</td>
+<td align="right">0.24</td>
+<td align="right">0.19</td>
+<td align="right">0.17</td>
+<td align="right">0.18</td>
+<td align="right">0.12</td>
+<td align="right">0.31</td>
+<td align="right">0.21</td>
+<td align="right">0.28</td>
+<td align="right">3.14</td>
+<td align="right">2.80</td>
+<td align="right">1.15</td>
+<td align="right">1.75</td>
+<td align="right">0.40</td>
+<td align="right">0.93</td>
+<td align="right">1.91</td>
+<td align="right">0.30</td>
+<td align="right">0.85</td>
+<td align="right">0.13</td>
+<td align="right">0.23</td>
+<td align="right">0.36</td>
+<td align="right">1.56</td>
+<td align="center">3.15</td>
+<td align="right">4.74</td>
+<td align="right">0.18</td>
+<td align="right">0.66</td>
+</tr>
+<tr class="odd">
+<td>Sneathia</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="right">0.00</td>
+<td align="center">0.00</td>
+<td align="right">0.00</td>
+<td align="right">88.86</td>
+<td align="right">0.00</td>
+</tr>
+</tbody>
+</table>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-48-1.png" width="672" /></p>
+</div>
+<div id="probiotics" class="section level2">
+<h2><span class="header-section-number">1.6</span> Probiotics</h2>
+<p><img src="Science/assets/Probiotic.jpg" /><!-- --></p>
+<p>Probiotic supplements are a $34 billion business, of which at least $6 billion is supplements, according to a May 2016 report by <a href="http://www.bccresearch.com/market-research/food-and-beverage/probiotics-market-ingredients-supplements-foods-report-fod035e.html">BCC Research</a>. With unregulated health claims that range from the benign (“helps digestion”) to the fantastic (“A miracle cure!”), do they make a significant difference in my own gut microbiome?</p>
+<p>Among unhealthy people, there is evidence that, under a doctor’s care, <a href="http://www.cochrane.org/CD004827/IBD_probiotics-prevention-antibiotic-associated-diarrhea-children">probiotics can help</a> with antibiotic-associated diarrhea and similar conditions in children or among people <a href="http://www.cochrane.org/CD006095/IBD_the-use-of-probiotics-to-prevent-c.-difficile-diarrhea-associated-with-antibiotic-use">recovering from <em>C.</em> difficile</a> infections.</p>
+<p>On the other hand, a <a href="http://genomemedicine.biomedcentral.com/articles/10.1186/s13073-016-0300-5">recent scientific review</a> of all well-done studies of probiotics among healthy people couldn’t find evidence that probiotics made much difference compared to a placebo in randomized controlled trials. When the data-heavy web site FiveThirtyEight did a <a href="http://fivethirtyeight.com/features/gut-week-introduction/">week-long series</a> on Gut Science, including a detailed survey of <a href="http://fivethirtyeight.com/features/gut-week-do-probiotics-work-are-they-good-for-me/">what’s known about probiotics</a>, they concluded: “There’s no evidence in humans, however, to support taking probiotics just to generally improve your gut health.”</p>
+<p>As a healthy adult of normal weight who eats an omnivore diet with plenty of fresh vegetables, I’m not going to answer whether probiotics are “good” for anything. A literature review by the US Agency for Healthcare Research and Quality found <a href="http://www.ahrq.gov/research/findings/evidence-based-reports/probiotsum.html">no safety issues in healthy adults</a>, but the over-the-counter supplements you see sold at health food stores are not regulated by the FDA, and the uBiome test isn’t appropriate for medical purposes anyway. My only goal is to see whether the test shows a change in the specific organisms intended by the manufacturers.</p>
+<p>The International Scientific Association for Probiotics and Prebiotics (ISAPP) defines probiotics as “live microorganisms that, when administered in adequate amounts, confer a health benefit on the host”. Experts reserve the term “probiotic” for supplements, as opposed to foods that happen to contain live, healthy microorganisms, but that distinction is lost on most people, who just want to be sure they consume enough “good” bacteria.</p>
+<p>Perhaps this is a good time to keep up my regular rant about why I don’t like the term “good” or “bad” when it comes to microbes. Everything depends on context: it’s possible to have too much of a good thing, just as it’s possible to have too little of some bad things. Nature knows how to manage a delicate balance and it’s foolhardy to pretend we know all the consequences of a major change in either direction. Martin Blaser, in his excellent book <em>Missing Microbes</em>, reminds us of the native proverb:</p>
+<blockquote>
+<p>Elk are there to feed the wolves; wolves are there to keep the elk strong.&quot;</p>
+</blockquote>
+<p>You may not want to get rid of <em>everything</em>, nor would you want to fill yourself up with too much of anything.</p>
+<p>I’m especially interested in learning whether the probiotics in the supplements actually “stick” in my gut. Taking so many billion organisms in pill form all at once may very well show up in a single gut test result, but how do I know they’re not simply being flushed out of my system? Or worse, how do I know I’m not just crowding out something more important?</p>
+<p>Like anything you put into your body, you can’t just assume it’s <em>all</em> upside.</p>
+<p>Presumably you’re reading this because you are convinced that microbes have a powerful affect on the body, perhaps as powerful as prescription drugs, yet you wouldn’t consider taking random prescription drugs just to see what happens. The billions of microbes you send into your gut is in a concentration and quantity far greater than anything you’d get from nature. Please remember that.</p>
+<p>Here’s an analogy: let’s say scientists discover a breed of parrot that is found in abundance in healthy ecosystems in Costa Rica, so they decide to introduce it to Yellowstone Park. They dump thousands of live parrots all over the park and when they count the overall species diversity the following day, they note with pride that the experiment worked: Yellowstone is now home to a new species, one that is associated with healthy ecosystems! Unfortunately, upon testing again a week later, they learn that the parrots are gone. What happened? You and I can laugh at the idiots who thought they could transplant a tropical species into Wyoming, but maybe that’s exactly what you’re doing if you try to introduce a new species that is not adapted to your microbiome. It may show up in a couple of early gut tests, but if it disappears soon thereafter, was it helpful at all? In the parrot example, it may actually be harmful if it served as food to dangerous predators.</p>
+<p>Fortunately, the body is pretty robust and, for better or for worse, it’s hard to deliberately change the microbiome.</p>
+<div id="where-to-read-more" class="section level3">
+<h3><span class="header-section-number">1.6.1</span> Where to read more</h3>
+<p><a href="http://isappscience.org/consumers/" class="uri">http://isappscience.org/consumers/</a> lengthy list of other resources</p>
+<p><a href="http://usprobioticguide.com/" class="uri">http://usprobioticguide.com/</a> Clinical Guide to Probiotic Products</p>
+<p><a href="http://www.nature.com/nrgastro/journal/v11/n8/full/nrgastro.2014.66.html">Expert Consensus Document</a> published by the peer-reviewed scientific journal <em>Nature</em> (2014)</p>
+</div>
+</div>
+<div id="microbesHygiene" class="section level2">
+<h2><span class="header-section-number">1.7</span> Hygiene</h2>
+<p>Now for some speculation. I can’t prove any of this, but these are some questions possibly worth asking:</p>
+<p>What does (underarm) deoderant do? Although rich people soaked themselves with various colognes for thousands of years, the widespread use of deoderant is less than 100 years old.</p>
+<p>How often should you brush your teeth?</p>
+<p>Washing your hands in a public restroom</p>
+<p>How to wash food in the kitchen.</p>
+<p>Microbes and cooking</p>
+</div>
+<div id="microbes-to-watch" class="section level2">
+<h2><span class="header-section-number">1.8</span> Microbes to watch</h2>
+<p>Let’s look through specific microbes to see how they affect health.</p>
+<p>Does Proteobacteria play a role?</p>
+<p>TS: Only 52 of the 4200 compounds found in normal mice blood were identified in germ-free mice. The implication is that most of the chemicals in our blood are synthesized by microbes.</p>
+<p>Using examples from my own sampling, can I say something about what to look for?</p>
+<div id="other-microbes-and-digestion" class="section level3">
+<h3><span class="header-section-number">1.8.1</span> Other microbes and digestion</h3>
+<p>Bacteroides plebeius : Japanese version can digest seaweed, thanks to genes stolen from Zobellia galactanivorans, that lives on the seaweed.</p>
+<p>Renouf J Nutr 2011 says it’s Bacteroides uniformis that breaks down the soy (and why Asians find soy healthier than americans)</p>
+</div>
+</div>
+<div id="other-topics" class="section level2">
+<h2><span class="header-section-number">1.9</span> Other topics</h2>
+<div id="fasting" class="section level4">
+<h4><span class="header-section-number">1.9.0.1</span> Fasting</h4>
+</div>
+<div id="antibiotics" class="section level4">
+<h4><span class="header-section-number">1.9.0.2</span> Antibiotics</h4>
+</div>
+<div id="hygiene" class="section level4">
+<h4><span class="header-section-number">1.9.0.3</span> Hygiene</h4>
+</div>
+</div>
+<div id="microbes-and-behavior" class="section level2">
+<h2><span class="header-section-number">1.10</span> Microbes and behavior</h2>
+<p>There are surprising links between microbes and behavior.</p>
+<p>In this classic experiment<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a>, rats that were infected with <em>Toxoplasma gondii</em> were studied with special dyes that can show how the infection spreads, first in the gut and then to the brain. By day 18, the last remnants of the infection are disappearing from the brain, at which point the animal is now unnaturally attracted to cat urine, making it much more likely to become a meal – and complete the lifecycle of the microbe.</p>
+<div class="figure"><span id="fig:unnamed-chunk-49"></span>
+<img src="http://www.pnas.org/content/104/15/6442/F1.large.jpg" alt="From Vyas 2007"  />
+<p class="caption">
+Figure 1.1: From Vyas 2007
+</p>
+</div>
+<p>There are many other examples of microbes that appear to affect the brain.</p>
+<p>5-HTP is an intermediate molecule between tryptophan and serotonin. It is produced by Candida, Streptococcus, Escherichia, and Enterococcus.</p>
+<p>Bacillus and Serratia make dopamine</p>
+<p>Escherichia, Bacillus, Saccharomyces make noradrenaline</p>
+<p>Lactobacillus can produce acetylcholine</p>
+<p>GABA can be produced by Lactobacillus and Bifidobacterium.</p>
+<p><em>Bacteroides Fragilis</em> is depleted in autistic patients. it is a gatekeeper for the immune system [ <a href="http://www.ncbi.nlm.nih.gov/pubmed/16009137" class="uri">http://www.ncbi.nlm.nih.gov/pubmed/16009137</a>]</p>
+<p><em>Sutterella</em> may have implications for autism, causes tics ?</p>
+<p><em>Bifidobacterium infantis</em>: see Sudo, Chida for gnobiotic mice that it prevents from becoming stressed.</p>
+<p>Mark Lyte and his colleagues, a microbiology team from the Minneapolis Medical Research Foundation, studied the effect of infecting mice with <em>Campylobacter</em>, one of the bacteria implicated in the Walkerton epidemic. The dose of bacteria was high enough to be detected in the intestine, but not so high that the mice developed overt illness. You probably won’t be surprised to learn that the campylobacter-infected mice exhibited more anxiety when navigating a maze than the control mice.</p>
+<p><em>Lactobacillus rhamnosus</em> is lower in pups born to pregnant mothers under stress. Intrigingly, this species is linked to levels of GABA, an important neurotransmitter targeted by anti-anxiety drugs like Valium and Xanax.<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a></p>
+<p>Scientists in Japan characterized the microbiome of 25 anorexia nervosa patients and compared them to healthy controls. The AN patients had a lower amount of total bacteria and specifically, lower amounts of <em>Clostridium coccoides</em> group, <em>C. leptum</em> subgroup, <em>Bacteroides fragilis</em>, and <em>Streptococcus</em>.<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a></p>
+<hr />
+</div>
+<div id="biology-basics" class="section level2">
+<h2><span class="header-section-number">1.11</span> Biology basics</h2>
+<p>With all this complexity, how do you begin to study the abundance of life around us? And then, how do we apply what we know about the zillions of organisms <em>around</em> us, to how they relate to what’s <em>inside</em> us?</p>
+<p>Like life itself, biology is a very broad field. Fortunately, despite the incredible variations, scientists have discovered a few simple traits and rules that apply to every life form. For the special life form <em>homo sapiens</em>, we have also learned a number of simplifications that will let us talk in more detail later.</p>
+<div id="the-basics" class="section level3">
+<h3><span class="header-section-number">1.11.1</span> The Basics</h3>
+<p>The study of biology starts with the cell, those tiny self-contained blocks that are the very definition of life. From the most humble microbe to the biggest animal, every living thing is made of these structures, which are really just miniature chemical reactors that pull external molecules from their environment and reassemble them in ways that perpetuate the reaction.</p>
+<p>Everything in the universe tends over time to fall into disorganized entropy, but cells contain many tricks, honed over billions of years of evolution, to thrive. Despite the diversity of life, a surprising number of those tricks are shared by all cells: a wall to protect and allow exchanges with the outside world, a means of storing information through DNA, and of course a process of reproduction.</p>
+<p>The biggest technical difference among cells is not size or even function, but rather the distinction between two broad categories: eukaryotes, which are the cells of everything from corn plants to humans to fungi and amoebas, and prokaryotes, which are always single-celled bacteria and other microbes. It’s interesting enough that all life could be characterized into these distinct groups, but if you look at the DNA that defines each cell, you will find some other odd differences that hint at more refined relationships among living things.</p>
+<p>A cell’s DNA contains all the information needed to create another copy of itself; even the instructions for <em>how to do the copying</em> are just a sequence of predictable DNA letters written somewhere in the genetic code of all cells. This very important copying function is performed by a <em>ribosome</em>, which is a complicated but well-studied part of every living thing. Because the ribosome has such a fundamental function, it tends not to fall prey to many mutations over time; after all, a single DNA letter change in the ribosome is almost always fatal to the entire cell. But every so often — maybe every few million years — there <em>is</em> a mutation in some part of the ribosome, and this leads us to a clever way to understand better how living things are related to one another.</p>
+<p>Humans and monkeys, for example, may differ in many different parts of their DNA, but their ribosomes are nearly identical. In fact, the ribosomes of all mammals and even all vertebrates are virtually the same. Well, there are some differences, but interestingly the differences between large, obvious groupings like vertebrates or invertebrates are much more significant than the differences between different vertebrates, or between mammals or other creatures.</p>
+<p>In fact we can even quantify the differences, and scientists over the years have done exactly that. The ribosomes of humans and monkeys, for example, <em>are</em> different in only 10 places — practically nothing in a molecule that consists of a few thousand nucleotides connecting dozens of proteins. Similarly, the ribosomes of vertebrates and invertebrates are different in perhaps 100 places – clearly much more significant than the differences within each grouping, but still not terribly different relative to the entire ribosome.</p>
+<p>The ribosomes of prokaryotes and eukaryotes, on the other hand, can be quite different: perhaps 1000 places (to continue this very-rough-but-sort-of-useful metric). The point is that even at the molecular, ribosome level, we can see obvious genetic differences even if the physical differences between two organisms aren’t necessarily obvious at first glance. A one-celled eurkaryote, like an amoeba or algae, for example, might seem like it should share something in common with a one-celled prokaryote, but looks are entirely deceiving: nobody looking just at the ribosome could possible mistake these as similar.</p>
+<p>Now, scientists have mapped the differences in ribosomal structure among nearly all living things and this general rule always applies: the groupings of life forms are directly related to the similarities or differences in their ribosomes. </p>
+<p>Meanwhile, scientists have made estimates of how long it takes, given various assumptions, for a series of step-by-step mutations to result in a differently-sized ribosome. In other words, using some basic chemistry that is easily demonstrated experimentally in a lab, we can offer some reasonable guesses for the number of generations it would take for a given level of random mutations to result in the differently-sized ribosomes we see in nature. Add it all up, and behold: you can see a reasonable fit with the clues we have in the fossil record and the geological record for the same creatures.</p>
+<p>None of this is perfect, of course, but the point is that we have a crude way to quantify how different one organism is from another and, if you like, we can guess how long it would take for a single common ancestor to accumulate enough random mutations to account for the differences between any two life forms.</p>
+<p>So far so good. Next let’s imagine we have a circle, where a single cell begins in the middle, divides into two cells, and those cells divide, etc. for zillions of years until there are clear ribosomal differences between each line. Let’s call this a family tree and take all known life forms and spread them into this circle. </p>
+<p>If you do that, you’ll find that the number of mutations necessary to generate all the variation found in eukaryotes – everything from corn plants to people – would take up only a tiny sliver of that circle. The rest of life — in particular the microbial life of prokaryotes – is so unimaginably diverse, that a space alien looking at earth’s lifeforms could well conclude that the differences between humans and corn plants aren’t significant enough to worry about.</p>
+<p>That’s how complicated the world of bacteria can be.</p>
+<p><img src="assets/scienceTreeLife.jpg" /><!-- --></p>
+</div>
+<div id="taxonomy" class="section level3">
+<h3><span class="header-section-number">1.11.2</span> Taxonomy</h3>
+<p>How do you talk about the relationships between various different life forms?</p>
+<p>A taxon is a simple unit of life. A <em>homo sapiens</em> is a taxon, but so is a primate. A mammal is a taxon too. It might seem odd in the ordinary biological world to bother using the same term ‘taxon’ to refer to all of those units, but for bacteria and anything that reproduces asexually, it’s an important distinction because often, taxonomists don’t agree about whether a group of organisms is part of the same taxon or not.</p>
+<p>Since Carl Linnaeus in the 1700’s, the science of taxonomy divides all life into seven major categories: Kingdom, Phylum, Class, Order, Family, Genus, Species (which I was taught in sixth grade to remember by the mnemonic “King Philip Came Over for Girl Scouts”).</p>
+<p>Bacteria make up their own kingdom. Just as the animal kingdom includes everything from humans to jellyfish to beetles, the diversity of bacterial life is enormous, a point which can’t be emphasized too much. This is true at every rank in the taxonomy. Even two organisms that are the same at a lower rank, like genus, might have radically different affects on the human body, just as a member of the animal genus Canis could be anything from a wolf or coyote to a Chihuahua.</p>
+<p>You cannot mix and match these ranks. If you know something about the number of organisms in one genus, for example, this is meaningful only in comparison to the numbers of another genus. Keep that in mind during our analysis.</p>
+<p>Sometimes there are different results, as noted by <span class="citation">(Olesen and Alm <a href="#ref-olesen_dysbiosis_2016">2016</a>)</span>.</p>
+</div>
+<div id="microbiology" class="section level3">
+<h3><span class="header-section-number">1.11.3</span> Microbiology</h3>
+<p>Before we get to the nuts and bolts of analyzing the microbiome, it’s helpful to review a few basics of microbiology.</p>
+<p>This section explains more about cells, but now from a chemical point of view. It’s through identifying these chemicals that we are able to understand how the entire system works. Chemists and biologists have developed many brilliant techniques for identifying these processes, nearly all of which take place at microscopic levels. How we are able to tell what’s happening is a subject worthy of its own book, but here we will concern ourselves with understanding how we are able to convert the happenings in the physical world of the cell, to the software world, where we can do the analysis.</p>
+<p>A few questions to answer:</p>
+<ul>
+<li>How do we see things at such a tiny scale? How can we be confident that what we see is real?</li>
+<li>How does Next Generation Sequencing work?</li>
+<li>What is a gene, how it creates proteins, and why that matters</li>
+<li>what is a SNP?</li>
+</ul>
+<p>Think of cells as self-contained factories that accept tiny chemical raw materials from the outside, process them, and then output byproducts. There is a whole, well-developed chemical explanation for this which we won’t detail, but this long chain of inputs and outputs, carried from cell to cell, is key to the working of every living thing, including humans. The various chemicals passed from cell to cell carry raw materials needed for life, but they also carry <em>information</em> that tells other cells what to do.</p>
+<p>All life runs on three chemical building blocks: DNA, RNA, and proteins. Each of these is an arbitrarily-long chain of repeating molecules called <em>nucleotides</em> (DNA or RNA) and <em>amino acids</em> (proteins). Due to constraints on the way atoms interact, the set of building blocks is fixed. All DNA is composed of only four nucleotides: adenine, thymine, guanine, and cytosine, represented by the letters A, T, G, and C. RNA is composed of the same molecules, except that uracile (U) is substituted for thymine.</p>
+<p>Similarly, proteins are constructed with only 20 different amino acids, which can again be represented by a short three-character abbreviation.</p>
+<p>The correspondence between these different proteins and combinations of DNA or RNA is referred to as the genetic code.</p>
+<p>As a programmer looking through all of this, you may immediately be inspired to write your own software version of this. After all, the remarkable consistency between all of these building blocks cries out for manipulation by computer.</p>
+<p>In fact, that’s exactly what bioinformaticians do, and numerous software packages have been developed to make it easy to treat these building blocks of life like ordinary computer strings.</p>
+<p>Perhaps the biggest challenge is the volume of data to be handled, which can easily be measured in gigabytes for a simple organism, but can require entire server farms in the case of some real-world biological systems. For that reason, much of bioinformatics is about optimizations to improve the speed of processing a large data set, or to simply the presentation in a way that can reveal the most biologically interesting aspects of a problem without wading in over-complexity.</p>
+<p>One special protein, DNA, can store information.</p>
+</div>
+<div id="human-anatomy" class="section level3">
+<h3><span class="header-section-number">1.11.4</span> Human Anatomy</h3>
+<p>Finally, to round out our overview of how biologists study the microbiome, let’s get specific about aspects of our own human bodies, and break it down into components, each of which as we’ll see play hosts to unique microbial communities.</p>
+<div id="mouth" class="section level4">
+<h4><span class="header-section-number">1.11.4.1</span> Mouth</h4>
+</div>
+<div id="stomach" class="section level4">
+<h4><span class="header-section-number">1.11.4.2</span> Stomach</h4>
+</div>
+<div id="appendix" class="section level4">
+<h4><span class="header-section-number">1.11.4.3</span> Appendix</h4>
+<p>Somewhere near the border between the small intestine and the large intestine (colon), there is a small, pinkie-like appendage bulging inconspicuously into the abdominal cavity. For most of the period of modern western medicine, nobody knew its function, other as a source of severe pain when it occasionally exploded in infections that until the development of antibiotics were usually fatal.</p>
+<p>Appendicitis used to be very rare (3-4 cases/year till 1890, up to 113 by 1918), which was fortunate, because there was no treatment. It was a sad fact that, for example the only death among the hundred or so frontiersmen and explorers on the Lewis and Clark expedition in the early 1800s was caused by appendicitis — a terrible, painful death in the wilderness but one that would have been just as inevitable at the finest hospitals in the world at the time.</p>
+<p>What’s known is that the appendix apparently houses three things: tissue from the immune system, a bunch of what are called IgA antibodies that fight infections, and tons of bacteria. What’s also known is that people who have their appendix removed surgically — usually as a result of one of those terrible infections — recover to live apparently normal lives, with no side effects even decades upon decades later. So what is the appendix doing?</p>
+<p>One clue comes from a recent study of 254 patients recovering from a <em>C.</em> <em>Difficil</em> infection, a horridly tenacious bacterium that has gained near-complete resistance to antibiotics and is notoriously difficult to treat. In the study, those with an appendix saw their infections come back 11% of the time, but those with no appendix suffered re-infection rates of 44% — a large and significant difference that has caused most scientists to speculate that the appendix is harboring something that enables the body to recover after a microbial disaster.</p>
+<p>My own interest in this subject is not idle curiosity. About fifty years ago, doctors at a small town hospital gave an appendectomy to my five-year-old self in order to treat an unusual belly ache. While doing what was apparently an exploratory surgery to find the cause, they came upon my otherwise healthy-looking appendix and decided on the spot to simply remove it. “Why not?” I’m sure they thought at the time. “If nothing else, it’ll prevent him from appendicitis”, which is as tautologically sound a reason as any.</p>
+<p>Did that change me, somehow? Am I fundamentally different because for most of my life I’ve been missing an important microbe safety zone that the rest of you enjoy? Science doesn’t know the answers, and even when there are studies based on well-conducted experiments, I can’t know the answer unless I do the experiment on <em>me</em>.</p>
+<p>[Hint: that’s exactly what I did: see Chapter 3]</p>
+</div>
+<div id="small-intestine" class="section level4">
+<h4><span class="header-section-number">1.11.4.4</span> Small Intestine</h4>
+</div>
+<div id="colon" class="section level4">
+<h4><span class="header-section-number">1.11.4.5</span> Colon</h4>
+<hr />
+</div>
+</div>
+</div>
+<div id="the-technology-for-studying-microbes" class="section level2">
+<h2><span class="header-section-number">1.12</span> The technology for studying microbes</h2>
+<p>People have been farming the microbes in fermented foods for thousands of years, so when in Pasteur times, scientists first began to cultivate them for experiments, the most obvious way was through the process known as “culturing”. Take a sample containing some microbes of interest, and leave them sit in a hospitable environment long enough for them to reproduce in enough quantity to be useful. That’s still a common way to study microbes, and that couple-of-day incubation period is one reason you don’t get your lab tests back for a few days.</p>
+<p>Culturing also has several serious limitations. It only works if the microbes are still living, which rules out many important situations. Many microbes don’t culture well or at all outside their native habitat.</p>
+<p>Anaerobes are organisms that can’t survive in the presence of oxygen, not a problem deep inside the airless gut, but it won’t work in a normal lab. While you can take some precautions to preserve the original environment as much as possible – you can set the organisms in a specially-sealed oxygen-free container –the cost and expense rises quickly.</p>
+<p>Even if, somehow, you were able to overcome all the other challenges, many (perhaps most) microbes don’t grow well unless they are in close proximity to other specific species. <em>Methanobrevibacter smithii</em>, for example, which plays a critical role in the efficient digestion of complex sugars, removes hydrogen from its environment, providing a habitat for organisms that don’t like hydrogen, like Firmicutes and Bacterodetes. Plus, it converts all that excess hydrogen to methane, which in turn is needed by yet other organisms. Culturing any of those microbes on their own would be difficult, if not impossible.</p>
+<p>But the techniques for uncovering which organisms are where and what they are doing was revolutionized in the first decade of the 2000s by those new-fangled gene sequencers that were so usefully applied to human genes.</p>
+<div id="the-16s-rrna-gene" class="section level3">
+<h3><span class="header-section-number">1.12.1</span> The 16S rRNA Gene</h3>
+<p>Despite the plunging costs of DNA sequencing, the trillions of microbes in your gut still present a formidable chellenge if you intend to sequence them all. Even the humble <em>E. coli</em> contains nearly five million DNA letters. There is some commonality between related organisms — humans and chimpanzees, for example, share upwards of 90% of their DNA — but in general it’s hard to use the DNA strand itself to measure the relatedness between two organisms. Understanding the reason for this may help you understand why there is a clever shortcut.</p>
+<p>You might think you can measure the relatedness of two organisms by looking at all the DNA in each one and computing the percentage that each shares in common. This would work, but sequencing all those billions of DNA bases takes a lot of time and money, and it would be impractical in a case like the microbiome where you may need to do this for millions of individual organisms.</p>
+<p>A service like 23andme is able to cheaply compare individuals of the same species (i.e. Humans) because the generic human genome is already well-mapped and we know that of the 3 billion base pairs, only about 3 million (the SNPs or single-nucleotide polymorphisms) are different between individuals. When you give your spit sample to 23andme, they give you back a subset of your SNPs, only those that have been studied enough to be interesting. SNPs are easy and cheap to find using a “gene-chip”, a special semiconductor-like device that can quickly look at 1 million or more pre-determined spots on your DNA. But this is only possible because the map itself already exists, thanks to multi-year effort of the Human Genome Project that finished in the early 2000s. There are no comprehensive gene chips (yet) for bacteria, and certainly not for all the millions of types in your body. And even if there were such chips, bacteria are notorious at adapting and changing to their surrounding environment, exchanging genes with one another, that it just wouldn’t be practical to identify enough constant genes to make it worthwhile.</p>
+<p>Fortunately, some parts of an organism’s DNA change more often than others. The SNPs are reliably different between any two individuals of the same species, but some of parts of DNA are so important that they stay virtually identical even across entire families of organisms. Something like skin pigmentation, for example, can change without having much effect at all on survival, but remember that DNA describes absolutely <em>everything</em> about the organism, including the workings of very low-level cell process. Not just the skin pigmentation, or even how skin cells grow, but much more fundamental: how a cell divides, for example, or even how to use the oxygen a cell needs for survival.</p>
+<p>Among the most fundamental of all processes is the what happens in every cell’s ribosome, a special molecule that is at the end of the process for how a cell converts DNA into proteins. Because all cells create proteins, they also always contain a ribosome and, importantly, they contain the <em>instructions for how to create a ribosome</em>. These instructions are encoded as a string of DNA, the length and weight of which is pretty constant across all bacteria. Presented with a glob of DNA, a careful lab technician can pull out just the ribosomal DNA by spinning the sample quickly in a centrifuge and waiting to see what collects at the line marked “16S”. The rest of the DNA, millions of letters (base pairs) per bacteria, is simply discarded.</p>
+<p>The ribosome is such a fundamental part of every living organism that very little about the ribosome changes, even after hundreds of millions of years of evolution. Humans and corn plants actually share quite a bit of the ribosome; both are prokaryotes, for one thing, so many of our cellular processes work the same. But bacteria go back even further than humans and corn plants, enough so that the differences aren’t so subtle anymore. In fact, the differences are big enough that, with clever selection of the part of the genome to sequence, you can tell the difference between two bacteria in a few hours for a fraction of the cost of running through all the DNA you might find in a microbiome.</p>
+<p>Ribosomal RNA (written rRNA) for bacteria consists of about 1500 base pairs total, a tiny fraction of the entire genome, and although it is mostly identical across all bacteria, there are <em>some</em> differences, all of which are contained in nine “hypervariable” regions containing even fewer base pairs. These regions, named V1 through V9, are surrounded by strings of base pairs that are constant throughout all bacteria, and can be quickly discovered and amplified by the right DNA primers. The fourth one of these regions, V4, contains only 250 base pairs, and is quickly and easily sequenced on commercially-available sequencing machines.</p>
+<p>Take the sample and stir carefully, preferably in a liquid containing tiny “beads” that will pop open each cell spilling all the contents into a single mess of goo. We are interested only in one part of that goo, the ribosomal RNA that rises to the 16S line on our centrifuge, so we spin it carefully and skim it off. Now we have located just the precise rRNA that corresponds to the genes that make ribosomes.</p>
+<p>RNA and DNA are different but closely related molecules. DNA with its famous double-helix is extremely stable and easy to transport and work with; that’s the stuff you send in when you send your sample. But most of the interesting things that life does happen with RNA. Fortunately, it’s very easy to translate between DNA and RNA, and cells do this all the time for their internal processes. In fact, ribosomes themselves are mostly composed of RNA.</p>
+<p>And where do ribosomes come from in the first place? Well, in order to make a ribosome, the cell’s DNA includes a gene that precisely encodes every protein, in the exact order that makes up the ribosomal structure. A special enzyme, called DNA polymerase, manufactures new bits of RNA on the fly as it hits portions of the DNA. These bits of RNA, called messenger RNA or mRNA, eventually make their way to ribosomes, which are floating throughout the cell. Upon hitting the ribosome, mRNA is converted into the proteins that make all life possible. If it happens that the mRNA hits upon a segment of DNA that encodes a gene for a ribosome, guess what new molecule is manufactured? A new ribosome!</p>
+<p>We are only interested in the DNA inside that goo, so we drop in some carefully-constructed “primers”. These are bits of known, synthetically-made DNA that are designed to bind just to the parts of the cell DNA that make ribosomes. In particular, these primers will only find bits of DNA that make only the specific, V4 subregion of the ribosome. Primers naturally bind and then break open the DNA at precise locations, cutting out all the segments that</p>
+<p>If you cut up bacterial cells (“lyse” them, to use the technical term) you will get a whole mess of different types of molecules, including some of the ribosomal molecules. If you throw everything into a centrifuge turning at a carefully controlled and high speed, different parts of the “goo” will rise to different levels, reflecting their molecular weights. One specific part, corresponding to the section programmed to make ribosomes, will rise to a centrifuge level referred to as “16S”. Precisely skimming the goo at that spot will give you a collection of RNA from just one part of the ribosome of bacteria. Other cell types that may happen to be in the sample will not show up at that spot on the centrifuge. That’s the shortcut.</p>
+<p>Once you have a bunch of that 16S ribosomal RNA, you know that you are looking at bacteria. It’s a tiny subset of all the genetic information in the microbiome, but combined with one more shortcut, it’s enough to accurately identify the sample.</p>
+<p>The remaining shortcut is possible thanks to years of research of sequencing the genes in bacteria. Scientists in labs around the world have been faithfully digging up samples of bacteria, and performing whole-gene sequencing on what they find. Although 250 base pairs may seem like a tiny number to differentiate among all possible bacteria on earth, for gut microbiome purpoes we need concern ourselves only with those that are known to inhabit humans. The Human Microbiome Project already identified most of these bacteria – and their 16S gene identifiers – so armed with that as a reference database<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a>, it is generally possible to unmask a specific microbe with just a sliver of DNA.</p>
+<p>It’s this two-step combination, 16S “skimming” and a database lookup, that makes it cost effective to study the millions of organisms in your microbiome. You don’t have to do a complete gene sequence on every single bacterium; just trust that the tiny subset of RNA in the 16S region is enough to uniquely match something already in the bacterial database.</p>
+</div>
+<div id="limitations-of-16s" class="section level3">
+<h3><span class="header-section-number">1.12.2</span> Limitations of 16S</h3>
+<p>While this type of sequencing is a cheap and fast way to get an overview of the microbes in a particular sample, it’s important to remember that it’s not the whole story. Despite its low cost and wide use, microbiome studies that focus only on the 16S gene suffer from several inaccuracies compared to other, more expensive methods.</p>
+<p>For one thing, this type of sequencing sees only the bacteria in a sample. Other important single-cell, invisible microbes won’t be detected: yeasts, fungi, and most archaea. Viruses, including those called phages, that prey on bacteria, are also not part of the 16S summary.</p>
+<p>Also, that shortcut of looking only at one segment of the cell’s DNA means that</p>
+<p><img src="Science/assets/compare16SAccuracySpecies.jpg" /><!-- --></p>
+<p>Worse, there are many important bacteria that share identical 16S sequences yet occupy entirely different ecological niches.<a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a> Because the sequences are identical, different labs may arbitrarily assign different names to the same organism.</p>
+<p>Another source of possible error is in sampling methods. I tried sampling the same, uh, evacuation in several different ways and found the following differences at the genus level.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Middle</th>
+<th align="right">Blended</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Roseburia</td>
+<td align="right">19.80</td>
+<td align="right">17.88</td>
+</tr>
+<tr class="even">
+<td>Blautia</td>
+<td align="right">12.45</td>
+<td align="right">5.87</td>
+</tr>
+<tr class="odd">
+<td>Bacteroides</td>
+<td align="right">9.96</td>
+<td align="right">14.08</td>
+</tr>
+<tr class="even">
+<td>Faecalibacterium</td>
+<td align="right">6.33</td>
+<td align="right">15.93</td>
+</tr>
+<tr class="odd">
+<td>Sarcina</td>
+<td align="right">4.41</td>
+<td align="right">3.13</td>
+</tr>
+<tr class="even">
+<td>Intestinibacter</td>
+<td align="right">3.51</td>
+<td align="right">0.55</td>
+</tr>
+<tr class="odd">
+<td>Collinsella</td>
+<td align="right">2.33</td>
+<td align="right">1.60</td>
+</tr>
+<tr class="even">
+<td>Alistipes</td>
+<td align="right">1.84</td>
+<td align="right">2.82</td>
+</tr>
+<tr class="odd">
+<td>Kluyvera</td>
+<td align="right">1.83</td>
+<td align="right">2.63</td>
+</tr>
+<tr class="even">
+<td>Odoribacter</td>
+<td align="right">0.99</td>
+<td align="right">2.72</td>
+</tr>
+</tbody>
+</table>
+<p>Remember, this is the exact same sample.</p>
+<p>Here’s an example from a day when I had to go twice.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">First</th>
+<th align="right">Second</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Akkermansia</td>
+<td align="right">32.51</td>
+<td align="right">9.11</td>
+</tr>
+<tr class="even">
+<td>Bacteroides</td>
+<td align="right">11.85</td>
+<td align="right">6.94</td>
+</tr>
+<tr class="odd">
+<td>Faecalibacterium</td>
+<td align="right">9.27</td>
+<td align="right">15.52</td>
+</tr>
+<tr class="even">
+<td>Sarcina</td>
+<td align="right">5.07</td>
+<td align="right">7.14</td>
+</tr>
+<tr class="odd">
+<td>Roseburia</td>
+<td align="right">4.50</td>
+<td align="right">7.01</td>
+</tr>
+<tr class="even">
+<td>Blautia</td>
+<td align="right">4.48</td>
+<td align="right">7.36</td>
+</tr>
+<tr class="odd">
+<td>Parabacteroides</td>
+<td align="right">2.70</td>
+<td align="right">1.69</td>
+</tr>
+<tr class="even">
+<td>Bifidobacterium</td>
+<td align="right">2.11</td>
+<td align="right">5.49</td>
+</tr>
+<tr class="odd">
+<td>Methanobrevibacter</td>
+<td align="right">1.79</td>
+<td align="right">5.10</td>
+</tr>
+<tr class="even">
+<td>Alistipes</td>
+<td align="right">1.68</td>
+<td align="right">2.17</td>
+</tr>
+</tbody>
+</table>
+<p>Same day, very different results.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/evacDiversity-1.png" width="672" /></p>
+<hr />
+<p>Now, thanks to new machines originally developed for mass DNA sequencing, the process of finding and understanding microbes has been revolutionized. It’s now possible to search for new life forms <em>without</em> growing them in a culture, and this has made possible a major shift in how to think about life —and what is important and special about human hardware.</p>
+<p>Unlike the genetic discoveries you can make by understanding your DNA (from a low-cost consumer service like 23andme), much of the news from the microbial world is <em>actionable</em>. There’s little, if anything, you can do if you find you have a particular type of gene that gives you, say, a propensity to alzheimers for example. But because the microbes around you are constantly changing anyway, and because you can influence which ones grow and which don’t, the world of the human micro biome is eminently <em>actionable</em>.</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-scott_influence_2013">
+<p>Scott, Karen P., Silvia W. Gratz, Paul O. Sheridan, Harry J. Flint, and Sylvia H. Duncan. 2013. “The Influence of Diet on the Gut Microbiota.” <em>Pharmacological Research</em> 69 (1): 52–60. doi:<a href="https://doi.org/10.1016/j.phrs.2012.10.020">10.1016/j.phrs.2012.10.020</a>.</p>
+</div>
+<div id="ref-olesen_dysbiosis_2016">
+<p>Olesen, Scott W., and Eric J. Alm. 2016. “Dysbiosis Is Not an Answer.” <em>Nature Microbiology</em> 1 (November): 16228. <a href="http://dx.doi.org/10.1038/nmicrobiol.2016.228" class="uri">http://dx.doi.org/10.1038/nmicrobiol.2016.228</a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="2">
+<li id="fn2"><p><a href="http://www.asmscience.org/content/journal/microbe/10.1128/microbe.7.119.1" class="uri">http://www.asmscience.org/content/journal/microbe/10.1128/microbe.7.119.1</a><a href="science.html#fnref2">↩</a></p></li>
+<li id="fn3"><p><span class="citation">Hotchin et al. (<a href="#ref-hotchin_survival_1967">1967</a>)</span><a href="science.html#fnref3">↩</a></p></li>
+<li id="fn4"><p>See an extensive 2010 review of everything known about space microbes in <span class="citation">G. Horneck, Klaus, and Mancinelli (<a href="#ref-horneck_space_2010">2010</a>)</span>. Or skip to the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832349/table/t3/">handy summary table</a><a href="science.html#fnref4">↩</a></p></li>
+<li id="fn5"><p><span class="citation">Torre et al. (<a href="#ref-de_la_torre_survival_2010">2010</a>)</span><a href="science.html#fnref5">↩</a></p></li>
+<li id="fn6"><p><a href="http://tass.ru/en/non-political/745635" class="uri">http://tass.ru/en/non-political/745635</a><a href="science.html#fnref6">↩</a></p></li>
+<li id="fn7"><p>Chivian, Dylan, Eoin L Brodie, Eric J Alm, David E Culley, Paramvir S Dehal, Todd Z DeSantis, Thomas M Gihring, et al. 2008. “Environmental Genomics Reveals a Single-Species Ecosystem Deep within Earth.” Science (New York, N.Y.) 322 (5899). American Association for the Advancement of Science: 275–78. <a href="doi:10.1126/science.1155495" class="uri">doi:10.1126/science.1155495</a>.<a href="science.html#fnref7">↩</a></p></li>
+<li id="fn8"><p><a href="http://earthsky.org/earth/diverse-microbes-found-deep-beneath-antarctic-ice-sheet" class="uri">http://earthsky.org/earth/diverse-microbes-found-deep-beneath-antarctic-ice-sheet</a><a href="science.html#fnref8">↩</a></p></li>
+<li id="fn9"><p><a href="http://www.atlasobscura.com/places/kola-superdeep-borehole" class="uri">http://www.atlasobscura.com/places/kola-superdeep-borehole</a><a href="science.html#fnref9">↩</a></p></li>
+<li id="fn10"><p><a href="http://www.sci-news.com/biology/ideonella-sakaiensis-bacterium-can-break-down-metabolize-plastic-03693.html" class="uri">http://www.sci-news.com/biology/ideonella-sakaiensis-bacterium-can-break-down-metabolize-plastic-03693.html</a><a href="science.html#fnref10">↩</a></p></li>
+<li id="fn11"><p>Afshinnekoo, Ebrahim, Cem Meydan, Shanin Chowdhury, Dyala Jaroudi, Collin Boyer, Nick Bernstein, Julia M. Maritz, et al. “Geospatial Resolution of Human and Bacterial Diversity with City-Scale Metagenomics.” <em>Cell Systems</em> 1, no. 1 (n.d.): 72–87. <a href="doi:10.1016/j.cels.2015.01.001" class="uri">doi:10.1016/j.cels.2015.01.001</a><a href="science.html#fnref11">↩</a></p></li>
+<li id="fn12"><p>A later, more careful analysis indicates these particular pathogens may not actually be present: <a href="http://msystems.asm.org/content/msys/1/3/e00050-16.full.pdf" class="uri">http://msystems.asm.org/content/msys/1/3/e00050-16.full.pdf</a><a href="science.html#fnref12">↩</a></p></li>
+<li id="fn13"><p><a href="http://www.wsj.com/articles/big-data-and-bacteria-mapping-the-new-york-subways-dna-1423159629" class="uri">http://www.wsj.com/articles/big-data-and-bacteria-mapping-the-new-york-subways-dna-1423159629</a><a href="science.html#fnref13">↩</a></p></li>
+<li id="fn14"><p><span class="citation">Lang, Eisen, and Zivkovic (<a href="#ref-lang_microbes_2014">2014</a>)</span> Lang, J. M., Eisen, J. A., &amp; Zivkovic, A. M. (2014). The microbes we eat: abundance and taxonomy of microbes consumed in a day’s worth of meals for three diet types. <em>PeerJ</em>, <em>2</em>, e659. <a href="http://doi.org/10.7717/peerj.659" class="uri">http://doi.org/10.7717/peerj.659</a><a href="science.html#fnref14">↩</a></p></li>
+<li id="fn15"><p>Cowan, M M. 1999. “Plant Products as Antimicrobial Agents.” <em>Clinical Microbiology Reviews</em> 12 (4): 564–82. <a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=88925&amp;tool=pmcentrez&amp;rendertype=abstract" class="uri">http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=88925&amp;tool=pmcentrez&amp;rendertype=abstract</a>.<a href="science.html#fnref15">↩</a></p></li>
+<li id="fn16"><p>See “The Modern Farmer” chapter in <span class="citation">Blaser (<a href="#ref-blaser_missing_2015">2015</a>)</span><a href="science.html#fnref16">↩</a></p></li>
+<li id="fn17"><p>like a pre-existing marker for Crohn’s disease. <span class="citation">Martinez-Medina et al. (<a href="#ref-martinez-medina_western_2014">2014</a>)</span> <a href="http://www.ncbi.nlm.nih.gov/pubmed/23598352" class="uri">http://www.ncbi.nlm.nih.gov/pubmed/23598352</a><a href="science.html#fnref17">↩</a></p></li>
+<li id="fn18"><p><span class="citation">Myhrvold et al. (<a href="#ref-myhrvold_modernist_2011">2011</a>)</span> pp.104-<a href="science.html#fnref18">↩</a></p></li>
+<li id="fn19"><p><a href="http://phenomena.nationalgeographic.com/2015/07/14/this-beetle-is-ruining-your-coffee-with-the-help-of-bacteria/" class="uri">http://phenomena.nationalgeographic.com/2015/07/14/this-beetle-is-ruining-your-coffee-with-the-help-of-bacteria/</a><a href="science.html#fnref19">↩</a></p></li>
+<li id="fn20"><p><span class="citation">Kothary and Babu (<a href="#ref-kothary_infective_2001">2001</a>)</span><a href="science.html#fnref20">↩</a></p></li>
+<li id="fn21"><p>see page 119 <span class="citation">Blaser (<a href="#ref-blaser_missing_2015">2015</a>)</span><a href="science.html#fnref21">↩</a></p></li>
+<li id="fn22"><p><a href="https://www.sciencedaily.com/releases/2016/08/160817091034.htm" class="uri">https://www.sciencedaily.com/releases/2016/08/160817091034.htm</a><a href="science.html#fnref22">↩</a></p></li>
+<li id="fn23"><p><a href="http://www.sciencemag.org/news/2014/08/gut-microbe-stops-food-allergies" class="uri">http://www.sciencemag.org/news/2014/08/gut-microbe-stops-food-allergies</a><a href="science.html#fnref23">↩</a></p></li>
+<li id="fn24"><p><span class="citation">Vriezinga et al. (<a href="#ref-vriezinga_randomized_2014">2014</a>)</span><a href="science.html#fnref24">↩</a></p></li>
+<li id="fn25"><p><span class="citation">De Palma et al. (<a href="#ref-de_palma_effects_2009">2009</a>)</span><a href="science.html#fnref25">↩</a></p></li>
+<li id="fn26"><p><span class="citation">Herrán et al. (<a href="#ref-herran_gluten-degrading_2017">2017</a>)</span><a href="science.html#fnref26">↩</a></p></li>
+<li id="fn27"><p><span class="citation">Rizzello et al. (<a href="#ref-rizzello_highly_2007">2007</a>)</span><a href="science.html#fnref27">↩</a></p></li>
+<li id="fn28"><p><a href="http://www.today.com/health/celiac-disease-may-be-caused-virus-new-study-finds-t110119" class="uri">http://www.today.com/health/celiac-disease-may-be-caused-virus-new-study-finds-t110119</a><a href="science.html#fnref28">↩</a></p></li>
+<li id="fn29"><p><span class="citation">Vyas et al. (<a href="#ref-vyas_behavioral_2007">2007</a>)</span><a href="science.html#fnref29">↩</a></p></li>
+<li id="fn30"><p>See a detailed discussion in the New York Times: <a href="https://www.nytimes.com/2015/06/28/magazine/can-the-bacteria-in-your-gut-explain-your-mood.html" class="uri">https://www.nytimes.com/2015/06/28/magazine/can-the-bacteria-in-your-gut-explain-your-mood.html</a><a href="science.html#fnref30">↩</a></p></li>
+<li id="fn31"><p><a href="http://www.microbiomeinstitute.org/blog/2016/1/7/gut-dysbiosis-in-anorexia-nervosa-patients" class="uri">http://www.microbiomeinstitute.org/blog/2016/1/7/gut-dysbiosis-in-anorexia-nervosa-patients</a><a href="science.html#fnref31">↩</a></p></li>
+<li id="fn32"><p>A very popular one is Greengenes: <a href="http://greengenes.secondgenome.com/downloads" class="uri">http://greengenes.secondgenome.com/downloads</a><a href="science.html#fnref32">↩</a></p></li>
+<li id="fn33"><p><span class="citation">Jaspers and Overmann (<a href="#ref-jaspers_ecological_2004">2004</a>)</span><a href="science.html#fnref33">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="preface.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="explore-your-microbiome.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/richardsprague/mhg/edit/master/science.Rmd",
+"text": "Edit"
+},
+"download": ["Microbiome Hackers Guide (Bookdown Edition).pdf", "Microbiome Hackers Guide (Bookdown Edition).epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

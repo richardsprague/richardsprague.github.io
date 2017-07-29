@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Microbiome Hackers Guide</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you.">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+
+  <meta property="og:title" content="The Microbiome Hackers Guide" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="cover.png" />
+  <meta property="og:description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you." />
+  <meta name="github-repo" content="richardsprague/z" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Microbiome Hackers Guide" />
+  
+  <meta name="twitter:description" content="This is an <em>early draft</em> excerpt of a book for curious people with little or no knowledge of biology who want to learn the basics of the human microbiome in a hands-on, practical way — by experimenting on yourself. By practicing with your own examples, you’ll learn how to study and manipulate the microbes inside you." />
+  <meta name="twitter:image" content="cover.png" />
+
+<meta name="author" content="Richard Sprague">
+
+
+<meta name="date" content="2017-07-29">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="explore-your-microbiome.html">
+<link rel="next" href="caseStudies.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Microbiome Hackers Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Intro</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="science.html"><a href="science.html"><i class="fa fa-check"></i><b>1</b> Learn the Science</a><ul>
+<li class="chapter" data-level="1.1" data-path="science.html"><a href="science.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="science.html"><a href="science.html#the-promise-and-disappointment-of-genetic-testing"><i class="fa fa-check"></i><b>1.1.1</b> The promise and disappointment of genetic testing</a></li>
+<li class="chapter" data-level="1.1.2" data-path="science.html"><a href="science.html#most-of-your-dna-is-not-fixed"><i class="fa fa-check"></i><b>1.1.2</b> Most of your DNA is not fixed</a></li>
+<li class="chapter" data-level="1.1.3" data-path="science.html"><a href="science.html#microbes-are-older-than-any-of-us"><i class="fa fa-check"></i><b>1.1.3</b> Microbes are older than any of us</a></li>
+<li class="chapter" data-level="1.1.4" data-path="science.html"><a href="science.html#what-they-want"><i class="fa fa-check"></i><b>1.1.4</b> What they want</a></li>
+<li class="chapter" data-level="1.1.5" data-path="science.html"><a href="science.html#whos-in-charge"><i class="fa fa-check"></i><b>1.1.5</b> Who’s in charge?</a></li>
+<li class="chapter" data-level="1.1.6" data-path="science.html"><a href="science.html#what-is-health"><i class="fa fa-check"></i><b>1.1.6</b> What is health?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="science.html"><a href="science.html#microbes-everywhere"><i class="fa fa-check"></i><b>1.2</b> Microbes everywhere</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="science.html"><a href="science.html#microbes-above-and-below"><i class="fa fa-check"></i><b>1.2.1</b> Microbes above and below</a></li>
+<li class="chapter" data-level="1.2.2" data-path="science.html"><a href="science.html#microbes-around-you"><i class="fa fa-check"></i><b>1.2.2</b> Microbes around you</a></li>
+<li class="chapter" data-level="1.2.3" data-path="science.html"><a href="science.html#microbes-and-food"><i class="fa fa-check"></i><b>1.2.3</b> Microbes and food</a></li>
+<li class="chapter" data-level="1.2.4" data-path="science.html"><a href="science.html#anti-microbials-in-food"><i class="fa fa-check"></i><b>1.2.4</b> Anti-microbials in food</a></li>
+<li class="chapter" data-level="1.2.5" data-path="science.html"><a href="science.html#fermented-food"><i class="fa fa-check"></i><b>1.2.5</b> Fermented food</a></li>
+<li class="chapter" data-level="1.2.6" data-path="science.html"><a href="science.html#fiber-and-your-gut-microbes"><i class="fa fa-check"></i><b>1.2.6</b> Fiber and your gut microbes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="science.html"><a href="science.html#microbes-and-health"><i class="fa fa-check"></i><b>1.3</b> Microbes and health</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="science.html"><a href="science.html#diversity-and-health"><i class="fa fa-check"></i><b>1.3.1</b> Diversity and health</a></li>
+<li class="chapter" data-level="1.3.2" data-path="science.html"><a href="science.html#food-allergies"><i class="fa fa-check"></i><b>1.3.2</b> Food Allergies</a></li>
+<li class="chapter" data-level="1.3.3" data-path="science.html"><a href="science.html#gluten"><i class="fa fa-check"></i><b>1.3.3</b> Gluten</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="science.html"><a href="science.html#startMouth"><i class="fa fa-check"></i><b>1.4</b> The Oral Microbiome</a></li>
+<li class="chapter" data-level="1.5" data-path="science.html"><a href="science.html#startskin"><i class="fa fa-check"></i><b>1.5</b> The Skin Microbiome</a></li>
+<li class="chapter" data-level="1.6" data-path="science.html"><a href="science.html#probiotics"><i class="fa fa-check"></i><b>1.6</b> Probiotics</a><ul>
+<li class="chapter" data-level="1.6.1" data-path="science.html"><a href="science.html#where-to-read-more"><i class="fa fa-check"></i><b>1.6.1</b> Where to read more</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="science.html"><a href="science.html#microbesHygiene"><i class="fa fa-check"></i><b>1.7</b> Hygiene</a></li>
+<li class="chapter" data-level="1.8" data-path="science.html"><a href="science.html#microbes-to-watch"><i class="fa fa-check"></i><b>1.8</b> Microbes to watch</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="science.html"><a href="science.html#other-microbes-and-digestion"><i class="fa fa-check"></i><b>1.8.1</b> Other microbes and digestion</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="science.html"><a href="science.html#other-topics"><i class="fa fa-check"></i><b>1.9</b> Other topics</a></li>
+<li class="chapter" data-level="1.10" data-path="science.html"><a href="science.html#microbes-and-behavior"><i class="fa fa-check"></i><b>1.10</b> Microbes and behavior</a></li>
+<li class="chapter" data-level="1.11" data-path="science.html"><a href="science.html#biology-basics"><i class="fa fa-check"></i><b>1.11</b> Biology basics</a><ul>
+<li class="chapter" data-level="1.11.1" data-path="science.html"><a href="science.html#the-basics"><i class="fa fa-check"></i><b>1.11.1</b> The Basics</a></li>
+<li class="chapter" data-level="1.11.2" data-path="science.html"><a href="science.html#taxonomy"><i class="fa fa-check"></i><b>1.11.2</b> Taxonomy</a></li>
+<li class="chapter" data-level="1.11.3" data-path="science.html"><a href="science.html#microbiology"><i class="fa fa-check"></i><b>1.11.3</b> Microbiology</a></li>
+<li class="chapter" data-level="1.11.4" data-path="science.html"><a href="science.html#human-anatomy"><i class="fa fa-check"></i><b>1.11.4</b> Human Anatomy</a></li>
+</ul></li>
+<li class="chapter" data-level="1.12" data-path="science.html"><a href="science.html#the-technology-for-studying-microbes"><i class="fa fa-check"></i><b>1.12</b> The technology for studying microbes</a><ul>
+<li class="chapter" data-level="1.12.1" data-path="science.html"><a href="science.html#the-16s-rrna-gene"><i class="fa fa-check"></i><b>1.12.1</b> The 16S rRNA Gene</a></li>
+<li class="chapter" data-level="1.12.2" data-path="science.html"><a href="science.html#limitations-of-16s"><i class="fa fa-check"></i><b>1.12.2</b> Limitations of 16S</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html"><i class="fa fa-check"></i><b>2</b> Explore Your Microbiome</a><ul>
+<li class="chapter" data-level="2.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-to-get-microbiome-data"><i class="fa fa-check"></i><b>2.1</b> How to get microbiome data</a></li>
+<li class="chapter" data-level="2.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#start"><i class="fa fa-check"></i><b>2.2</b> Getting Started</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#the-most-common-phyla"><i class="fa fa-check"></i><b>2.2.1</b> The most common phyla</a></li>
+<li class="chapter" data-level="2.2.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-are-you-different"><i class="fa fa-check"></i><b>2.2.2</b> How are you different?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#rawData"><i class="fa fa-check"></i><b>2.3</b> How to Use the uBiome Taxonomy Files</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#study-your-results-in-excel"><i class="fa fa-check"></i><b>2.3.1</b> Study your results in Excel</a></li>
+<li class="chapter" data-level="2.3.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#ubiome-json-taxonomy-files"><i class="fa fa-check"></i><b>2.3.2</b> uBiome JSON taxonomy files</a></li>
+<li class="chapter" data-level="2.3.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#the-ubiome-data-tags"><i class="fa fa-check"></i><b>2.3.3</b> The uBiome data tags</a></li>
+<li class="chapter" data-level="2.3.4" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#converting-ubiome-taxonomy-json-to-excel"><i class="fa fa-check"></i><b>2.3.4</b> Converting uBiome taxonomy JSON to Excel</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#comparing-samples"><i class="fa fa-check"></i><b>2.4</b> Comparing samples</a></li>
+<li class="chapter" data-level="2.5" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#make-a-single-sheet-with-all-your-samples"><i class="fa fa-check"></i><b>2.5</b> Make a single sheet with all your samples</a></li>
+<li class="chapter" data-level="2.6" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#analyze-your-ubiome-results-in-python"><i class="fa fa-check"></i><b>2.6</b> Analyze your uBiome Results in Python</a></li>
+<li class="chapter" data-level="2.7" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#working-with-fastq-files"><i class="fa fa-check"></i><b>2.7</b> Working with FASTQ files</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#how-sequencing-works"><i class="fa fa-check"></i><b>2.7.1</b> How sequencing works</a></li>
+<li class="chapter" data-level="2.7.2" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#quality-of-your-fastq"><i class="fa fa-check"></i><b>2.7.2</b> Quality of your FASTQ</a></li>
+<li class="chapter" data-level="2.7.3" data-path="explore-your-microbiome.html"><a href="explore-your-microbiome.html#study-your-fastq-online"><i class="fa fa-check"></i><b>2.7.3</b> Study your FASTQ online</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="experiments.html"><a href="experiments.html"><i class="fa fa-check"></i><b>3</b> My Experiments</a><ul>
+<li class="chapter" data-level="3.1" data-path="experiments.html"><a href="experiments.html#experimentSummary"><i class="fa fa-check"></i><b>3.1</b> Overall Summary of My Experiments</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="experiments.html"><a href="experiments.html#variability-through-time"><i class="fa fa-check"></i><b>3.1.1</b> Variability through time</a></li>
+<li class="chapter" data-level="3.1.2" data-path="experiments.html"><a href="experiments.html#firmicutes-and-obesity"><i class="fa fa-check"></i><b>3.1.2</b> Firmicutes and obesity</a></li>
+<li class="chapter" data-level="3.1.3" data-path="experiments.html"><a href="experiments.html#diversity"><i class="fa fa-check"></i><b>3.1.3</b> Diversity</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="experiments.html"><a href="experiments.html#kefir"><i class="fa fa-check"></i><b>3.2</b> Kefir and the Microbiome</a></li>
+<li class="chapter" data-level="3.3" data-path="experiments.html"><a href="experiments.html#jungleTravel"><i class="fa fa-check"></i><b>3.3</b> Traveling through the jungle</a></li>
+<li class="chapter" data-level="3.4" data-path="experiments.html"><a href="experiments.html#experimentMexico"><i class="fa fa-check"></i><b>3.4</b> Traveling in Mexico</a></li>
+<li class="chapter" data-level="3.5" data-path="experiments.html"><a href="experiments.html#experimentCamping"><i class="fa fa-check"></i><b>3.5</b> Camping</a></li>
+<li class="chapter" data-level="3.6" data-path="experiments.html"><a href="experiments.html#do-probiotics-work"><i class="fa fa-check"></i><b>3.6</b> Do Probiotics Work?</a></li>
+<li class="chapter" data-level="3.7" data-path="experiments.html"><a href="experiments.html#experimentDentist"><i class="fa fa-check"></i><b>3.7</b> Visiting the dentist</a></li>
+<li class="chapter" data-level="3.8" data-path="experiments.html"><a href="experiments.html#experimentCleanse"><i class="fa fa-check"></i><b>3.8</b> Experiment: Gut Cleanse</a></li>
+<li class="chapter" data-level="3.9" data-path="experiments.html"><a href="experiments.html#kombucha"><i class="fa fa-check"></i><b>3.9</b> Kombucha</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="experiments.html"><a href="experiments.html#experiment"><i class="fa fa-check"></i><b>3.9.1</b> Experiment</a></li>
+<li class="chapter" data-level="3.9.2" data-path="experiments.html"><a href="experiments.html#study-the-data-in-r"><i class="fa fa-check"></i><b>3.9.2</b> Study the data in R</a></li>
+<li class="chapter" data-level="3.9.3" data-path="experiments.html"><a href="experiments.html#going-further"><i class="fa fa-check"></i><b>3.9.3</b> Going further</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="experiments.html"><a href="experiments.html#conclusions"><i class="fa fa-check"></i><b>3.10</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="caseStudies.html"><a href="caseStudies.html"><i class="fa fa-check"></i><b>4</b> Case Studies</a><ul>
+<li class="chapter" data-level="4.1" data-path="caseStudies.html"><a href="caseStudies.html#father-and-son"><i class="fa fa-check"></i><b>4.1</b> Father and son</a></li>
+<li class="chapter" data-level="4.2" data-path="caseStudies.html"><a href="caseStudies.html#a-baby-microbiome"><i class="fa fa-check"></i><b>4.2</b> A baby microbiome</a></li>
+<li class="chapter" data-level="4.3" data-path="caseStudies.html"><a href="caseStudies.html#alzheimers-and-the-microbiome"><i class="fa fa-check"></i><b>4.3</b> Alzheimers and the microbiome</a></li>
+<li class="chapter" data-level="4.4" data-path="caseStudies.html"><a href="caseStudies.html#colorectal-cancer"><i class="fa fa-check"></i><b>4.4</b> Colorectal Cancer</a></li>
+<li class="chapter" data-level="4.5" data-path="caseStudies.html"><a href="caseStudies.html#ketogenic-diet"><i class="fa fa-check"></i><b>4.5</b> Ketogenic Diet</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="next.html"><a href="next.html"><i class="fa fa-check"></i><b>5</b> Go Further</a><ul>
+<li class="chapter" data-level="5.1" data-path="next.html"><a href="next.html#beyond-bacteria"><i class="fa fa-check"></i><b>5.1</b> Beyond Bacteria</a></li>
+<li class="chapter" data-level="5.2" data-path="next.html"><a href="next.html#fermented-food-1"><i class="fa fa-check"></i><b>5.2</b> Fermented Food</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="next.html"><a href="next.html#yogurt"><i class="fa fa-check"></i><b>5.2.1</b> Yogurt</a></li>
+<li class="chapter" data-level="5.2.2" data-path="next.html"><a href="next.html#pickling"><i class="fa fa-check"></i><b>5.2.2</b> Pickling</a></li>
+<li class="chapter" data-level="5.2.3" data-path="next.html"><a href="next.html#whats-happening-in-sauerkraut"><i class="fa fa-check"></i><b>5.2.3</b> What’s happening in sauerkraut</a></li>
+<li class="chapter" data-level="5.2.4" data-path="next.html"><a href="next.html#more-fermentation"><i class="fa fa-check"></i><b>5.2.4</b> More fermentation</a></li>
+<li class="chapter" data-level="5.2.5" data-path="next.html"><a href="next.html#pickled-ginger"><i class="fa fa-check"></i><b>5.2.5</b> Pickled Ginger</a></li>
+<li class="chapter" data-level="5.2.6" data-path="next.html"><a href="next.html#pickled-cucumbers"><i class="fa fa-check"></i><b>5.2.6</b> Pickled cucumbers</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="next.html"><a href="next.html#annotated-references"><i class="fa fa-check"></i><b>5.3</b> Annotated References</a></li>
+<li class="chapter" data-level="5.4" data-path="next.html"><a href="next.html#favoriteBooks"><i class="fa fa-check"></i><b>5.4</b> My favorite books about the microbiome</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html"><i class="fa fa-check"></i><b>6</b> Other Books Worth Having in the Pile</a><ul>
+<li class="chapter" data-level="6.0.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#not-recommended"><i class="fa fa-check"></i><b>6.0.1</b> Not Recommended</a></li>
+<li class="chapter" data-level="6.0.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#other"><i class="fa fa-check"></i><b>6.0.2</b> Other</a></li>
+<li class="chapter" data-level="6.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#best-academic-papers"><i class="fa fa-check"></i><b>6.1</b> Best Academic Papers</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#popular-topics"><i class="fa fa-check"></i><b>6.1.1</b> Popular Topics</a></li>
+<li class="chapter" data-level="6.1.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#academic-papers"><i class="fa fa-check"></i><b>6.1.2</b> Academic Papers</a></li>
+<li class="chapter" data-level="6.1.3" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#general-overview"><i class="fa fa-check"></i><b>6.1.3</b> General Overview</a></li>
+<li class="chapter" data-level="6.1.4" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#historic-papers"><i class="fa fa-check"></i><b>6.1.4</b> Historic Papers</a></li>
+<li class="chapter" data-level="6.1.5" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#self-tracking"><i class="fa fa-check"></i><b>6.1.5</b> Self-tracking</a></li>
+<li class="chapter" data-level="6.1.6" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#diet"><i class="fa fa-check"></i><b>6.1.6</b> Diet</a></li>
+<li class="chapter" data-level="6.1.7" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#population-studies"><i class="fa fa-check"></i><b>6.1.7</b> Population studies</a></li>
+<li class="chapter" data-level="6.1.8" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#enterotypes"><i class="fa fa-check"></i><b>6.1.8</b> Enterotypes</a></li>
+<li class="chapter" data-level="6.1.9" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#large-population-summaries"><i class="fa fa-check"></i><b>6.1.9</b> Large population summaries</a></li>
+<li class="chapter" data-level="6.1.10" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#methods"><i class="fa fa-check"></i><b>6.1.10</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="other-books-worth-having-in-the-pile.html"><a href="other-books-worth-having-in-the-pile.html#other-resources"><i class="fa fa-check"></i><b>6.2</b> Other Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="acknowledgments.html"><a href="acknowledgments.html"><i class="fa fa-check"></i><b>7</b> Acknowledgments</a><ul>
+<li class="chapter" data-level="7.1" data-path="acknowledgments.html"><a href="acknowledgments.html#style-guide"><i class="fa fa-check"></i><b>7.1</b> Style guide</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>8</b> References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Microbiome Hackers Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="experiments" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> My Experiments</h1>
+<p>Microbe numbers shift daily in response to your environment, so a single sample won’t give much more than a brief snapshot at a single point in time. To understand the results of a given test, you’ll want to compare it to other samples, either from yourself at a different point in time, or to other people. This chapter will show how I did that.</p>
+<p><a href="experiments.html#kefir">How Kefir changes the microbiome</a></p>
+<p><a href="experiments.html#experimentDentist">Experiment 4: The Dentist</a> What changes before and after my dental checkup?</p>
+<p><a href="experiments.html#experimentCleanse">Experiment 5: Gut Cleanse</a> Let’s go all the way: clear out all the microbes and watch how they grow back.</p>
+<div id="experimentSummary" class="section level2">
+<h2><span class="header-section-number">3.1</span> Overall Summary of My Experiments</h2>
+<p>Before we get into specific experiments, let’s look at the overall picture from more than a year’s worth of near-daily samples. Can we confirm or disprove any common ideas about the microbiome?</p>
+<div id="variability-through-time" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Variability through time</h3>
+<p>Which are the most common gut taxa? Let’s look first at Phylum level</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotOverallPhylumVariability-1.png" width="672" /></p>
+<p>In these boxplot charts, the long box in the middle represents a range between 25 and 75 percentile. The line in the middle of the box is the median, and the other samples are shown as dots outside the middle 50%.</p>
+<p>Like most westerners, the vast majority of my gut is composed of <em>Firmicutes</em> and <em>Bacteroidetes</em>, with an occasional spike of <em>Actinobacteria</em> or <em>Proteobacteria</em> or <em>Verrucomicrobia</em>.</p>
+<p>The Genus level reflects this with more detail, and variability:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotOverallGenusVariability-1.png" width="672" /></p>
+</div>
+<div id="firmicutes-and-obesity" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Firmicutes and obesity</h3>
+<p>We mentioned Firmicutes earlier. Let’s dig more deeply to see how those results look on myself.</p>
+<p>Let’s test that overall ratio of Firmicutes/Bacteroidetes, which is based on a paper published in 200x.</p>
+<p>The most recent, well-respected review <a href="http://onlinelibrary.wiley.com/doi/10.1016/j.febslet.2014.09.039/full">(Walters, Xu, Knight 2014)</a> says flat-out:</p>
+<blockquote>
+<p>the ratio changes between normal and obese individuals are not statistically significant overall and therefore should not be considered a general feature distinguishing normal and obese human gut microbiota across populations.</p>
+</blockquote>
+<p>And sure enough, this is what it looks like for me:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotFirmicutes-1.png" width="672" /><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotFirmicutes-2.png" width="672" /></p>
+</div>
+<div id="diversity" class="section level3">
+<h3><span class="header-section-number">3.1.3</span> Diversity</h3>
+<p>The general consensus is that diversity is good: a greater variety of microbes ensures more resillience against the daily threat of invaders. Many people, after taking just one test, often feel either reassured that their diversity is “good” or disappointed that it’s “bad”. But I find that day-to-day variability is great enough that it’s almost never useful to use a single result. For exmaple, here’s my Simpson diversity during a typical week:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotOneWeekDiversity-1.png" width="672" /></p>
+<p>If I had only tested on Saturday, I may have been disappointed with my 0.86 score. Wait another day or two and, with no significant changes in diet, I was up to 0.92. Moral: don’t take a single result too seriously.</p>
+<p>To get a sense of how much diversity can vary over a year:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotOneYearDiversity-1.png" width="672" /></p>
+<p>Although the blue moving-average line shows apparent stability, there are many days that are far above and below the average.</p>
+</div>
+</div>
+<div id="kefir" class="section level2">
+<h2><span class="header-section-number">3.2</span> Kefir and the Microbiome</h2>
+<p>If you follow the microbiome at all, you’ll eventually discover the benefits of kefir. Google the phrase “one of the most potent probiotic foods available” and you’ll find kefir in all the top results. A <a href="http://www.bbc.com/news/health-38800977">recent BBC documentary</a> that tested people after consuming different types of “gut-friendly” foods found that kefir had by far the biggest effect. My interest piqued when, after my disappointment with kombucha, I spoke with a man who happened to mention his good luck with kefir as a solution to his many gut issues. On a doctor’s recommendation, he tried kefir for a number of years with limited success, until — frustrated with the $3/day expense of buying it at Trader Joe’s — he began making it himself at home. “What a difference!” he claimed.</p>
+<p>Let’s jump to the conclusion: I tried it myself and it’s true. I found a very noticeable change in my gut microbiome — the most significant I’ve seen among my many experiments. Look at my levels of <em>Lactococcus</em>, the main genus of microbe known to be found in kefir:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotAmountsKefir-1.png" width="672" /></p>
+<p>The blue dots in the chart are days when I drank kefir. Since I sample near-daily over the entire chart, we can see that both of these taxa suddenly appeared shortly after I began to consume kefir. I had almost none beforehand. Also note that the levels seem to dip when I go for a few days without drinking any, such as during my business trips out of town in mid-March and another in early-April.</p>
+<p>So it apparently has a big effect on the microbiome. What is this stuff anyway?</p>
+<p>The first thing to know about kefir is the pronunciation. Say “Keh-FEAR”, with the accent on the second syllable, not “KEE-fur” or “kEH-fir”. The Russian origin of the term is a reminder of a time in the distant past when — it’s unclear exactly where or how — the first batch was prepared and then passed along, its microbial components shared from person to person until it reached today’s status as a popular drink you can buy in most grocery stores.</p>
+<p>Making it at home brings more benefits than just saving money. Commercially-purchased drinks are subject to unavoidable regulatory, shelf-life, and consistency contraints that are important for business. But more than that, if you believe like I do that microbes are highly-customized to our environments, making at home will ensure that the kefir is well-adapted to your own personal microbial environment. The batch that survives and thrives in your kitchen will, by definition, have proven its ability to withstand whatever whatever conditions you face there.</p>
+<p>Making it yourself is surprisingly easy. It begins with a bundle of the component microbes, a cauliflower-shaped substance usually called the “grain” or “seed” that looks like this:</p>
+<p>Instruction books often tell you to be careful how you handle the grains, but I find them robust enough that I pick them up with my bare fingers. I drop them into a glass of milk left sitting on the counter overnight and — voila! — twenty four hours later, the liquid has turned into kefir. Pull out the kefir grains from that glass, plop it into another, and you’re all set for tomorrow’s batch. Unlike yogurt, which requires heating and a stable temperature, kefir doesn’t appear to care about how it’s handled, so long as you keep it at room temperature and can wait for twenty four hours. The reaction might vary by a few hours if the room is a bit colder or warmer, but otherwise I find it surprisingly consistent. Just set and forget.</p>
+<p>The ease with which the kefir fermentation happens today begs the question of how the very first kefir grains were created. Nobody knows exactly, but there are people who make them from scratch. I haven’t tried this myself, but apparently a goat-hide bag filled with pasteurized milk and the intestinal flora of a sheep will do, so long as you shake every hour and maintain a constant temperature.</p>
+<p>Even without going the goat-hide route, I found that getting started was the only hard part of the process. You can order some starter grains online for under $25, but for shipping purposes the manufacturers generally give them to you in a freeze-dried form that requires a week or so of preparation before the microbes are fully alive and kicking out drinkable quantities of kefir.</p>
+<p>I got mine by asking around until I found a neighbor who had been brewing his own. Anyone who makes homemade kefir will be happy to give you some extra grains. The fermentation process causes the grains to multiply, and you will find yourself throwing them out regularly.</p>
+<p>The grains themselves contain a combination of lactic acid bacteria (Lactobacillus, Lactococcus, Leuconostoc), acetic acid bacteria, and yeast, clumped together with casein (milk proteins) and complex sugars in a matrix of a unique polysaccharide called Kefiran. The nutritional content apparently varies depending on fermentation time and other factors, but there’s a lot of good stuff in there. One study shows the following:</p>
+<p><img src="assets/kefir-oltes-nutrition.jpg" /><!-- --></p>
+<p>A rigorous microbial analysis by an Irish lab recently showed precisely which microbes are present in kefir, at various stages in the fermentation process. This chart shows the composition of ordinary pasteurized milk as it changes from before adding kefir grains (time 0 at the bottom) until 24 hours have passed (top) and the milk has been transformed into just <em>Acetobacter</em>, <em>Lactobacillus</em>, and <em>Leuconostoc</em>.</p>
+<p><img src="assets/kefir-microbial-makeup.jpg" /><!-- --></p>
+<p>The uBiome test looks only at the 16S ribosomal gene, which unfortunately can’t detect yeasts, so I don’t have an easy way to track the yeasts in the kefir.</p>
+<p>But I <em>can</em> run the kefir mixture through the same 16S pipeline that I use for my other samples. I put a swab into some kefir that I had left on the counter for a “second ferment”, an additional 24-hour period after the grains from the first ferment. This is what I found:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Kefir Abundance (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lactococcus</td>
+<td align="right">96.06</td>
+</tr>
+<tr class="even">
+<td>Leuconostoc</td>
+<td align="right">3.02</td>
+</tr>
+<tr class="odd">
+<td>Lactobacillus</td>
+<td align="right">0.22</td>
+</tr>
+<tr class="even">
+<td>Faecalibacterium</td>
+<td align="right">0.14</td>
+</tr>
+<tr class="odd">
+<td>Roseburia</td>
+<td align="right">0.06</td>
+</tr>
+</tbody>
+</table>
+<p>These are the only taxa that met the 0.07% abundance criteria discussed previously. But even without that cutoff, the uBiome pipeline shows no <em>Acetobacter</em>, despite its prominence in the study shown above.</p>
+<p>I wondered if this is simply due to the way uBiome labels the taxa that are found. Maybe the label <em>Acetobacter</em> just isn’t often assigned to uBiome samples. When I checked, I could find none in any of my own samples or of the hundreds of others that people have sent me. What’s more, none was reported in the <span class="citation">Zhernakova et al. (<a href="#ref-zhernakova_population-based_2016">2016</a>)</span> study either. So apparently it just doesn’t show up often in humans, though I wonder why it wouldn’t show up in the 16S sequencing of my kefir sample.</p>
+<p>The answer is that <em>Acetobacter</em> is too similar to other genera for it to be accurately distinguished with a 16S test. Instead, let’s look at the breakdown at higher levels:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Kefir Abundance (Order %)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lactobacillales</td>
+<td align="right">99.29</td>
+</tr>
+<tr class="even">
+<td>Clostridiales</td>
+<td align="right">0.42</td>
+</tr>
+<tr class="odd">
+<td>Bacteroidales</td>
+<td align="right">0.12</td>
+</tr>
+<tr class="even">
+<td>Pasteurellales</td>
+<td align="right">0.03</td>
+</tr>
+<tr class="odd">
+<td>Sphingomonadales</td>
+<td align="right">0.03</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Kefir Abundance ( Phylum %)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Firmicutes</td>
+<td align="right">99.75</td>
+</tr>
+<tr class="even">
+<td>Bacteroidetes</td>
+<td align="right">0.12</td>
+</tr>
+<tr class="odd">
+<td>Proteobacteria</td>
+<td align="right">0.09</td>
+</tr>
+<tr class="even">
+<td>Actinobacteria</td>
+<td align="right">0.03</td>
+</tr>
+<tr class="odd">
+<td>Verrucomicrobia</td>
+<td align="right">0.01</td>
+</tr>
+</tbody>
+</table>
+<p>Because <em>Acetobacter</em> is within Phylum <em>Proteobacteria</em> and Order <em>Rhodospirillales</em>, we would expect to see some of those microbes if any of it were present. Looks like my kefir doesn’t include anything remotely resembling <em>Acetobacter</em>.</p>
+<p>That’s what’s in the kefir grain itself. How does regular drinking affect my gut microbiome?</p>
+<p>To find any taxa that may have suddenly changed as a result of kefir-drinking, let’s start with a simple heatplot.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/kefirPlotHeat-1.png" width="672" /></p>
+<p>Note the sudden appearance of the genus <em>Fusicatenibacter</em>. You rarely see such a dramatic and consistent change as a result of an experiment, but unfortunately, little is known about this genus. A member of the Clostria class of phylum Firmicutes, an internet search reveals little of interest. But it definitely appears in my samples after drinking kefir.</p>
+<p>In fact, look how the levels appear to coincide precisely with the periods when I drink kefir:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/kefirPlotBar-1.png" width="672" /></p>
+<p>This is especially interesting because the only previous date when my gut saw any of this taxa was in December – on another occasion when I drank some kefir. In fact, <em>Fusicatenibacter</em> is such a strong predictor of kefir drinking that I can use it as a way to look back in time to see the samples when I drank some.</p>
+<p>But other than this clear change in my gut microbiome, did I notice any differences in health?</p>
+<p>Here the answer is more ambiguous. As a healthy adult, I don’t have any particular “problems” I’m trying to solve. I remained healthy during the period of the experiment, so the kefir certainly doesn’t appear to have made anything worse. My sleep hasn’t substantially changed either, and although I’m generally pretty even-tempered, I didn’t notice any particular changes positive or negative in my mood either.</p>
+<p>The one area where, subjectively, where I feel different is in my overall sense of energy. Although I can’t put my finger on anything quantitative, I <em>do</em> notice that I seem to be a little more energetic on days when I drink kefir. Measuring that more precisely may be a good test for follow up.</p>
+</div>
+<div id="jungleTravel" class="section level2">
+<h2><span class="header-section-number">3.3</span> Traveling through the jungle</h2>
+<p>We previously discussed the Lawrence David study that measured an individual microbiome daily for a year and found a dramatic change when one of the subjects moved temporarily to Thailand. I recently did something similar for a family vacation in Central America. Would the same changes happen to me?</p>
+<p>We spent most of our time in a rural, jungle part of Belize, about a half hour’s drive from Benque, near the border with Guatemala. Besides viewing the fantastic, well-preserved Mayan ruins, we also did horseback riding, cave exploration, and of course plenty of eating.</p>
+<p>Here’s a selfie I took in front of the incredibly well-preserved thousand-year-old pyramid at <a href="http://www.smithsonianmag.com/history/secrets-of-the-maya-deciphering-tikal-2289808/">Tikal</a>:</p>
+<div class="figure">
+<img src="https://farm9.staticflickr.com/8594/16063989023_353f14a4dd.jpg" alt="me at Tikal" />
+<p class="caption">me at Tikal</p>
+</div>
+<p>I did one other thing: before leaving on the trip, and immediately afterwards, I took some gut microbiome samples. Here’s what my gut microbiome (phylum level) looked like before and after the trip:</p>
+<p><strong>Phylum</strong> | <strong>Before</strong> | <strong>After</strong>| ———————| ———— ———–| <strong>Firmicutes</strong> |71.836% |67.930% <strong>Bacteroidetes</strong> |16.424% |14.900% <strong>Actinobacteria</strong> |7.616% |0.771% <strong>Proteobacteria</strong> |0.982% |7.514% <strong>Verrucomicrobia</strong> |0.664% |0.013% <strong>Tenericutes</strong> |0.065% |0.071%</p>
+<p>As we discussed in previous chapters, the phylum level is the “big picture”, and the first place to look at a new sample. In my case, the two biggest groupings didn’t change much: my ratio of Firmicutes to Bacteroidetes changed hardly at all, despite the different eating and living conditions. Apparently those two microbes quickly adjusted.</p>
+<p>The most unusual change during my trip was the increase in <em>Proteobacteria</em>, from less than 1% to almost 8%. Even more interesting was that the Lawrence David study found the same thing: a westerner traveling to a developing country sees a sharp rise in <em>Proteobacteria</em>!</p>
+<p>To see how or why this happened, I’ll review my samples at a lower taxonomic level. Here are the organisms found at the genus level:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Genus</th>
+<th><strong>Before</strong></th>
+<th><strong>After</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Faecalibacterium</td>
+<td>14.198%</td>
+<td>20.374%</td>
+</tr>
+<tr class="even">
+<td>Bacteroides</td>
+<td>12.717%</td>
+<td>10.396%</td>
+</tr>
+<tr class="odd">
+<td>Blautia</td>
+<td>4.469%</td>
+<td>8.585%</td>
+</tr>
+<tr class="even">
+<td>Ruminococcus</td>
+<td>8.383%</td>
+<td>7.906%</td>
+</tr>
+<tr class="odd">
+<td>Pseudobutyrivibrio</td>
+<td>1.804%</td>
+<td>4.134%</td>
+</tr>
+<tr class="even">
+<td>Cronobacter</td>
+<td>0.002%</td>
+<td>3.592%</td>
+</tr>
+<tr class="odd">
+<td>Coprococcus</td>
+<td>5.411%</td>
+<td>2.574%</td>
+</tr>
+<tr class="even">
+<td>Clostridium</td>
+<td>6.611%</td>
+<td>1.763%</td>
+</tr>
+<tr class="odd">
+<td>Parabacteroides</td>
+<td>0.507%</td>
+<td>1.393%</td>
+</tr>
+</tbody>
+</table>
+<p>Most of the new organisms I picked up come from the family [<strong><em>Enterobacteriales</em></strong>], of which the majority – about 3.5% of my entire sample – is [<strong><em>Cronobacter</em></strong>], a nasty pathogen named after the [<strong>Greek mythological titan</strong>] who swallowed his children!</p>
+<p>Ouch! Fortunately I never got sick. Why not? The science is just too new to say for sure, but here’s my theory: there is <em>no such thing as “good” or “bad” bacteria</em>. Everything depends on the <em>ratios</em>, on <em>balance</em> among lots of competing germs. In my case – and this is my pure, amateur, unscientific speculation – the <em>Cronobacteria</em> increase might actually have <em>helped</em> my health, by out-eating something else that may have been even worse.</p>
+<p>Here are some reasons I suspect this is true:</p>
+<ul>
+<li><p><strong>Diversity</strong>: Oddly, my gut biome diversity went <em>down</em> slightly. Before the trip, uBiome found 19 unique phyla. Afterwards, there were only 15. You wouldn’t normally expect diversity to <em>drop</em> after exposure to novel microbes from the jungle. But I think there’s an easy explanation:</p></li>
+<li><p><strong>Increase in unidentified organisms</strong>: uBiome was able to identify only about 91% of what it found at the phyla level. In my previous tests, they found closer to 95+%. Maybe my apparent drop in diversity was simply a drop in <em>identifiable</em> bacteria. Maybe some of those unknown organisms stimulated the bloom in <em>Cronobacter</em>.</p></li>
+<li><p><strong>Clostridium plunge</strong>: I saw huge drops, from 0.66% to 0.18%, in the notorius <em>Clostridum</em>genus, which includes many nasty species (e.g. the infamous antibiotic-resistant <em>C. Difficile</em>). Other pathogens dropped too. Did the change in location precipitate a fight between competing bacterial armies?</p></li>
+<li><p><strong>Parasites</strong>: the uBiome test only measures bacteria, so I don’t know the status of other microbes I encountered. If <em>Cronobacteria</em> are normally pathogenic, is it possible that all their toxicity was aimed at a takeover by some other organism?</p></li>
+</ul>
+<p>The Lawrence David study also showed that the microbiome bounced back to normal again pretty quickly after the person returned back home. Is the same true for me? That’s something to watch for in my next samples.</p>
+</div>
+<div id="experimentMexico" class="section level2">
+<h2><span class="header-section-number">3.4</span> Traveling in Mexico</h2>
+<p>Here’s another trip, this time to Mexico. Let’s start with the conclusions:</p>
+<ul>
+<li>My microbiome changed noticeably during my trip, but it bounced back in a few weeks.</li>
+<li>My diversity went up, as you’d expect, as did levels of one particular phylum, Proteobacteria that seems in me to indicate that my body is fighting invaders.</li>
+<li>Science still knows precious little about the microbiome, though we continue to learn.</li>
+</ul>
+<p>People are not the only foreigners you meet when you visit another country. Trillions of new microbes, mostly bacteria, will meet you as soon as you cross the border, and many of them won’t get along with the trillions that already inhabit your body. Upon my arrival, I soon learned fortunately, that Mexican microbes are pretty friendly, and with all the tasty food down there, they’re lucky too.</p>
+<p>“Montezuma’s revenge” is the popular name given to Traveler’s diarrhea, apparently because somebody got sick in Mexico long ago and decided to pin the blame on the Aztec emperor who was killed by the Conquistador Hernán Cortés in 1520. Whatever you call it, studies show up to 50% of international travelers suffer some trouble, and about 80% of the time the culprit is a bacterium.</p>
+<p>Mexico City has become a serious foodie capital. If you haven’t been there recently, many seasoned travelers suggest you check it again because there has been quite a boom in fine restaurants with tasty dishes from around the world. We ate everything, from <em>queso oaxaca</em> at Mercado de San Juan, to the grasshopper-like insect delicacy ( 60 pesos/100g) <em>chapulines</em>, to the wonderful buttery-tasting fruit called <em>cherimoya</em>.</p>
+<p>My favorite drink was <em>pulque</em>, a fermented concoction made from the sap of the maguey (agave) plant. Unlike other fermented beverages like kombucha or beer, the fermentation takes place <em>inside</em> the plant, before harvesting. The plants take more than a decade to mature, and when they start to produce, you have to suck out the pulque quickly or it goes bad. Nobody’s figured out how to preserve it without losing flavor and potency, so unfortunately I’m not able to get any in the U.S.</p>
+<p><img src="assets/experimentTravelMexicoPulque.jpg" /><!-- --></p>
+<p>I loved the food, but what about my microbes? To find out, I tested myself with uBiome gut kits before leaving, immediately at the end of the trip (‘during’), and then a few weeks later. Here’s the highest level (phylum) summary of the most common bacteria I found:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Before %</th>
+<th align="right">During %</th>
+<th align="right">After %</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Firmicutes</td>
+<td align="right">74.45</td>
+<td align="right">67.38</td>
+<td align="right">71.21</td>
+</tr>
+<tr class="even">
+<td>Bacteroidetes</td>
+<td align="right">21.46</td>
+<td align="right">22.04</td>
+<td align="right">24.29</td>
+</tr>
+<tr class="odd">
+<td>Actinobacteria</td>
+<td align="right">2.69</td>
+<td align="right">1.58</td>
+<td align="right">2.48</td>
+</tr>
+<tr class="even">
+<td>Proteobacteria</td>
+<td align="right">0.99</td>
+<td align="right">3.15</td>
+<td align="right">0.49</td>
+</tr>
+<tr class="odd">
+<td>Verrucomicrobia</td>
+<td align="right">0.31</td>
+<td align="right">5.72</td>
+<td align="right">1.27</td>
+</tr>
+<tr class="even">
+<td>Euryarchaeota</td>
+<td align="right">0.19</td>
+<td align="right">0.52</td>
+<td align="right">1.05</td>
+</tr>
+</tbody>
+</table>
+<p>The first thing to notice is the contrast between my microbiome during the trip versus otherwise. Before and after, my gut is normally dominated by the top two phyla, with nothing else breaking higher than 2%, but during the trip the abundances are more evenly spread. In other words, the diversity increased, as you can see in this picture of the changes in my “inverse simpson” diversity metric:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-78-1.png" width="672" /></p>
+<p>It makes sense that diversity would increase on a trip, but what can I learn about the bacteria that changed?</p>
+<p>Notice how a key one, Proteobacteria, spiked during my trip and then returned to normal after I returned home. I saw the same spike after <a href="http://www.ubiomeblog.com/my-microbiome-in-the-jungle/"><em>my jungle trip</em></a>, during my <a href="http://www.ubiomeblog.com/experimenting-with-a-gut-cleanse-by-richard-sprague/"><em>gut cleanse experiment</em></a>, and once before when I had been fighting an upset stomach. My experience is consistent with a similar observation by Duke University’s Lawrence David<a href="#fn36" class="footnoteRef" id="fnref36"><sup>36</sup></a> and collaborators, who found that this phylum seems to increase during episodes when the gut is under attack, like it is in foreign travel.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-79-1.png" width="672" /></p>
+<p>Whenever I see elevated Proteobacteria in somebody’s uBiome results, I always ask them if they’ve noticed anything unusual tummy-wise.</p>
+<p>Because the uBiome technology is designed for citizen science and not medical purposes, the test won’t tell you if you have common pathogens, like the infamous <em>E.</em> Coli or other nasty ones like <em>Shigella</em>. If you ever suspect an illness, you should immediately see a doctor. We’re not just saying this. By their nature, pathogens are often very similar to benign or even beneficial bacteria, sometimes differing by only a single base pair. If they were too different, evolution would quickly stamp them out. The uBiome test just won’t give you the information you’d need for treatment.</p>
+<p>That said, at the bacterial DNA level, the <em>Kluyvera</em> genus is quite similar to interesting bacteria like <em>E</em>. <em>Coli</em> or <em>Shigella</em>, and sure enough, I see that it spiked during my trip. <em>Kluyvera</em> ferments sugars and goes up in people on a ketogenic diet, but in this case I bet I’m seeing evidence of a perhaps some kind of an unwanted invader.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-80-1.png" width="672" /></p>
+<p>Next, what might I learn if I study just the bacteria that changed the most ? To do that, I made a list of just those at the genus level that existed <em>before</em> my trip and <em>after</em>, but not <em>during</em>.</p>
+<p><strong>New things I picked up:</strong></p>
+<ul>
+<li><p>Enterococcus</p></li>
+<li><p>Citrobacter</p></li>
+<li><p>Methanomassiliicoccus</p></li>
+<li><p>Flavobacterium</p></li>
+<li><p>Fastidiosipila</p></li>
+</ul>
+<p>I then compared this to uBiome’s big database, based on tens of thousands of samples. You can find a chart like this on your Insights tab:</p>
+<p><img src="assets/experimentTravelMexicoElusive.jpg" /><!-- --></p>
+<p>Two of these stand out for me: <em>Methanomassiliicoccus</em> and <em>Citrobacter</em>, both of which are rare among uBiome samples and yet they appeared for me just once on a trip to Mexico. Interesting…</p>
+<p>I didn’t bother showing the whole uBiome chart, but a little further up the list of uBiome database frequency is <em>Fastidiosipila</em>, which again appeared just this once for me.</p>
+<p>Next, let’s look at the organisms that disappeared while I was in Mexico:</p>
+<p><strong>Stuff I lost</strong></p>
+<ul>
+<li><p><em>Turicibacter sanguinis</em></p></li>
+<li><p><em>Candidatus Soleaferrea</em></p></li>
+<li><p><em>Pseudoflavonifractor</em></p></li>
+<li><p><em>Candidatus Stoquefichus</em></p></li>
+</ul>
+<p>Comparing these to the uBiome database, I see that all of them are pretty common, seen in at least a quarter of all other uBiome users. Again, it’s odd that they disappeared from my uBiome results during the trip.</p>
+<p>One of them, <em>Pseudoflavonifractor</em> is <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149564"><em>associated</em></a> with successful weight loss. I <em>did</em> gain a few pounds during the trip, but lost it all within a few weeks, maybe because this guy resurrected when I got home?</p>
+<p>As for the rest, the obvious question– both for the bacteria that I gained and those I lost: is that good or bad?</p>
+<p>The answer, frustratingly, is that we don’t really know, but here are some obvious questions for follow-up:</p>
+<ul>
+<li><p>Are these bacteria somehow associated with Mexico? Like other organisms, some bacteria seem to be native to some geographies and some aren’t. Maybe I’ve stumbled upon a few that happen to enjoy the climate there.</p></li>
+<li><p>I never became sick during my trip. Did some of these new bacteria protect me somehow? If so, what specifically might I do next time to ensure that I can get them again?</p></li>
+<li><p>Few of the bacteria I gained seem to stick around, but I know from past experience living in another country that it <em>does</em> seem possible to make permanent changes. Many people who live for extended periods in Japan, for example, seem to carry a bacterium that’s good at digesting sushi. Maybe there’s a similar one for Mexican food?</p></li>
+<li><p>What about the fermented pulque? Is there some specific health benefit I enjoyed by drinking something that thousands of years of tradition says is good for me? Perhaps with more data we can identify exactly which microbes thrive on this stuff.</p></li>
+</ul>
+<p>As a citizen scientist, my purpose isn’t to solve these problems right away, but rather to raise new and hopefully interesting questions that others can follow up together. Studying the differences between my own samples is my biggest advantage over “real” scientists, who generally look at anonymous data and rarely have the context to go deep into interesting questions that might not have been apparent at the start of the experiment.</p>
+</div>
+<div id="experimentCamping" class="section level2">
+<h2><span class="header-section-number">3.5</span> Camping</h2>
+<p>How does my microbiome change after camping?</p>
+<p>Here are the genus-level organisms in my gut after camping that weren’t there before:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">After camping (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kluyvera</td>
+<td align="right">3.66</td>
+</tr>
+<tr class="even">
+<td>Methanobrevibacter</td>
+<td align="right">3.60</td>
+</tr>
+<tr class="odd">
+<td>Subdoligranulum</td>
+<td align="right">3.26</td>
+</tr>
+<tr class="even">
+<td>Intestinibacter</td>
+<td align="right">1.15</td>
+</tr>
+<tr class="odd">
+<td>Lactococcus</td>
+<td align="right">0.89</td>
+</tr>
+<tr class="even">
+<td>Butyricimonas</td>
+<td align="right">0.62</td>
+</tr>
+<tr class="odd">
+<td>Erysipelatoclostridium</td>
+<td align="right">0.58</td>
+</tr>
+</tbody>
+</table>
+<p>Interesting to note the very large increase in the formerly-non-existent <em>Kluyvera</em>. This is a branch of microbes that includes <em>E. Coli</em> and the pathogen <em>Shigella</em>. Unfortunately, 16S doesn’t have enough resolution to distinguish between harmless and pathogenic versions of these taxa, but it is intriguing that they would show up.</p>
+<p>Here are the ones I lost on the trip:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Before Camping (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cloacibacillus</td>
+<td align="right">1.15</td>
+</tr>
+<tr class="even">
+<td>Anaerosporobacter</td>
+<td align="right">1.09</td>
+</tr>
+<tr class="odd">
+<td>Marvinbryantia</td>
+<td align="right">0.76</td>
+</tr>
+<tr class="even">
+<td>Clostridium</td>
+<td align="right">0.64</td>
+</tr>
+<tr class="odd">
+<td>Pyramidobacter</td>
+<td align="right">0.48</td>
+</tr>
+<tr class="even">
+<td>Bifidobacterium</td>
+<td align="right">0.44</td>
+</tr>
+<tr class="odd">
+<td>Bilophila</td>
+<td align="right">0.35</td>
+</tr>
+</tbody>
+</table>
+<p>Odd that I lost all my remaining <em>Bifidobacterium</em>, though it’s important to note that the Before sample has a low read count (10275) compared to the “After” one (67794).</p>
+</div>
+<div id="do-probiotics-work" class="section level2">
+<h2><span class="header-section-number">3.6</span> Do Probiotics Work?</h2>
+<p>Lots of people take probiotics, thinking that it’s helpful to ingest large amounts of bacteria. Most of the microbes are produced in a manufacturing facility that grows industrial quantities of a few species that have been found in various studies to be helpful for health. But how do you know if the specific one <em>you</em> take is any good for <em>you</em>?</p>
+<p>To find out, I tracked my microbiome daily while taking a high quality probiotic according to the manufacturer’s instructions.</p>
+<p>Here’s how I did the analysis.</p>
+<p>I took a <a href="http://www.soundprobiotics.com/">Sound Probiotics</a> pill once per day for nine days, following the manufacturers directions. I would have continued for an even ten days, but I was starting to feel uncomfortably bloated those last few days. While that’s an encouraging sign that the pill is working, I didn’t want to do anything to seriously mess up my gut. This is just a fun experiment after all.</p>
+<p><img src="Experiments/assets/soundProbioticsLabel.jpg" /><!-- --></p>
+<p>Let’s look for at the overall abundances for the two genera that were in the supplements: <em>Bifidobacterium</em> and <em>Lactobacillus</em>.</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotAmounts-1.png" width="672" /></p>
+<p>The blue line represents the days when I took a gut sample after consuming the probiotic. Unfortunately, despite taking and submitting samples daily, several of my results just didn’t have enough reads to be useful. This chart shows only the days when I have a sample of at least 10,000 reads.</p>
+<p>Even with that caveat, it’s hard to see clear-cut evidence that the pill had a significant effect. Yes, I have slightly more of those two taxa by the end of the experiment, but seriously, not <em>that</em> much more.</p>
+<p>Let’s look at a longer time horizon: <img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/plotAmountsLong-1.png" width="672" /></p>
+<p>Hmmmm, it seems the levels of those particular genera <em>did</em> increase a tiny bit at the end of the experiment, but there are plenty of other times on the chart where I see spikes too.</p>
+<p>Maybe my view of the microbe ecology, hoping to see results in only one or two genera, is too simplistic. We know that the gut is an ecosystem. If you add lots of one type of organism, maybe that affects the abundances and ratios of other microbes, all of whom are in constant competition with one another. Is there a way to tell <em>overall</em> how the microbes are changing?</p>
+<p>Let’s apply a Principal Coordinates Analysis analysis. Essentially these means we look at all the abundances together and work out which specific microbes seem to correlate most with the others in any given group of samples. In other words, if two different species tend to go up and down together all the time, i.e. are <em>highly correlated</em>, then let’s assume that they are essentially the same unit and combine them for the analysis. The microbes that don’t seem to correlate at all, should be kept distinct. We’ll combine all these different correlations over and over and pick just the two that seem to matter the absolute most, which we’ll plot on a 2-dimensional graph:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-88-1.png" width="672" /></p>
+<p>Hmm… that looks pretty random to me.</p>
+<div id="tentative-conclusions-and-next-steps" class="section level4">
+<h4><span class="header-section-number">3.6.0.1</span> (Tentative) Conclusions and next steps</h4>
+<p>It is very difficult to say with this analysis that the probiotics had any effect that is detectable by the uBiome Explorer test.</p>
+<p>Further analysis required:</p>
+<ul>
+<li><p><em>Consider other statistical analysis</em>. Although the two strains contained in the probiotic pill don’t appear to cause a change in the gut microbiome results, are there other changes that can be detected statistically. Perhaps there are other taxa that show a significant change.</p></li>
+<li><p><em>Other time horizons</em>. Maybe the changes don’t happen immediately. Although at a high level, there doesn’t appear to a noticable lag in the levels of the probiotic strains, perhaps a more sophisticated data transformation would uncover something.</p></li>
+</ul>
+</div>
+</div>
+<div id="experimentDentist" class="section level2">
+<h2><span class="header-section-number">3.7</span> Visiting the dentist</h2>
+<p>The gut biome is interesting enough, but bacteria colonize just about every part of the body, so here’s an experiment to measure the mouth bacteria and how the varieties shift after a visit to the dentist.</p>
+<p>The mouth harbors its own unique ecology of bacteria, much of which is entirely unexplored. Scientists from the Forsyth Institute in Boston are at the cutting edge of the research, and have characterized many of the species found in their test subjects mouths, but widespread human trials are still years from producing the kinds of results we see from the gut biome research.</p>
+<p>So far the research <em>is</em> clear that many cavities are associated with one nasty species: <em>Streptococcus Mutans</em>. This bug contains receptors that adhere to the surface of the tooth, creating a slimy biofilm where, under the right conditions they breed rapidly. Interestingly, just a few hundred bacterial cells is enough for it to begin its work, feeding on glucose to create a reaction that combines with the tooth enamel to form plaque. The ever-present lactic acid in the mouth, a critical component of pre-digestion, reacts with the plaque to remove calcium from the tooth, leaving small, ever deepening holes that will destroy the tooth unless the dentist intervenes with a filling.</p>
+<p>I visit my dentist in April and October each year, and I measure my mouth biome before and after each April visit. Unfortunately I don’t have before/after for the October samples, but I <em>do</em> have a sample taken a few days <em>afterwards</em>. Let’s look at an overall heatmap picture of all the dentist-related mouth samples:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/loadDentist-1.png" width="672" /></p>
+<p>These are five samples taken over the course of one year, when many things can change. Nevertheless, the differences between the before/after samples is strikingly obvious. Despite being sampled only a day apart, there is clearly a major shift in the mouth microbiome after a dentist appointment and cleaning.</p>
+<p>Here’s a more numerical breakdown at the genus level of the top ten microbes and their abundances before and after first visit:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">% before</th>
+<th align="right">% after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Haemophilus</td>
+<td align="right">22.3237</td>
+<td align="right">23.0557</td>
+</tr>
+<tr class="even">
+<td>Neisseria</td>
+<td align="right">17.9975</td>
+<td align="right">6.2514</td>
+</tr>
+<tr class="odd">
+<td>Streptococcus</td>
+<td align="right">13.4156</td>
+<td align="right">36.0979</td>
+</tr>
+<tr class="even">
+<td>Prevotella</td>
+<td align="right">8.8309</td>
+<td align="right">3.9503</td>
+</tr>
+<tr class="odd">
+<td>Veillonella</td>
+<td align="right">6.5300</td>
+<td align="right">4.3380</td>
+</tr>
+<tr class="even">
+<td>Porphyromonas</td>
+<td align="right">6.1201</td>
+<td align="right">3.6216</td>
+</tr>
+<tr class="odd">
+<td>Leptotrichia</td>
+<td align="right">4.1791</td>
+<td align="right">0.9552</td>
+</tr>
+<tr class="even">
+<td>Fusobacterium</td>
+<td align="right">4.0991</td>
+<td align="right">2.5904</td>
+</tr>
+<tr class="odd">
+<td>Gemella</td>
+<td align="right">3.8491</td>
+<td align="right">9.7999</td>
+</tr>
+<tr class="even">
+<td>Capnocytophaga</td>
+<td align="right">2.6722</td>
+<td align="right">0.8850</td>
+</tr>
+</tbody>
+</table>
+<p>The most abundant taxa, <em>Haemophilus</em>, stays relatively stable, while abundances of the second two taxa <em>Streptococcus</em> and <em>Neissaria</em> seem to switch places. The other taxa in the top ten also seem to drop in abundance, except for <em>Streptococcus</em> and <em>Gamella</em>.</p>
+<p>Anything in the genus <em>Capnocytophaga</em> is an opportunistic pathogen, so I say good riddance. Usually they’re fine, but if your immune system dips they can turn bad.</p>
+<p>To understand more precisely what changed, let’s look more closely just at the ones that disappeared:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">% before</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Moryella</td>
+<td align="right">0.1314</td>
+</tr>
+<tr class="even">
+<td>Johnsonella</td>
+<td align="right">0.1314</td>
+</tr>
+</tbody>
+</table>
+<p>All of these unique microbes are of such tiny abundances that it’s hard to rule out simple contamination or other problems with the sampling. Still, it is interesting that there was nothing new (at the genus level) in the “after” sample that wasn’t in the “before”. This is consistent with the expectation that a dental cleaning would, if anything, tend to <em>remove</em> taxa rather than introduce any new ones.</p>
+<p>But that was just for a single dental visit. What happened when I repeated the experiment the following year?</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">% before</th>
+<th align="right">% after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Streptococcus</td>
+<td align="right">45.8502</td>
+<td align="right">43.1782</td>
+</tr>
+<tr class="even">
+<td>Actinobacillus</td>
+<td align="right">15.7059</td>
+<td align="right">8.5416</td>
+</tr>
+<tr class="odd">
+<td>Gemella</td>
+<td align="right">13.3460</td>
+<td align="right">13.3400</td>
+</tr>
+<tr class="even">
+<td>Haemophilus</td>
+<td align="right">6.4258</td>
+<td align="right">8.7729</td>
+</tr>
+<tr class="odd">
+<td>Neisseria</td>
+<td align="right">6.2026</td>
+<td align="right">8.4911</td>
+</tr>
+<tr class="even">
+<td>Granulicatella</td>
+<td align="right">2.3758</td>
+<td align="right">3.2374</td>
+</tr>
+<tr class="odd">
+<td>Veillonella</td>
+<td align="right">2.2163</td>
+<td align="right">4.2491</td>
+</tr>
+<tr class="even">
+<td>Leptotrichia</td>
+<td align="right">1.3154</td>
+<td align="right">1.3874</td>
+</tr>
+<tr class="odd">
+<td>Porphyromonas</td>
+<td align="right">1.2118</td>
+<td align="right">2.5798</td>
+</tr>
+<tr class="even">
+<td>Pasteurella</td>
+<td align="right">1.0204</td>
+<td align="right">0.8744</td>
+</tr>
+</tbody>
+</table>
+<p>Interestingly, this time my most abundant taxa is <em>Streptococcus</em>, instead of <em>Haemophilus</em>.</p>
+<p>Like last time and as expected, I found no new taxa <em>after</em> the cleaning, but here are the genus-level items that disappeared, all at such low abundances that we should probably chalk them up to contamination or other errors that creep in unavoidably between the time I take the sample and when they show up in my results.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">% before</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Peptostreptococcus</td>
+<td align="right">0.0797</td>
+</tr>
+<tr class="even">
+<td>Parvimonas</td>
+<td align="right">0.0717</td>
+</tr>
+<tr class="odd">
+<td>Johnsonella</td>
+<td align="right">0.0637</td>
+</tr>
+</tbody>
+</table>
+<p>Let’s start with the genus level. How much <em>Streptococcus</em> has been in my mouth, and to the degree that we know at the species level, which types of species are there?</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/unnamed-chunk-89-1.png" width="672" /></p>
+<p>Hmm, lots of different species here. But what about the cavity-linked <em>S. Mutans</em>? It turns out that I <em>do</em> have a tiny bit, but in just one sample long ago. And sure enough, my dentist confirms that I have no cavities.</p>
+<p>Keeping <em>S. Mutans</em> at bay is an important way that I’ll try to avoid cavities, so to continue the experiment, I’ll look at what I can do to manipulate the mouth biome, beyond what I eat and drink. A key part of that is how I brush my teeth.</p>
+<p>Like most Americans, for years I brushed exclusively with one of the name brand toothpastes, usually Crest or Colgate. But looking more closely at the labels, I see two ingredients that will be of interest to my oral microbiome: triclosan and sodium lauryl sulfate, both of which are powerful anti-microbials. In addition, the fluoride in the paste works partly by making the tooth enamel more difficult for bacteria.</p>
+<p>Pre-modern humans didn’t have toothpaste, and certainly not the antimicrobial kinds that have become popular only in the past generation. Of course, tooth decay was a painful reality for many of our ancestors as well, but there is good evidence that serious teeth problems didn’t begin until the widespread availability of sugar after the European immigration to America five hundred years ago. Skulls of humans before agriculture show almost no tooth decay. Wild animals, including primates like gorillas and chimpanzees get far fewer tooth problems than modern people, another clue that teeth brushing isn’t the whole story.</p>
+<p>Could it be that a healthy mouth requires a healthy <em>diversity</em> of bacteria, including versions of <em>Stroptococcus</em> that out-compete the cavity-causing kinds? But toothpaste with triclosan and other anti-microbials are wide-spectrum: they don’t target just the “bad” cavity-causing organisms. They also kill other species needed for digestion, or to control bad breath.</p>
+<p>To find out more about whether oral diversity is a good or bad thing, for my continuing mouth experiment I changed toothpaste. Rather than continue with one of the leading fluoride brands, I switched to a more “natural” brand whose ingredient list does <em>not</em> contain antimicrobials.</p>
+</div>
+<div id="experimentCleanse" class="section level2">
+<h2><span class="header-section-number">3.8</span> Experiment: Gut Cleanse</h2>
+<p>Microbiome experiments are complicated by the difficulty of holding everything constant. Even if you are careful with precise amounts of the same food and exercise, you are still dealing with your existing microbiome with all its uncertainties, making it difficult to tell precisely what caused a particular change. What if you could wipe the slate clean; start over with a completely new biome and just track <em>that,</em> along with precisely what you eat afterwards? What could you learn?</p>
+<p>In this experiment, I tried exactly that, using a colon cleanse – the kind you do before a colonoscopy screening. By flushing all the bacteria from my system and carefully watching them grow back with side-by-side uBiome tests, I was able to get a better picture of the resilience of my microbiome.</p>
+<p>The bottom line:</p>
+<p><strong>My gut microbiome recovers pretty quickly.</strong> Unlike antibiotics, which are known to cause long-term (and possibly permanent) changes, losing bacteria this way seems only to affect the total numbers, but they sprout right back just like a haircut. In two weeks I looked like nothing had happened.</p>
+<p>Here’s the the summary from uBiome:</p>
+<p><img src="Experiments/assets/colonCleanse/colonCleanseBacteria.png" width="1266" /></p>
+<p>Notice the big change on the day of the cleanse, followed by a big shift back to normal just a day later.</p>
+<p>Here’s the functional view of the same data:</p>
+<p><img src="https://farm6.staticflickr.com/5833/22666646263_1a083fe751_z.jpg" /><!-- --></p>
+<p><strong>Amounts and ratios changed, but not the specific organisms</strong>. Of course I lost a bunch of bacteria – that was the point – but surprisingly I didn’t seem to gain anything really new, even after an aggressive attempt at re-seeding. I didn’t gain or lose a single phyla. Other than amounts and ratios, I had to dig down to the Class level of the biological hierarchy to find anything that was permanently lost, and even at the very fine-grained Genus level, only two taxa that had been regularly present beforehand were now extinct. (<em>Holdemania</em> and <em>Methanomassiliicoccus</em>).</p>
+<p>Here’s a look at the key Phylum measure <a href="explore.md">we discussed previously</a> that summarizes how my overall microbiome fared:</p>
+<p><img src="Experiments/assets/colonCleanse/ColonCleanseFirmicutesBacteroidetes.png" width="887" /></p>
+<p><strong>A couple of weird ones, at small amounts, made a brief appearance.</strong> I was especially intrigued by five new taxa that showed up just once, the day after the cleanse, and then disappeared. Maybe I found some that ordinarily get lost in the noise of the microbiome and only show up when the rest of the forest has been cleared. These are some hardy guys and I’m glad I know their names and can watch for them again: <em>Abiotrophia, Bacillus, Catonella, Christensenella, Parvimonas</em>.</p>
+<p><strong>It’s pretty hard to make a significant change.</strong> These days a little googling will find plenty of web sites, books, diets, and supplements that claim to “fix” or “change” your microbiome. I’m a healthy, reasonably fit adult, so I’m not as motivated as somebody with a specific health problem, but I thought simply popping probiotics and eating a variety of new and fermented foods would have a big effect. Nope. There are exceptions – my past experience with <a href="http://www.ubiomeblog.com/my-ubiome-sleep-hacking-update/">sleep hacking</a> demonstrated conclusively to me that I can temporarily change my bifidobacterium levels for example – but those are harder to find than I had hoped.</p>
+<p>Here’s another important ratio [discussed here] that microbiologists have found useful to see how the gut biome changes:</p>
+<p><img src="Experiments/assets/colonCleanse/colonCleanseBacteroidetesPrevotella.png" width="944" /></p>
+<p>See much change? Me neither. There’s a short spike during the cleanse, but then it just pops back to normal.</p>
+<p>Next, let’s look at the food I ate during the period:</p>
+<p>Next: analyze the food to see if there is a relationship between various macronutrients and the levels of specific bacteria such as:</p>
+<ul>
+<li>Blautia (which likes sugar)</li>
+<li>Bacteroidetes (which likes carbs)</li>
+<li>Bifido (which likes fiber)</li>
+</ul>
+</div>
+<div id="kombucha" class="section level2">
+<h2><span class="header-section-number">3.9</span> Kombucha</h2>
+<p>When you think of healthy bacteria-rich drinks that affect the microbiome, your first thought is probably kombucha. Served chilled during the summer, it has a well-deserved reputation as a natural refreshing alternative to soft drinks.</p>
+<p>The microbes in kombucha are rather complex, including not just bacteria, but also yeast. In fact, the “scoby”&quot; that people use to kick-start the fermentation stands for “Symbiotic Colony of Bacteria and Yeast”. The different microbes need one another to produce the distinctive sweet and fizzy taste. The yeast cells convert sucrose into fructose and glucose and produce ethanol; the bacteria convert glucose into gluconic acid and fructose into acetic acid; caffeine from the tea stimulates the entire reaction, especially the production of cellulose by special strains of bacteria.</p>
+<p>The key bacterium in the scoby is genus <em>Acetobacter</em>, the same one that is key to the fermentation of vinegar. Unfortunately, <em>Acetobacter</em> is too similar to other genera for the uBiome test to distinguish it precisely, so instead I’ll look at a higher level, for presence of the order Rhodospirillales, of which <em>Acetobacter</em> is a type. Even though Rhodospirillales is a very broad category, the other genera in that order don’t appear much in humans anyway.</p>
+<p>There have been <a href="http://www.kombu.de/benefits.htm">many anecdotal claims of the effect of kombucha on health</a>, purporting benefits ranging from better eyesight and thicker hair to cures for various diseases. Many of these have been studied experimentally, in mice as well as humans, often with compelling results, but I’m unable to find any good results showing the effect on the microbiome.</p>
+<p>So I tested it myself.</p>
+<div id="experiment" class="section level3">
+<h3><span class="header-section-number">3.9.1</span> Experiment</h3>
+<p>For seven days, from July 27 to August 2, 2016, I drank 48 ounces per day of commercially-purchased kombucha. I tested my gut microbiome with a uBiome Explorer kit each day, as well as my mouth and skin microbiome at intervals during the experiment.</p>
+<p>The full dataset and analysis tools are on Github: <a href="https://github.com/richardsprague/kombucha" class="uri">https://github.com/richardsprague/kombucha</a></p>
+<div class="figure">
+<img src="https://github.com/richardsprague/kombucha/blob/master/kombuchaDiversity.png?raw=true" alt="Diversity through time" />
+<p class="caption">Diversity through time</p>
+</div>
+</div>
+<div id="study-the-data-in-r" class="section level3">
+<h3><span class="header-section-number">3.9.2</span> Study the data in R</h3>
+<p>You can do some interesting statistical analysis on this data if you use the R programming environment. The sample script <a href="./kombucha.R">kombucha.R</a> will pull all the data into an R environment and draw the following chart:</p>
+<div class="figure">
+<img src="https://github.com/richardsprague/kombucha/blob/master/kombuchaBarChart.jpg?raw=true" alt="Bifidobacterium Levels" />
+<p class="caption">Bifidobacterium Levels</p>
+</div>
+<p>Here is a heatmap showing the changes of the top 20 genus during my experiment:</p>
+<p><img src="Microbiome_Hackers_Guide__Bookdown_Edition__files/figure-html/kombuchaExperimentPlots-1.png" width="672" /></p>
+<p>See any patterns? Unfortunately I don’t either.</p>
+<p>My conclusion: kombucha doesn’t have much effect on my microbiome.</p>
+</div>
+<div id="going-further" class="section level3">
+<h3><span class="header-section-number">3.9.3</span> Going further</h3>
+<p>There is much more analysis that can be done with this data. Some of the ideas you might try are:</p>
+<ul>
+<li>Study correlations among the taxa. Which ones are correlated, and which are not?</li>
+<li>Which taxa appeared and/or disappeared during the experiment?</li>
+<li>Is there a relationship between the microbes known to be present in kombucha and those in any of the gut results?</li>
+<li>How do these results compare to <em>you</em> when you drink kombucha?</li>
+</ul>
+<p>Please study as much as you like, and let me know what you find!</p>
+<p>references: Read <span class="citation">Dufresne and Farnworth (<a href="#ref-dufresne2000tea">2000</a>)</span></p>
+<a href="https://twitter.com/sprague" class="twitter-follow-button" data-show-count="false">Follow @sprague</a>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+<div id="conclusions" class="section level2">
+<h2><span class="header-section-number">3.10</span> Conclusions</h2>
+<p>Are these results are meaningful enough to be worthy of further analysis? How representative were these samples of my microbiome at the time? I submit only a tiny swab to uBiome’s lab; are the bacteria distributed evenly enough that the size or location of the sample doesn’t matter? Would I get similar results if I submitted two tests from slightly different sites on the same sample?</p>
+<p>The answers to all these questions are unclear, but while we need to take these concerns seriously, my experience over many samples is that the uBiome results are consistent enough that, yes, the conclusions are actionable as long as we keep the limitations in mind. Here’s why I think so:</p>
+<p>First, my results are consistent with other “healthy omnivore” submissions that uBiome has received from others with diets and health histories similar to mine. I would be concerned if, for example, my firmicutes/bacteroidetes ratio were reversed.</p>
+<p>Second, 16S technology has proven accuracy when identifying unique organisms, so I can generally trust information about the overall level of diversity regardless of specific proportions. Since diversity tends to correlate with health – and is manipulable based on what I eat – my own experience shows that the changes I see in these results go up and down consistently in the expected way. Even if specific points on my microbiome map are fuzzy, the overall landmarks appear to be solid.</p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-zhernakova_population-based_2016">
+<p>Zhernakova, A., A. Kurilshikov, M. J. Bonder, E. F. Tigchelaar, M. Schirmer, T. Vatanen, Z. Mujagic, et al. 2016. “Population-Based Metagenomics Analysis Reveals Markers for Gut Microbiome Composition and Diversity.” <em>Science</em> 352 (6285): 565–69. doi:<a href="https://doi.org/10.1126/science.aad3369">10.1126/science.aad3369</a>.</p>
+</div>
+<div id="ref-dufresne2000tea">
+<p>Dufresne, C, and E Farnworth. 2000. “Tea, Kombucha, and Health: A Review.” <em>Food Research International</em> 33 (6). Elsevier: 409–21.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="36">
+<li id="fn36"><p><span class="citation">David et al. (<a href="#ref-david_host_2014">2014</a>)</span> <a href="http://genomebiology.com/2014/15/7/R89" class="uri">http://genomebiology.com/2014/15/7/R89</a><a href="experiments.html#fnref36">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="explore-your-microbiome.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="caseStudies.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/richardsprague/mhg/edit/master/Experiments.Rmd",
+"text": "Edit"
+},
+"download": ["Microbiome Hackers Guide (Bookdown Edition).pdf", "Microbiome Hackers Guide (Bookdown Edition).epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
