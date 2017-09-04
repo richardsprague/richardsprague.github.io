@@ -17,7 +17,7 @@ twitter_username: sprague
 github_username:  richardsprague
 
 highlighter: rouge
-gems:
+plugins:
   - jekyll-paginate
   
 # Build settings
